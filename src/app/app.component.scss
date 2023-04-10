@@ -1,0 +1,19 @@
+@use "src/styles.scss" as theme;
+
+:host {
+    max-width: 1200px;
+}
+
+.title {
+    width: 100%;
+    color: theme.$primary;
+    margin: 40px auto;
+
+    h1,
+    h6 {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

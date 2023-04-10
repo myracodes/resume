@@ -1,0 +1,48 @@
+@use "src/styles.scss" as theme;
+
+.container {
+    background-color: theme.$primary;
+}
+
+.parent {
+    color: white;
+    @include theme.flexRow;
+    padding: 30px 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .picture {
+        width: 150px;
+        height: 150px;
+        border: 2px solid white;
+        border-radius: 9999px;
+        margin-right: 50px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0 auto 2rem auto;
+    }
+
+    .content {
+        @include theme.flexCol;
+        width: 100%;
+
+        .items {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+            .item {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            i {
+                width: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

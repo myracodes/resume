@@ -1,1 +1,38 @@
+// font-family: 'Lexend', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap");
 
+$font-main: "Lexend", sans-serif;
+$primary: #69aec0;
+
+html {
+    font-family: $font-main;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    > * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: unset;
+        text-decoration-color: white;
+    }
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin center {
+    align-items: center;
+    justify-content: center;
+}
