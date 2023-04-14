@@ -1,3 +1,25 @@
+@use "src/styles.scss" as theme;
+
 :host {
-    max-width: 1200px;
+    max-width: min(1200px, 95vw);
+}
+
+legend {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: theme.$primary;
+}
+
+ul {
+    margin-bottom: 2rem;
+    li {
+        margin-left: 1.5rem;
+        line-height: 1.8rem;
+    }
+    li::marker {
+        content: "→ ";
+    }
 }

@@ -2,7 +2,7 @@
 
 .container {
     background-color: theme.$primary;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .parent {
@@ -39,6 +39,7 @@
             .item {
                 margin-top: 5px;
                 margin-bottom: 5px;
+                text-decoration-color: white;
             }
             i {
                 width: 20px;
