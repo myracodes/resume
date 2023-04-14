@@ -4,6 +4,12 @@
 $font-main: "Lexend", sans-serif;
 $primary: #69aec0;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: $font-main;
     font-weight: 300;
@@ -11,17 +17,29 @@ html {
     padding: 0;
     box-sizing: border-box;
 
-    > * {
-        margin: 0;
-        padding: 0;
-    }
-
     a {
         color: unset;
         text-decoration-color: white;
     }
+
+    em {
+        color: $primary;
+        font-style: normal;
+    }
+
+    h5 {
+        font-weight: 600;
+        color: $primary;
+    }
+
+    .colored {
+        color: $primary;
+    }
 }
 
+// --------------------------------------
+// MIXINS
+// --------------------------------------
 @mixin flexRow {
     display: flex;
     flex-direction: row;

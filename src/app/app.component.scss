@@ -7,7 +7,8 @@
 .title {
     width: 100%;
     color: theme.$primary;
-    margin: 40px auto;
+    margin: auto;
+    margin-bottom: 50px;
 
     h1,
     h6 {
@@ -16,4 +17,10 @@
         margin-right: auto;
         text-align: center;
     }
+}
+
+.app-content {
+    max-width: min(1100px, 90vw);
+    margin-left: auto;
+    margin-right: auto;
 }
