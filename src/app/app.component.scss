@@ -47,4 +47,13 @@
     .col-2 {
         width: 30%;
     }
+
+    @include theme.mediumScreen {
+        @include theme.flexCol;
+        .col-1,
+        .col-2 {
+            width: 95%;
+            max-width: unset;
+        }
+    }
 }

@@ -1,0 +1,34 @@
+// XL SCREEN
+@mixin extraLargeScreen {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
+
+// LARGE SCREEN
+@mixin largeScreen {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+// MEDIUM SCREEN
+@mixin mediumScreen {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}
+
+// SMALL SCREEN
+@mixin smallScreen {
+    @media screen and (max-width: 700px) {
+        @content;
+    }
+}
+
+// EXTRA SMALL SCREEN
+@mixin extraSmallScreen {
+    @media screen and (max-width: 400px) {
+        @content;
+    }
+}

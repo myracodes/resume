@@ -1,5 +1,7 @@
 // font-family: 'Lexend', sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap");
+@import "src/_media-queries.scss";
+@import "src/_mixins.scss";
 
 $font-main: "Lexend", sans-serif;
 $primary: #69aec0;
@@ -43,22 +45,23 @@ html {
     .colored {
         color: $primary;
     }
-}
 
-// --------------------------------------
-// MIXINS
-// --------------------------------------
-@mixin flexRow {
-    display: flex;
-    flex-direction: row;
-}
+    @include extraLargeScreen {
+        font-size: 1.2rem;
+    }
 
-@mixin flexCol {
-    display: flex;
-    flex-direction: column;
-}
+    @include largeScreen {
+        font-size: 1rem;
+    }
 
-@mixin center {
-    align-items: center;
-    justify-content: center;
+    @include mediumScreen {
+        font-size: 0.9rem;
+    }
+
+    @include smallScreen {
+        font-size: 0.8rem;
+    }
+    @include extraSmallScreen {
+        font-size: 0.7rem;
+    }
 }
