@@ -8,6 +8,7 @@ import { ProfessionalXpComponent } from './components/professional-xp/profession
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ActivitiesComponent } from './components/activities/activities.component';
+import { TitleComponent } from './components/atoms/title/title.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ActivitiesComponent } from './components/activities/activities.componen
     EducationComponent,
     SkillsComponent,
     ActivitiesComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,

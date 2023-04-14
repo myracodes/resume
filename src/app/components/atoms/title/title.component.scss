@@ -1,0 +1,9 @@
+@use "src/styles.scss" as theme;
+
+h2 {
+    color: theme.$primary;
+    width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 2px solid theme.$primary;
+    margin-bottom: 20px;
+}
