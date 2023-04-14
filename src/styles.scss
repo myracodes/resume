@@ -16,9 +16,13 @@ html {
     font-family: $font-main;
     font-weight: 300;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: unset;
+    padding: unset;
     box-sizing: border-box;
+
+    section {
+        margin-bottom: 2rem !important;
+    }
 
     a {
         color: unset;
