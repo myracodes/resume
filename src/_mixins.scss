@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-@mixin center {
+@mixin flexCenter {
     align-items: center;
     justify-content: center;
 }
