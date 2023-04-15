@@ -1,6 +1,6 @@
 @use "src/styles.scss" as theme;
 
-.container {
+.bg-container {
     background-color: theme.$primary;
     margin-bottom: 40px;
 }
@@ -8,14 +8,21 @@
 .parent {
     color: white;
     @include theme.flexRow;
+    @include theme.flexCenter;
     padding: 30px 50px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    min-height: fit-content;
+    margin: auto;
 
     .picture-container {
+        order: 1;
+        border: 3px solid white;
         overflow: hidden;
         border-radius: 9999px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8.5rem;
+        height: 8.5rem;
         @include theme.flexRow;
         @include theme.flexCenter;
         &:hover .picture {
@@ -25,12 +32,12 @@
     }
 
     .picture {
-        width: 150px;
-        height: 150px;
-        border: 2px solid white;
+        width: 9rem;
+        height: 9rem;
         border-radius: 9999px;
         margin-right: 25px;
         margin-left: 25px;
+        margin: 25px;
         transition: all 0.3s ease;
         @include theme.flexRow;
         @include theme.flexCenter;
@@ -44,12 +51,16 @@
 
     .content {
         @include theme.flexCol;
-        width: 100%;
+        @include theme.flexCenter;
+        width: 70%;
+        // margin-left: 50px;
+        // margin-right: 50px;
+        order: 2;
 
         .items {
             display: grid;
-            column-gap: 40px;
-            max-width: 500px;
+            column-gap: 20px;
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
             grid-template-columns: repeat(2, 1fr);
@@ -69,10 +80,18 @@
     }
 
     @include theme.mediumScreen {
+        .picture {
+            // width: 120px;
+            // height: 120px;
+        }
+    }
+
+    @include theme.smallScreen {
         .content {
             width: 210px;
             margin-left: auto;
             margin-right: auto;
+            order: 1;
 
             .items {
                 margin-left: unset;
@@ -80,7 +99,13 @@
                 grid-template-rows: repeat(5, 1fr);
             }
         }
-        .picture {
+        .picture-container {
+            order: 2;
+        }
+    }
+
+    @include theme.extraSmallScreen {
+        .picture-container {
             display: none;
         }
     }
