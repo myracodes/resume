@@ -20,13 +20,14 @@
     h1 {
         margin-bottom: 15px;
     }
+
     h6 {
         margin-bottom: 50px;
     }
 }
 
 .app-content {
-    max-width: min(1400px, 90vw);
+    max-width: min(1800px, 90vw);
     margin-left: auto;
     margin-right: auto;
     @include theme.flexRow;
@@ -40,14 +41,14 @@
     }
 
     .col-1 {
-        width: 65%;
+        width: 50%;
     }
 
     .col-2 {
-        width: 30%;
+        width: 40%;
     }
 
-    @include theme.mediumScreen {
+    @include theme.smallScreen {
         @include theme.flexCol;
         .col-1,
         .col-2 {
@@ -55,4 +56,10 @@
             max-width: unset;
         }
     }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
 }

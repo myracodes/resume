@@ -10,7 +10,7 @@
     @include theme.flexRow;
     @include theme.flexCenter;
     padding: 30px 50px;
-    max-width: 1200px;
+    max-width: 1000px;
     min-height: fit-content;
     margin: auto;
 
@@ -84,7 +84,7 @@
         }
     }
 
-    @include theme.smallScreen {
+    @include theme.mediumScreen {
         .content {
             width: 210px;
             margin-left: auto;
