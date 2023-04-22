@@ -10,6 +10,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { TitleComponent } from './components/atoms/title/title.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
+import { ProSkillsComponent } from './components/pro-skills/pro-skills.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CertificationsComponent } from './components/certifications/certificati
     ActivitiesComponent,
     TitleComponent,
     CertificationsComponent,
+    ProSkillsComponent,
   ],
   imports: [
     BrowserModule,
