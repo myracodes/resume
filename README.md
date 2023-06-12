@@ -14,6 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `npm run build` to build the project. The build artifacts will be stored in the `docs/` directory.
 
+## Deploy
+
+Run `npm run deploy` will build in the `docs/` directory, then stage, commit, and push this build.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
