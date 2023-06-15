@@ -7,7 +7,8 @@
         "build": "ng build --base-href /resume/",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "deploy": "git add docs/* && git commit -m 'build' && git push"
+        "deploy": "git add docs/* && git commit -m 'build' && git push",
+        "build:deploy": "npm run build && npm run deploy"
     },
     "private": true,
     "dependencies": {
