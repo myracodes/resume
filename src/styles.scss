@@ -50,6 +50,14 @@ html {
         color: $primary;
     }
 
+    .italic {
+        font-style: italic;
+    }
+
+    .small {
+        font-size: 0.8rem;
+    }
+
     @include extraLargeScreen {
         font-size: 1.2rem;
     }
