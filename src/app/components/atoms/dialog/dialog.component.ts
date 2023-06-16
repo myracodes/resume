@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
+import { IDetailsDialog } from "src/app/interfaces/DetailsDialog.interface";
 
 @Component({
     selector: "app-dialog",
@@ -7,8 +8,7 @@ import { Component } from "@angular/core";
 })
 export class DialogComponent {
     visible: boolean = false;
-    header!: string;
-    content!: any;
+    @Input() content!: IDetailsDialog;
 
     showDialog() {
         this.visible = true;

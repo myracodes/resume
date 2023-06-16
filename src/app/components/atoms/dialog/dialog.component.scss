@@ -1,0 +1,23 @@
+@use "src/styles.scss" as theme;
+
+:host {
+    @include theme.flexRow;
+    margin: auto 0;
+}
+
+.dialog-button {
+    background-color: transparent;
+    color: theme.$primary;
+    font-weight: bold;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.15rem 0.55rem;
+    border: 0.05rem solid theme.$primary;
+    width: fit-content;
+    min-height: 1rem;
+    height: fit-content;
+    border-radius: 50px;
+}
