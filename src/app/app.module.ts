@@ -11,6 +11,8 @@ import { TitleComponent } from "./components/atoms/title/title.component";
 import { CertificationsComponent } from "./components/certifications/certifications.component";
 import { ProSkillsComponent } from "./components/pro-skills/pro-skills.component";
 import { ProfessionalXpComponent } from "./components/professional-xp/professional-xp.component";
+import { SharedModule } from "./shared/modules/shared.module";
+import { DialogComponent } from './components/atoms/dialog/dialog.component';
 
 @NgModule({
     declarations: [
@@ -23,8 +25,9 @@ import { ProfessionalXpComponent } from "./components/professional-xp/profession
         TitleComponent,
         CertificationsComponent,
         ProSkillsComponent,
+        DialogComponent,
     ],
-    imports: [BrowserModule, AppRoutingModule],
+    imports: [AppRoutingModule, BrowserModule, SharedModule],
     providers: [],
     bootstrap: [AppComponent],
 })
