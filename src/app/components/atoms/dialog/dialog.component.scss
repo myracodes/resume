@@ -42,11 +42,9 @@ $padding: 2rem;
     align-content: flex-start;
     align-items: flex-start !important;
     text-transform: uppercase;
-    // padding: 1rem 2rem;
     padding: $padding;
     .title-container {
         @include theme.flexCol;
-        // padding: $padding;
 
         .header-title {
             font-weight: 700;
@@ -62,15 +60,12 @@ $padding: 2rem;
 
 // Close icon element
 ::ng-deep .p-dialog-header-close {
-    // position: absolute;
-    // top: 0;
-    // right: 0;
     background-color: transparent;
     color: theme.$primary;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 0.6rem;
     padding: 1rem;
-    border: 0.1rem solid theme.$primary;
+    border: none;
     width: 1rem;
     height: 1rem;
     border-radius: 50px;
