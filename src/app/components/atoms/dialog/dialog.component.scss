@@ -12,6 +12,9 @@ $padding: 2rem;
     position: absolute;
     border: 0.1rem solid theme.$primary;
     border-radius: 10px;
+    width: min(95vw, 600px);
+    box-shadow: 0.1rem 0.4rem 0.4rem rgb(12, 12, 12, 0.2),
+        0.1rem 0.4rem 0.4rem rgb(12, 12, 12, 0.2);
 }
 
 .dialog-button {
@@ -39,17 +42,29 @@ $padding: 2rem;
     align-content: flex-start;
     align-items: flex-start !important;
     text-transform: uppercase;
-    padding: 0.8rem;
-    .header {
-        padding: $padding;
+    // padding: 1rem 2rem;
+    padding: $padding;
+    .title-container {
+        @include theme.flexCol;
+        // padding: $padding;
+
+        .header-title {
+            font-weight: 700;
+            color: theme.$primary;
+        }
+
+        .header-additional-info {
+            font-style: italic;
+            font-size: 0.8rem;
+        }
     }
 }
 
 // Close icon element
 ::ng-deep .p-dialog-header-close {
-    position: absolute;
-    top: 0;
-    right: 0;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
     background-color: transparent;
     color: theme.$primary;
     font-weight: bold;
@@ -71,6 +86,17 @@ $padding: 2rem;
 ::ng-deep .p-dialog-footer {
     padding: $padding;
     @include theme.flexRow;
+    flex-wrap: wrap;
     justify-content: flex-end;
     font-style: italic;
+}
+
+.dialog-content {
+    @include theme.flexCol;
+    line-height: 1.5rem;
+}
+
+.footer-item {
+    @include theme.flexRow;
+    flex-wrap: nowrap;
 }

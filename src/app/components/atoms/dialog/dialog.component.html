@@ -3,14 +3,25 @@
 </button>
 <p-dialog header="{{ content.header }}" [(visible)]="visible">
     <ng-template pTemplate="header">
-        <span class="header">{{ content.header }}</span>
+        <span class="title-container">
+            <span class="header-title">{{ content.header[0] }}</span>
+            <span class="header-subtitle">{{ content.header[1] }}</span>
+            <span class="header-additional-info">{{ content.header[2] }}</span>
+        </span>
     </ng-template>
 
-    <p>{{ content.content }}</p>
+    <p *ngFor="let paragraph of content.paragraphs" class="dialog-content">
+        {{ paragraph }}
+    </p>
 
     <ng-template pTemplate="footer">
-        <span>
-            {{ content.footer }}
+        <span
+            *ngFor="let item of content.footer; let i = index"
+            class="footer-item">
+            <span class="colored">
+                {{ item }}
+            </span>
+            <span *ngIf="i < content.footer.length - 1">&nbsp;—&nbsp;</span>
         </span>
     </ng-template>
 </p-dialog>

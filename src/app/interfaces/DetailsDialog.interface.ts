@@ -1,5 +1,5 @@
 export interface IDetailsDialog {
-    header: string;
-    content: string;
-    footer: string;
+    header: string[];
+    paragraphs: string[];
+    footer: string[];
 }
