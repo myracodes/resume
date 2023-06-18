@@ -22,3 +22,8 @@ ul {
         content: "→ ";
     }
 }
+
+.title-see-more {
+    @include theme.flexRow;
+    flex-wrap: nowrap;
+}
