@@ -21,7 +21,12 @@
             <span class="colored">
                 {{ item }}
             </span>
-            <span *ngIf="i < content.footer.length - 1">&nbsp;—&nbsp;</span>
+            <span
+                *ngIf="
+                    content.footer.length > 0 && i < content.footer.length - 1
+                "
+                >&nbsp;—&nbsp;</span
+            >
         </span>
     </ng-template>
 </p-dialog>
