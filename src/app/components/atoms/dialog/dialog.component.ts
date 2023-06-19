@@ -12,6 +12,8 @@ export class DialogComponent {
     isVisible: boolean = false;
 
     @Input() content!: IDetailsDialog;
+    @Input() buttonLabel: string = "Voir plus +";
+
     constructor(myElement: ElementRef) {
         this.elementRef = myElement;
     }

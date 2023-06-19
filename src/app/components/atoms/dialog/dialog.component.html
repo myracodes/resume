@@ -1,5 +1,5 @@
 <button class="dialog-button" type="button" (click)="showDialog()">
-    Voir plus +
+    {{ buttonLabel }}
 </button>
 <p-dialog header="{{ content.header }}" [(visible)]="isVisible">
     <ng-template pTemplate="header">
