@@ -24,7 +24,10 @@
 
     <!-- DEV GOOD VIBES -->
     <section>
-        <h4>Développeuse web fullstack</h4>
+        <span class="title-see-more">
+            <h4>Développeuse web fullstack</h4>
+            <app-dialog [content]="detailsAvanade"></app-dialog>
+        </span>
         <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
         <ul>
             <li>
@@ -56,7 +59,10 @@
 
     <!-- DEV VISIGO -->
     <section>
-        <h4>Chargée de projets web</h4>
+        <span class="title-see-more">
+            <h4>Chargée de projets web</h4>
+            <app-dialog [content]="detailsVisigo"></app-dialog>
+        </span>
         <legend class="colored">Visigo (2021 – 2022)</legend>
         <ul>
             <li>
@@ -76,9 +82,13 @@
         </ul>
     </section>
 
+    <!-- DEVELOPPEMENT PERSONNEL -->
     <section>
-        <h4>Développement personnel</h4>
-        <legend class="colored">(2019 – 2021)</legend>
+        <span class="title-see-more">
+            <h4>Développement personnel</h4>
+            <app-dialog [content]="detailsGapYear"></app-dialog>
+        </span>
+        <legend class="colored">(2018 – 2021)</legend>
         <ul>
             <li>Voyages et Permis Vacances-Travail (Europe, USA, Canada)</li>
             <li>
@@ -92,7 +102,10 @@
 
     <!-- COMMUNICATION -->
     <section>
-        <h4>Chargée de projets, communication, et événements</h4>
+        <span class="title-see-more">
+            <h4>Chargée de projets, communication, et événements</h4>
+            <app-dialog [content]="detailsBnpParibas"></app-dialog>
+        </span>
         <legend class="colored">BNP Paribas (2015 – 2018)</legend>
         <ul>
             <li>
@@ -115,5 +128,10 @@
                 correction, traduction, illustration, mise en ligne
             </li>
         </ul>
+    </section>
+    <section>
+        <app-dialog
+            [content]="detailsOtherExperiences"
+            [buttonLabel]="'Voir plus d\'expériences'"></app-dialog>
     </section>
 </div>
