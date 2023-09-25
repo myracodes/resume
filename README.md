@@ -39,3 +39,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 -   [] implement i18n / english version
 -   [] add a section with languages
 -   [] add a technologies section
+-   [] implement dark mode
