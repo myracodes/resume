@@ -80,6 +80,7 @@ html {
     @include smallScreen {
         font-size: 0.8rem;
     }
+
     @include extraSmallScreen {
         font-size: 0.7rem;
     }
