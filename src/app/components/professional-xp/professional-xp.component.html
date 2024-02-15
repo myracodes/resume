@@ -1,18 +1,41 @@
 <div>
     <app-title [title]="'Expérience professionnelle'"></app-title>
 
+    <!-- DEV BALYO -->
+    <section>
+        <span class="title-see-more">
+            <h4>Développeuse fullstack</h4>
+            <app-dialog [content]="detailsBalyo"></app-dialog>
+        </span>
+        <legend class="colored">BALYO (2023 – aujourd'hui)</legend>
+        <ul>
+            <li>
+                Application B2B de gestion des projets clients :
+                <em>ReactJS</em>, <em>Typescript</em>,
+                <em>Mantine</em> (librairie UI), <em>Bun</em>, méthode agile,
+                <em>GitLab</em>, Notion
+            </li>
+            <li>
+                Application interne de calculs pour choisir les meilleures
+                combinaisons de robots : <em>Angular</em>, <em>Typescript</em>,
+                <em>Mantine UI</em>, Deno
+            </li>
+        </ul>
+    </section>
+
     <!-- DEV AVANADE -->
     <section>
         <span class="title-see-more">
-            <h4>Développeuse web front-end</h4>
+            <h4>Développeuse front-end</h4>
             <app-dialog [content]="detailsAvanade"></app-dialog>
         </span>
-        <legend class="colored">Avanade (2022 – aujourd'hui)</legend>
+        <legend class="colored">Avanade (2022 – 2023)</legend>
         <ul>
             <li>
                 Somei / VEOLIA - portage d’une application ASP.NET :
                 <em>Angular</em>, <em>Typescript</em>, <em>Tailwind CSS</em>,
-                NgRx, méthode agile <em>(SCRUM)</em>, <em>Azure DevOps</em>
+                <em>NgRx</em>, méthode agile <em>(SCRUM)</em>,
+                <em>Azure DevOps</em>
             </li>
             <li>
                 Projets internes (divers) : <em>Angular</em>,
@@ -25,7 +48,7 @@
     <!-- DEV GOOD VIBES -->
     <section>
         <span class="title-see-more">
-            <h4>Développeuse web fullstack</h4>
+            <h4>Développeuse fullstack</h4>
             <app-dialog [content]="detailsGoodVibes"></app-dialog>
         </span>
         <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
@@ -97,6 +120,9 @@
             </li>
             <li>Bénévolat au sein de diverses associations et collectifs</li>
             <li>Projets musicaux et projets personnels</li>
+            <li>
+                Reconversion professionnelle dans le <em>développement web</em>
+            </li>
         </ul>
     </section>
 

@@ -7,13 +7,35 @@ import { IDetailsDialog } from "src/app/interfaces/DetailsDialog.interface";
     styleUrls: ["./professional-xp.component.scss"],
 })
 export class ProfessionalXpComponent {
+    detailsBalyo: IDetailsDialog = {
+        header: [
+            "Développeuse fullstack",
+            "BALYO",
+            "janvier 2023 - aujourd'hui",
+        ],
+        paragraphs: [
+            "BALYO est une entreprise française qui transforme des chariots standards en véhicules à guidage automatique",
+            "📌 Développement de l'application interne de gestion de projets clients",
+            "📌 Développement d'un outil d'aide à la vente pour les équipes commerciales",
+        ],
+        footer: [
+            "ReactJS",
+            "Typescript",
+            "Mantine UI",
+            "Bun",
+            "Deno",
+            "pnpm",
+            "GitLab",
+        ],
+    };
     detailsAvanade: IDetailsDialog = {
         header: [
             "Développeuse web spécialité front-end",
             "Avanade (ESN)",
-            "septembre 2022 - aujourd'hui",
+            "septembre 2022 - décembre 2023",
         ],
         paragraphs: [
+            "Avanade est une ESN, joint-venture entre Microsoft et Accenture",
             "📌 Depuis décembre 2022 (en prestation pour la Société des Eaux de Marseille et VEOLIA) : portage en Angular d'une application web existante permettant de gérer les abonnements en eau sur toute la France.",
             "L'application permet la gestion des données relatives aux clientes et clients, aux interventions, aux contrats, etc.",
             "Ma valeur ajoutée sur ce projet : la proposition de normes (git flow, conventional commits, approche design system, conventions de nommage, etc.) et l'uniformisation du code, nécessaires sur un projet d'une telle ampleur.",
@@ -26,6 +48,7 @@ export class ProfessionalXpComponent {
             "NgRx",
             "SCRUM",
             "Azure DevOps",
+            "npm",
         ],
     };
     detailsGoodVibes: IDetailsDialog = {
@@ -53,6 +76,7 @@ export class ProfessionalXpComponent {
             "Cypress & Jest",
             "GitHub",
             "Figma",
+            "yarn",
         ],
     };
     detailsVisigo: IDetailsDialog = {
