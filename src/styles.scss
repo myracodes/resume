@@ -4,8 +4,22 @@
 @import "src/_mixins.scss";
 
 $font-main: "Lexend", sans-serif;
-$primary: #69aec0;
+$primary-50: #e4faff;
+$primary-100: #d7eef5;
+$primary-200: #b5dae4;
+$primary-300: #90c4d2;
+$primary-400: #71b2c3;
+$primary-500: #5ca7bb;
+$primary-600: #4fa2b7;
+$primary-700: #3c8ea2;
+$primary-800: #2f7e91;
+$primary-900: #106d81;
+$primary: $primary-600;
+$primary-hover: $primary-700;
+$primary-active: $primary-500;
+$primary-light: $primary-300;
 $white: #fafafa;
+$black: #070f13;
 
 * {
     margin: 0;
@@ -20,6 +34,7 @@ html {
     margin: unset;
     padding: unset;
     box-sizing: border-box;
+    color: $black;
 
     section {
         margin-bottom: 2rem !important;
@@ -40,6 +55,9 @@ html {
     em {
         color: $primary;
         font-style: normal;
+        &:hover {
+            color: $primary-hover;
+        }
     }
 
     h5 {
