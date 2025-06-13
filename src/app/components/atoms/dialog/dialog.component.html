@@ -1,4 +1,10 @@
-<button class="dialog-button" type="button" (click)="showDialog()">
+<button
+    class="dialog-button"
+    type="button"
+    (click)="showDialog()"
+    aria-label="Ouvrir la modale de détails"
+    id="open-modal-button"
+>
     {{ buttonLabel }}
 </button>
 <p-dialog header="{{ content.header }}" [(visible)]="isVisible">
@@ -16,17 +22,13 @@
 
     <ng-template pTemplate="footer">
         <span
-            *ngFor="let item of content.footer; let i = index"
-            class="footer-item">
+            *ngFor="let item of content.stack; let i = index; let last = last"
+            class="footer-item"
+        >
             <span class="colored">
                 {{ item }}
             </span>
-            <span
-                *ngIf="
-                    content.footer.length > 0 && i < content.footer.length - 1
-                "
-                >&nbsp;—&nbsp;</span
-            >
+            <app-separator *ngIf="!last" />
         </span>
     </ng-template>
 </p-dialog>

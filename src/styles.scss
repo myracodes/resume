@@ -1,25 +1,27 @@
 // font-family: 'Lexend', sans-serif;
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap");
-@import "src/_media-queries.scss";
-@import "src/_mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap');
+@import 'src/_media-queries.scss';
+@import 'src/_mixins.scss';
 
-$font-main: "Lexend", sans-serif;
-$primary-50: #e4faff;
-$primary-100: #d7eef5;
-$primary-200: #b5dae4;
-$primary-300: #90c4d2;
-$primary-400: #71b2c3;
-$primary-500: #5ca7bb;
-$primary-600: #4fa2b7;
-$primary-700: #3c8ea2;
-$primary-800: #2f7e91;
-$primary-900: #106d81;
+$font-main: 'Lexend', sans-serif;
+$primary-50: #f1e8ed;
+$primary-100: #e3d2db;
+$primary-200: #c9aebb;
+$primary-300: #af8b9c;
+$primary-400: #9c6f86;
+$primary-500: #8e637d;
+$primary-600: #7f576f;
+$primary-700: #6c4a5e;
+$primary-800: #583c4c;
+$primary-900: #3e2935;
 $primary: $primary-600;
 $primary-hover: $primary-700;
 $primary-active: $primary-500;
 $primary-light: $primary-300;
 $white: #fafafa;
 $black: #070f13;
+
+$secondary: #e1a100;
 
 * {
     margin: 0;
@@ -42,13 +44,12 @@ html {
 
     a {
         color: unset;
-        text-decoration: none;
-        text-decoration-color: white;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        text-decoration-thickness: 0.05rem;
 
         &:hover {
-            text-decoration: underline;
-            text-underline-offset: 0.2rem;
-            text-decoration-thickness: 0.05rem;
+            text-decoration-thickness: 0.1rem;
         }
     }
 
@@ -73,6 +74,10 @@ html {
 
     .colored {
         color: $primary;
+    }
+
+    .secondary {
+        color: $secondary;
     }
 
     .italic {

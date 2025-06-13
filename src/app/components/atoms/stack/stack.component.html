@@ -1,0 +1,8 @@
+<div class="stack-container">
+    <span class="stack-title">Stack ></span>
+
+    <span *ngFor="let stackItem of stack; let last = last" class="stack-item">
+        <span class="item-text">{{ stackItem }}</span>
+        <app-separator *ngIf="!last" />
+    </span>
+</div>

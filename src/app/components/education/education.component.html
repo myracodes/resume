@@ -1,13 +1,5 @@
 <div>
-    <app-title [title]="'Formation'"></app-title>
-    <!-- Certifs -->
-    <section>
-        <h4 class="colored">Certifications</h4>
-        <p>
-            Microsoft <em> AZ-900 </em>, Microsoft
-            <em> PL-900 </em>
-        </p>
-    </section>
+    <app-title [title]="'Formation'" />
 
     <!-- WCS -->
     <section>
@@ -20,12 +12,11 @@
         </h4>
 
         <p class="small">Wild Code School (2021 - 2022) – 100% remote</p>
-        <p>Titre RNCP niveau 6 / Bac+3/4</p>
         <p>
-            <em> Microservices </em>, <em> authentification </em>,
-            <em> déploiement </em>, <em> sécurité </em>, <em> SCRUM </em>,
-            <em> DevOps </em>, <em> intégration continue </em>,
-            <em> développement mobile </em>
+            <em *ngFor="let item of wildCodeSchoolSkills; let last = last"
+                >{{ item }}
+                <app-separator *ngIf="!last" />
+            </em>
         </p>
     </section>
 
@@ -40,17 +31,11 @@
         <p class="small">Ironhack (2021) – Cursus anglophone – 100 % remote</p>
         <p>Titre RNCP niveau 6 / Bac+3/4</p>
         <p>
-            <em>HTML</em>, <em>CSS</em>, <em>Javascript</em>, <em>NodeJS</em>,
-            <em>ExpressJS</em>, <em>MongoDB</em>, <em>ReactJS</em>
+            <em *ngFor="let item of ironhackSkills; let last = last"
+                >{{ item }}
+                <app-separator *ngIf="!last" />
+            </em>
         </p>
-    </section>
-
-    <!-- AUTOFORMATION -->
-    <section>
-        <h4 class="colored">HTML, CSS, Javascript</h4>
-
-        <p class="small">Autoformation (2021)</p>
-        <p>Bases du HTML5, CSS3, et Javascript</p>
     </section>
 
     <!-- COMM & MKG -->

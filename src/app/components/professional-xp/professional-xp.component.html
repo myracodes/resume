@@ -1,48 +1,63 @@
 <div>
-    <app-title [title]="'Expérience professionnelle'"></app-title>
+    <app-title [title]="'Expérience professionnelle'" />
 
-    <!-- DEV BALYO -->
+    <!-- DEV Capco -->
     <section>
         <span class="title-see-more">
             <h4>Développeuse fullstack</h4>
-            <app-dialog [content]="detailsBalyo"></app-dialog>
+            <app-dialog [content]="detailsCapco"></app-dialog>
         </span>
-        <legend class="colored">BALYO (2023 – aujourd'hui)</legend>
+        <legend class="colored">Cap Collectif (2024 – aujourd'hui)</legend>
         <ul>
             <li>
-                Application B2B de gestion des projets clients :
-                <em>ReactJS</em>, <em>Typescript</em>,
-                <em>Mantine</em> (librairie UI), <em>Bun</em>, méthode agile,
-                <em>GitLab</em>, Notion
+                Développement de fonctionnalités, refontes techniques et
+                visuelles
             </li>
             <li>
-                Application interne de calculs pour choisir les meilleures
-                combinaisons de robots : <em>ReactJS</em>, <em>Typescript</em>,
-                <em>Mantine UI</em>, Deno
+                Maintenance de la librairie de composants (Design System) sur
+                NPM
+            </li>
+            <li>
+                Amélioration de l’accessibilité (gestion du focus, navigation au
+                clavier, aria-*)
+            </li>
+            <li>
+                Réduction proactive de la dette technique (détection et
+                correction de bugs, refactorisations, mises à jour de sécurité,
+                montées de versions, amélioration de tests)
+            </li>
+            <li>
+                Amélioration de l’expérience développeuse (modification des
+                fichiers de configuration et des scripts, détection et
+                diminution des tests “flaky” dans la CI, corrections de “faux
+                diffs” dans les outils d’intégration continue comme Chromatic)
+            </li>
+            <li>Corrections back-end occasionnelles</li>
+            <li>
+                Utilisation de l’IA (Claude / ChatGPT / Copilot) pour l’aide au
+                débug, pour refactoriser, et pour travailler sur du back-end
             </li>
         </ul>
+        <app-stack [stack]="detailsCapco.stack" />
     </section>
 
     <!-- DEV AVANADE -->
     <section>
         <span class="title-see-more">
-            <h4>Développeuse front-end</h4>
+            <h4>Développeuse web front-end</h4>
             <app-dialog [content]="detailsAvanade"></app-dialog>
         </span>
         <legend class="colored">Avanade (2022 – 2023)</legend>
         <ul>
             <li>
-                Somei / VEOLIA - portage d’une application ASP.NET :
-                <em>Angular</em>, <em>Typescript</em>, <em>Tailwind CSS</em>,
-                <em>NgRx</em>, méthode agile <em>(SCRUM)</em>,
-                <em>Azure DevOps</em>
+                Somei / VEOLIA - portage d’une application ASP.NET vers Angular
             </li>
             <li>
-                Projets internes (divers) : <em>Angular</em>,
-                <em>Typescript</em>,
-                <em>SCSS</em>
+                Projets internes : diverses interfaces, travail sur le Design
+                System
             </li>
         </ul>
+        <app-stack [stack]="detailsAvanade.stack" />
     </section>
 
     <!-- DEV GOOD VIBES -->
@@ -54,30 +69,29 @@
         <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
         <ul>
             <li>
-                Refonte du site vitrine :
-                <em>ReactJS</em>
+                Refonte du
+                <a href="https://goodvibes.news/" target="_blank">
+                    site vitrine
+                </a>
             </li>
             <li>
-                Développement front-end : <em>ReactJS</em>, <em>Storybook</em>,
-                <em>Chromatic</em>
+                Développement des améliorations et évolutions front-end de
+                l'application
             </li>
-            <li>
-                Améliorations back-end de la plateforme produit :
-                <em>NodeJS</em>, <em>AppDrag</em>,
-                <em>SQL</em>
-            </li>
-            <li>CI/CD, déploiement : <em>Netlify</em></li>
+            <li>Améliorations back-end de la plateforme produit</li>
+            <li>CI/CD, déploiement</li>
 
-            <li>Implémentation de tests : <em>Cypress</em>, <em>Jest</em></li>
-            <li>Suivi des erreurs : <em>Sentry</em></li>
-            <li>Contrôle de version : <em>GitHub</em></li>
-            <li>Maquettage / design : <em>Figma</em></li>
+            <li>Implémentation de tests</li>
+            <li>Suivi des erreurs</li>
+
+            <li>Maquettage / design</li>
 
             <li>
                 Amélioration continue : gestion de projets, documentation du
                 code, amélioration des processus internes
             </li>
         </ul>
+        <app-stack [stack]="detailsGoodVibes.stack" />
     </section>
 
     <!-- DEV VISIGO -->
@@ -88,23 +102,21 @@
         </span>
         <legend class="colored">Visigo (2021 – 2022)</legend>
         <ul>
-            <li>
-                Définition et mise en place de la stratégie SEO :
-                <em>Google Analytics</em>, <em>Search Console</em>,
-                <em>HTML</em>
-            </li>
+            <li>Définition et application de la stratégie SEO</li>
             <li>
                 Maintenance du site internet : refonte de pages, corrections
                 (responsive, orthographe, syntaxe, etc.)
             </li>
-            <li>Gestion de projets</li>
+            <li>Gestion des projets web de l'agence</li>
             <li>
                 Implémentation de nouveaux outils et acculturation digitale de
                 l'équipe
             </li>
         </ul>
+        <app-stack [stack]="detailsVisigo.stack" />
     </section>
 
+    <app-title [title]="'Expérience avant reconversion'" />
     <!-- DEVELOPPEMENT PERSONNEL -->
     <section>
         <span class="title-see-more">
@@ -136,12 +148,13 @@
         <ul>
             <li>
                 Développement des outils digitaux internes : architecture,
-                design, implémentation, formation des collaborateur•ices
+                design, implémentation, formation des collaborateur·ices
             </li>
 
             <li>
                 Organisation d’événements : jusqu’à 130 par an, de 10 à 150
-                participant•es (logistique, communication, gestion in situ)
+                participant·es (logistique, communication, gestion
+                <span class="italic">in situ</span>)
             </li>
 
             <li>
@@ -158,6 +171,7 @@
     <section>
         <app-dialog
             [content]="detailsOtherExperiences"
-            [buttonLabel]="'Voir plus d\'expériences'"></app-dialog>
+            [buttonLabel]="'Voir plus d\'expériences'"
+        ></app-dialog>
     </section>
 </div>

@@ -1,0 +1,16 @@
+@use 'src/styles.scss' as theme;
+
+.stack-container {
+    @include theme.flexRow;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.stack-title {
+    background-color: theme.$secondary;
+    padding: 0 8px;
+}
+
+.stack-item > .item-text {
+    color: theme.$primary;
+}

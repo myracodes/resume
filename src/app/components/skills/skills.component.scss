@@ -1,6 +1,32 @@
-@use "src/styles.scss" as theme;
+@use 'src/styles.scss' as theme;
 
 section {
     @include theme.flexCol;
     line-height: 1.9rem;
+}
+
+.personal-skills {
+    @include theme.flexRow;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    @include theme.flexRow;
+    flex-wrap: nowrap;
+}
+
+.professional-skills-section {
+    @include theme.flexRow;
+    flex-wrap: wrap;
+}
+
+.professional-skill {
+    width: fit-content;
+}
+
+.info {
+    padding-top: 4px;
+    padding-bottom: 16px;
+    font-size: 0.9rem;
 }

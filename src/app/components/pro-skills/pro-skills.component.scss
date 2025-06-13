@@ -1,6 +1,0 @@
-@use "src/styles.scss" as theme;
-
-section {
-    @include theme.flexCol;
-    line-height: 1.5rem;
-}

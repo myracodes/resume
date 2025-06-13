@@ -1,13 +1,35 @@
 <section>
-    <app-title [title]="'Compétences personnelles'"></app-title>
+    <app-title [title]="'Compétences'" />
 
-    <span>Experte en <em>organisation</em></span>
-    <span>Sens du <em>service</em> & <em>esprit d'équipe</em></span>
-    <span><em>Amélioration continue</em></span>
-    <span>Grande <em>attention au détail</em></span>
-    <span>Sens des <em>responsabilités</em></span>
-    <span>Autonomie & <em>goût de l'apprentissage</em></span>
-    <span>Orthographe & syntaxe (FR / EN)</span>
-    <span>Vision <em>long terme</em></span>
-    <span><em>Flexibilité</em></span>
+    <h3 class="secondary">Savoir-faire</h3>
+
+    <span *ngFor="let item of professionalSkills">
+        <span class="professional-skills-section">
+            <h4>
+                <em>{{ item.sectionTitle }} :&nbsp;</em>
+            </h4>
+            <p
+                *ngFor="let skill of item.skills; let last = last"
+                class="professional-skill"
+            >
+                {{ skill }}
+                <app-separator *ngIf="!last" />
+            </p>
+        </span>
+    </span>
+
+    <span class="info"
+        >Toujours enthousiaste à l'idée d'allonger cette liste !</span
+    >
+
+    <h3 class="secondary">Savoir-être</h3>
+    <div class="personal-skills">
+        <span
+            *ngFor="let skill of personalSkills; let last = last"
+            class="skill"
+        >
+            <span>{{ skill }}</span>
+            <app-separator *ngIf="!last" />
+        </span>
+    </div>
 </section>

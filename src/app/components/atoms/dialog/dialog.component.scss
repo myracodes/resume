@@ -1,4 +1,4 @@
-@use "src/styles.scss" as theme;
+@use 'src/styles.scss' as theme;
 
 $padding: 2rem;
 
@@ -18,8 +18,10 @@ $padding: 2rem;
     border: 0.1rem solid theme.$primary;
     border-radius: 10px;
     width: min(95vw, 600px);
-    box-shadow: 0.1rem 0.4rem 0.4rem 0.5rem rgb(12, 12, 12, 0.05),
-        0.1rem 0.4rem 0.4rem 0.5rem rgb(12, 12, 12, 0.05);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem;
 }
 
 .dialog-button {
@@ -37,9 +39,18 @@ $padding: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     padding: 0.15rem 0.55rem;
-    border: 0.05rem solid theme.$primary;
-    border-radius: 50px;
+    border: 1px solid theme.$primary;
+    border-radius: 5px;
     cursor: pointer;
+
+    &:hover {
+        background-color: theme.$primary-hover;
+        color: theme.$white;
+    }
+    &:active {
+        background-color: theme.$primary-active;
+        color: theme.$white;
+    }
 }
 
 // Header
@@ -52,10 +63,12 @@ $padding: 2rem;
     padding: $padding;
     .title-container {
         @include theme.flexCol;
+        width: 90%;
 
         .header-title {
             font-weight: 700;
             color: theme.$primary;
+            width: 90%;
         }
 
         .header-additional-info {
@@ -76,6 +89,7 @@ $padding: 2rem;
     height: 1rem;
     border-radius: 50px;
     cursor: pointer;
+    position: relative;
 }
 
 // Content element
@@ -89,7 +103,6 @@ $padding: 2rem;
     @include theme.flexRow;
     flex-wrap: wrap;
     justify-content: flex-end;
-    font-style: italic;
 }
 
 .dialog-content {

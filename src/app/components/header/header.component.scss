@@ -1,4 +1,4 @@
-@use "src/styles.scss" as theme;
+@use 'src/styles.scss' as theme;
 
 .bg-container {
     background-color: theme.$primary;
@@ -26,14 +26,6 @@
         transition: all 0.3s ease-in;
         @include theme.flexRow;
         @include theme.flexCenter;
-        &:hover {
-            border: 5px solid white;
-
-            .picture {
-                transform: scale(1.2);
-                border: none;
-            }
-        }
     }
 
     .picture {

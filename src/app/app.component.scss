@@ -1,4 +1,4 @@
-@use "src/styles.scss" as theme;
+@use 'src/styles.scss' as theme;
 
 :host {
     max-width: 1200px;
@@ -6,7 +6,7 @@
 
 .title {
     width: 100%;
-    color: theme.$primary;
+    color: theme.$secondary;
     margin: auto;
 
     h1,
@@ -41,11 +41,11 @@
     }
 
     .col-1 {
-        width: 50%;
+        width: 60%;
     }
 
     .col-2 {
-        width: 40%;
+        width: 30%;
     }
 
     @include theme.smallScreen {
