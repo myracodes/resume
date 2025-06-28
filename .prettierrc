@@ -3,5 +3,22 @@
   "singleQuote": true,
   "trailingComma": "es5",
   "printWidth": 80,
-  "tabWidth": 4
+  "tabWidth": 4,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "explorer.confirmDelete": false,
+  "git.suggestSmartCommit": false,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.accessibilitySupport": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
