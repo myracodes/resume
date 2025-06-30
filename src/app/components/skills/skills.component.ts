@@ -38,7 +38,10 @@ export class SkillsComponent {
             skills: ['SCRUM', 'agile', 'pair programming', 'code reviews'],
         },
         { sectionTitle: 'Veille', skills: ['meetups', 'conférences'] },
-        { sectionTitle: 'Certifications', skills: ['AZ-900', 'PL-900'] },
+        {
+            sectionTitle: 'Certifications',
+            skills: ['Microsoft AZ-900', 'Microsoft PL-900'],
+        },
         { sectionTitle: 'Partage', skills: ['oratrice Ladies of Code Paris'] },
     ];
 
