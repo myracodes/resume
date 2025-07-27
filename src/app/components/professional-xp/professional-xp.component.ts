@@ -135,7 +135,7 @@ export class ProfessionalXpComponent {
             "Mon visa Vacances-Travail en poche, je me suis rendue au Canada pour 2 ans (durée raccourcie en raison de la pandémie 😷). Sur place, j'ai voyagé et occupé divers postes : commise en boulangerie, professoresse de français (pour anglophones), et nanny dans une famille Canadienne.",
             "J'ai été guitariste dans un groupe de rock 60's à Montréal, et chanteuse-guitariste dans un duo de bluegrass (musique traditionnelle américaine).",
             "Durant ces deux années, j'ai voyagé seule au Canada, aux Etats-Unis, en Europe, et en France.",
-            "📌 De retour du Canada, j'ai co-fondé l'association Pourvoir Féministe, laboratoires d'idées et d'actions, en lien avec des chercheuses et spécialistes des questions politiques et féministes.",
+            "📌 De retour du Canada, j'ai co-fondé l'association Pourvoir Féministe, laboratoire d'idées et d'actions, en lien avec des chercheuses et spécialistes des questions politiques et féministes.",
             "📌 J'ai également participé à l'organisation et la coordination d'événements féministes.",
             "📌 C'est durant cette période que j'ai commencé à m'autoformer afin de lancer ma reconversion professionnelle et de devenir développeuse web.",
         ],
