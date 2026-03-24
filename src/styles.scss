@@ -1,9 +1,9 @@
 // font-family: 'Lexend', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap');
-@import 'src/_media-queries.scss';
-@import 'src/_mixins.scss';
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap");
+@import "src/_media-queries.scss";
+@import "src/_mixins.scss";
 
-$font-main: 'Lexend', sans-serif;
+$font-main: "Lexend", sans-serif;
 $primary-50: #f1e8ed;
 $primary-100: #e3d2db;
 $primary-200: #c9aebb;
@@ -61,12 +61,12 @@ html {
         }
     }
 
-    h5 {
+    h3 {
         font-weight: 600;
         color: $primary;
     }
 
-    h6 {
+    h4 {
         font-size: 0.8rem;
         font-weight: 600;
         color: $primary;
