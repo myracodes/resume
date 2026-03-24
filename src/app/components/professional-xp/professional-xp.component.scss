@@ -19,7 +19,8 @@ ul {
     }
 }
 
-.title-see-more {
+.experience-header {
     @include theme.flexRow;
     flex-wrap: nowrap;
+    gap: 20px;
 }
