@@ -5,6 +5,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ActivitiesComponent } from "./components/activities/activities.component";
 import { DialogComponent } from "./components/atoms/dialog/dialog.component";
+import { ExternalLinkComponent } from "./components/atoms/external-link/external-link.component";
 import { SeparatorComponent } from "./components/atoms/separator/separator.component";
 import { StackComponent } from "./components/atoms/stack/stack.component";
 import { TitleComponent } from "./components/atoms/title/title.component";
@@ -24,6 +25,7 @@ import { SharedModule } from "./shared/modules/shared.module";
         ActivitiesComponent,
         TitleComponent,
         DialogComponent,
+        ExternalLinkComponent,
         StackComponent,
         SeparatorComponent,
     ],

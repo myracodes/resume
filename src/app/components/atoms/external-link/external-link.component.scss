@@ -1,0 +1,19 @@
+a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+
+    span {
+        text-decoration: none;
+    }
+
+    i {
+        font-size: 0.875em;
+    }
+
+    &:hover span {
+        text-decoration: underline;
+    }
+}

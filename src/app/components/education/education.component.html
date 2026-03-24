@@ -4,11 +4,13 @@
     <!-- WCS -->
     <section>
         <h3 class="colored">
-            <a
-                href="https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web-alternance"
-                target="_blank"
-                >Développement web et mobile avancé</a
+            <app-external-link
+                [href]="
+                    'https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web-alternance'
+                "
             >
+                Développement web et mobile avancé
+            </app-external-link>
         </h3>
 
         <p class="small">Wild Code School (2021 - 2022) – 100% remote</p>
@@ -23,9 +25,11 @@
     <!-- IRONHACK -->
     <section>
         <h3 class="colored">
-            <a href="https://www.ironhack.com/en/web-development/paris">
-                Développement web fullstack
-            </a>
+            <app-external-link
+                [href]="'https://www.ironhack.com/en/web-development/paris'"
+            >
+                <p>Développement web fullstack</p>
+            </app-external-link>
         </h3>
 
         <p class="small">Ironhack (2021) – Cursus anglophone – 100 % remote</p>
