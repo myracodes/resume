@@ -1,18 +1,18 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { EducationComponent } from './components/education/education.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { ActivitiesComponent } from './components/activities/activities.component';
-import { TitleComponent } from './components/atoms/title/title.component';
-import { ProfessionalXpComponent } from './components/professional-xp/professional-xp.component';
-import { SharedModule } from './shared/modules/shared.module';
-import { DialogComponent } from './components/atoms/dialog/dialog.component';
-import { StackComponent } from './components/atoms/stack/stack.component';
-import { SeparatorComponent } from './components/atoms/separator/separator.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { ActivitiesComponent } from "./components/activities/activities.component";
+import { DialogComponent } from "./components/atoms/dialog/dialog.component";
+import { SeparatorComponent } from "./components/atoms/separator/separator.component";
+import { StackComponent } from "./components/atoms/stack/stack.component";
+import { TitleComponent } from "./components/atoms/title/title.component";
+import { EducationComponent } from "./components/education/education.component";
+import { HeaderComponent } from "./components/header/header.component";
+import { ProfessionalXpComponent } from "./components/professional-xp/professional-xp.component";
+import { SkillsComponent } from "./components/skills/skills.component";
+import { SharedModule } from "./shared/modules/shared.module";
 
 @NgModule({
     declarations: [

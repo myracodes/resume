@@ -1,6 +1,6 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
-import { DialogModule } from "primeng/dialog";
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { DialogModule } from "primeng/dialog";
 
 const ANGULAR_MODULE = [BrowserAnimationsModule];
 
