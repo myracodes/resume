@@ -24,14 +24,12 @@ $padding: 2rem;
     padding: 1rem;
 }
 
-.dialog-button {
+::ng-deep app-button button {
     @include theme.flexRow;
     flex-wrap: nowrap;
     width: fit-content;
     min-height: 1rem;
     height: fit-content;
-    color: theme.$primary;
-    background-color: transparent;
     font-weight: bold;
     font-size: 0.6rem;
     margin-left: 0.5rem;
@@ -39,18 +37,6 @@ $padding: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     padding: 0.15rem 0.55rem;
-    border: 1px solid theme.$primary;
-    border-radius: 5px;
-    cursor: pointer;
-
-    &:hover {
-        background-color: theme.$primary-hover;
-        color: theme.$white;
-    }
-    &:active {
-        background-color: theme.$primary-active;
-        color: theme.$white;
-    }
 }
 
 // Header
