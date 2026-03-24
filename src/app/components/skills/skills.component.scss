@@ -21,7 +21,14 @@ section {
     flex-wrap: wrap;
 }
 
-.professional-skill {
+.personal-skills-section .personal-skill,
+.personal-skills-section h4 {
+    line-height: normal;
+    display: inline;
+}
+
+.professional-skill,
+.personal-skill {
     width: fit-content;
 }
 

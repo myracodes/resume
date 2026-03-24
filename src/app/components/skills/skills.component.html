@@ -6,7 +6,12 @@
     <span *ngFor="let item of professionalSkills">
         <span class="professional-skills-section">
             <h4>
-                <em>{{ item.sectionTitle }} :&nbsp;</em>
+                <em
+                    >{{ item.sectionTitle
+                    }}<span *ngIf="item.skills && item.skills.length > 0">
+                        :&nbsp;</span
+                    ></em
+                >
             </h4>
             <p
                 *ngFor="let skill of item.skills; let last = last"
@@ -23,13 +28,23 @@
     >
 
     <h3 class="secondary">Savoir-être</h3>
-    <div class="personal-skills">
-        <span
-            *ngFor="let skill of personalSkills; let last = last"
-            class="skill"
-        >
-            <span>{{ skill }}</span>
-            <app-separator *ngIf="!last" />
+    <span *ngFor="let item of personalSkills">
+        <span class="personal-skills-section">
+            <h4>
+                <em
+                    >{{ item.sectionTitle
+                    }}<span *ngIf="item.skills && item.skills.length > 0">
+                        :&nbsp;</span
+                    ></em
+                >
+            </h4>
+            <p
+                *ngFor="let skill of item.skills; let last = last"
+                class="personal-skill"
+            >
+                {{ skill }}
+                <app-separator *ngIf="!last" />
+            </p>
         </span>
-    </div>
+    </span>
 </section>
