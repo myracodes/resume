@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { ActivitiesComponent } from "./components/activities/activities.component";
 import { DialogComponent } from "./components/atoms/dialog/dialog.component";
 import { ExternalLinkComponent } from "./components/atoms/external-link/external-link.component";
+import { RainbowLineComponent } from "./components/atoms/rainbow-line/rainbow-line.component";
 import { SeparatorComponent } from "./components/atoms/separator/separator.component";
 import { StackComponent } from "./components/atoms/stack/stack.component";
 import { TitleComponent } from "./components/atoms/title/title.component";
@@ -28,6 +29,7 @@ import { SharedModule } from "./shared/modules/shared.module";
         ExternalLinkComponent,
         StackComponent,
         SeparatorComponent,
+        RainbowLineComponent,
     ],
     imports: [AppRoutingModule, BrowserModule, SharedModule],
     providers: [],

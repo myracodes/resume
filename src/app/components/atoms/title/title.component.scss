@@ -4,7 +4,9 @@ h2 {
     color: theme.$primary;
     width: max-content;
     padding-bottom: 10px;
-    border-bottom: 2px solid theme.$secondary-decorative;
+    padding-left: 0.75rem;
+    border-left: 3px solid theme.$peach;
+    border-bottom: 2px solid theme.$amber;
     margin-bottom: 20px;
     margin-left: 1.5rem;
 }

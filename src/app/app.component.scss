@@ -6,7 +6,7 @@
 
 .title {
     width: 100%;
-    color: theme.$secondary;
+    color: theme.$primary;
     margin: auto;
 
     h1,
@@ -24,7 +24,7 @@
     h2 {
         margin-bottom: 50px;
         font-size: 0.8rem;
-        color: theme.$primary;
+        color: theme.$secondary;
     }
 }
 
