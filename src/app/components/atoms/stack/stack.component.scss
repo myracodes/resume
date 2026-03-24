@@ -1,4 +1,4 @@
-@use 'src/styles.scss' as theme;
+@use "src/styles.scss" as theme;
 
 .stack-container {
     @include theme.flexRow;
@@ -7,7 +7,7 @@
 }
 
 .stack-title {
-    background-color: theme.$secondary;
+    background-color: theme.$secondary-decorative;
     padding: 0 8px;
 }
 

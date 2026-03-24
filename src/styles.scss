@@ -21,7 +21,8 @@ $primary-light: $primary-300;
 $white: #fafafa;
 $black: #070f13;
 
-$secondary: #e1a100;
+$secondary: #b87f00;
+$secondary-decorative: #e1a100; // not accessible as text color
 
 * {
     margin: 0;
@@ -78,6 +79,10 @@ html {
 
     .secondary {
         color: $secondary;
+    }
+
+    .secondary-decorative {
+        color: $secondary-decorative;
     }
 
     .italic {

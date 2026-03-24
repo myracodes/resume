@@ -1,5 +1,5 @@
-@use 'src/styles.scss' as theme;
+@use "src/styles.scss" as theme;
 
 .separator {
-    color: theme.$secondary;
+    color: theme.$secondary-decorative;
 }
