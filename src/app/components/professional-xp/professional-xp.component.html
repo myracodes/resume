@@ -4,7 +4,7 @@
     <!-- DEV Capco -->
     <section>
         <span class="title-see-more">
-            <h4>Développeuse fullstack</h4>
+            <h4>Développeuse web front-end</h4>
             <app-dialog [content]="detailsCapco"></app-dialog>
         </span>
         <legend class="colored">Cap Collectif (2024 – aujourd'hui)</legend>
@@ -29,13 +29,18 @@
             <li>
                 Amélioration de l’expérience développeuse (modification des
                 fichiers de configuration et des scripts, détection et
-                diminution des tests “flaky” dans la CI, corrections de “faux
+                amélioration des tests “flaky” dans la CI, corrections de “faux
                 diffs” dans les outils d’intégration continue comme Chromatic)
+            </li>
+            <li>
+                Diminution des coûts variables (optimisation de la CI et
+                réévaluation de la valeur ajoutée des outils payants)
             </li>
             <li>Corrections back-end occasionnelles</li>
             <li>
-                Utilisation de l’IA (Claude / ChatGPT / Copilot) pour l’aide au
-                débug, pour refactoriser, et pour travailler sur du back-end
+                Utilisation de l’IA (Claude / ChatGPT / Copilot / Mistral) pour
+                l’aide au débug, pour refactoriser, et pour travailler sur du
+                back-end
             </li>
         </ul>
         <app-stack [stack]="detailsCapco.stack" />
@@ -47,14 +52,26 @@
             <h4>Développeuse web front-end</h4>
             <app-dialog [content]="detailsAvanade"></app-dialog>
         </span>
-        <legend class="colored">Avanade (2022 – 2023)</legend>
+        <legend class="colored">Avanade (ESN) (2022 – 2023)</legend>
+        <h5>Somei / VEOLIA</h5>
         <ul>
+            <li>Portage du front-end d’une application ASP.NET vers Angular</li>
+            <li>Création de composants réutilisables</li>
             <li>
-                Somei / VEOLIA - portage d’une application ASP.NET vers Angular
+                Réalisation <i>pixel perfect</i> des écrans et développement des
+                fonctionnalités
             </li>
+            <li>Correction des bugs</li>
+            <li>Proposition et mise en place de normes</li>
+        </ul>
+        <br />
+        <h5>Projets internes Avanade</h5>
+        <ul>
+            <li>Création d'outils internes</li>
+            <li>Réalisation <i>pixel perfect</i> de maquettes Adobe XD</li>
             <li>
-                Projets internes : diverses interfaces, travail sur le Design
-                System
+                Travail sur le Design System interne (conception, développement
+                et mise à jour des composants)
             </li>
         </ul>
         <app-stack [stack]="detailsAvanade.stack" />

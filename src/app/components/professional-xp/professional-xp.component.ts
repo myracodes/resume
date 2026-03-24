@@ -16,9 +16,9 @@ export class ProfessionalXpComponent {
         paragraphs: [
             "Cap Collectif développe des outils open source d'intelligence collective, sous la forme d'un SaaS.",
             'Les différentes applications du produit : budget participatif, questionnaire, débat, boîte à idées, consultation, etc.',
-            "Ma valeur ajoutée sur ce projet : la proactivité dans la réduction de la dette technique et l'amélioration de l'expérience Développeuse.",
+            "⭐️ Ma valeur ajoutée : la proactivité dans la réduction de la dette technique, la réduction des coûts, et l'amélioration de l'expérience Développeuse.",
             "📌 Une tâche challengeante : le remplacement de l'outil de bundle du Design System, non-maintenu (TSDX) par Rollup.",
-            "📌 Une initiative : j'ai pris en charge la mise à jour régulière des librairies afin de diminuer le nombre de failles de sécurité.",
+            "📌 Une initiative : j'ai suggéré et pris en charge la correction régulière des failles de sécurité.",
             "📌 Une optimisation clé : j'ai identifié et amélioré les tests flaky les plus fréquents, ce qui a permis de diminuer le taux d'échec, d'économiser des crédits CI, et de faire gagner du temps à l'équipe tech au quotidien.",
             '📌 Une amélioration invisible mais impactante : en supprimant les sources de variabilité comme les images aléatoires et les dates dynamiques dans Storybook, j’ai réduit les faux positifs dans les tests visuels. Cela a permis de diminuer le besoin de validations manuelles inutiles.',
             "Recrutée au poste de développeuse front-end, je n'ai pas hésité à me porter volontaire pour faire des tâches back-end, avec l'assistance de l'IA, afin de réduire la charge de travail de l'équipe back-end.",
@@ -40,8 +40,9 @@ export class ProfessionalXpComponent {
             'Mac OS',
             'NPM',
             'Yarn',
-            'rituels agiles',
+            'Rituels agiles',
             'Sentry',
+            'Assistance IA',
         ],
     };
     detailsAvanade: IDetailsDialog = {
@@ -54,7 +55,7 @@ export class ProfessionalXpComponent {
             'Avanade est une ESN, joint-venture entre Microsoft et Accenture',
             "📌 De décembre 2022 à décembre 2023 (pour VEOLIA et la Société des Eaux de Marseille) : portage en Angular d'une application web existante permettant de gérer les abonnements en eau sur toute la France.",
             "L'application permet la gestion des données relatives aux clientes et clients, aux interventions, aux contrats, etc.",
-            "Ma valeur ajoutée sur ce projet : la proposition de normes (git flow, conventional commits, approche design system, conventions de nommage, etc.) et l'uniformisation du code, nécessaires sur un projet d'une telle ampleur.",
+            "⭐️ Ma valeur ajoutée : proposer l'adoption de normes (git flow, conventional commits, approche design system, conventions de nommage, etc.) et l'uniformisation du code, nécessaires sur un projet d'une telle ampleur.",
             "📌 Avant décembre 2022 (en interne) : j'ai participé au développement de divers outils et applications.",
         ],
         stack: [
@@ -69,6 +70,8 @@ export class ProfessionalXpComponent {
             'npm',
             'Rituels agiles',
             'SQL',
+            'Figma',
+            'Adobe XD',
         ],
     };
     detailsGoodVibes: IDetailsDialog = {
@@ -102,6 +105,7 @@ export class ProfessionalXpComponent {
             'Sentry',
             'AppDrag',
             'SQL',
+            'Travail asynchrone France - USA',
         ],
     };
     detailsVisigo: IDetailsDialog = {
