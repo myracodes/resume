@@ -17,7 +17,7 @@
         <p>
             <em *ngFor="let item of wildCodeSchoolSkills; let last = last"
                 >{{ item }}
-                <app-separator *ngIf="!last" aria-hidden="true" />
+                <app-separator *ngIf="!last" />
             </em>
         </p>
     </section>
@@ -37,7 +37,7 @@
         <p>
             <em *ngFor="let item of ironhackSkills; let last = last"
                 >{{ item }}
-                <app-separator *ngIf="!last" aria-hidden="true" />
+                <app-separator *ngIf="!last" />
             </em>
         </p>
     </section>
