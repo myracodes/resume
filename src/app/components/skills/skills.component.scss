@@ -1,4 +1,4 @@
-@use 'src/styles.scss' as theme;
+@use "src/styles.scss" as theme;
 
 section {
     @include theme.flexCol;
@@ -19,6 +19,12 @@ section {
 .professional-skills-section {
     @include theme.flexRow;
     flex-wrap: wrap;
+}
+
+.personal-skills-section h4,
+.professional-skills-section h4 {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .personal-skills-section .personal-skill,
