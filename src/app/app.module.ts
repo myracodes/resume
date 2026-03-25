@@ -13,6 +13,7 @@ import { TitleComponent } from "./components/atoms/title/title.component";
 import { EducationComponent } from "./components/education/education.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { ProfessionalXpComponent } from "./components/professional-xp/professional-xp.component";
+import { SeeMoreDialogComponent } from "./components/see-more-dialog/see-more-dialog.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { SharedModule } from "./shared/modules/shared.module";
 
@@ -26,6 +27,7 @@ import { SharedModule } from "./shared/modules/shared.module";
         ActivitiesComponent,
         TitleComponent,
         DialogComponent,
+        SeeMoreDialogComponent,
         ExternalLinkComponent,
         StackComponent,
         SeparatorComponent,

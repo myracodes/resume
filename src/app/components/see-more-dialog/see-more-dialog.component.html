@@ -1,0 +1,21 @@
+<app-dialog [buttonLabel]="buttonLabel">
+    <span dialog-header class="title-container">
+        <span class="header-title">{{ content.header[0] }}</span>
+        <span class="header-subtitle">{{ content.header[1] }}</span>
+        <span class="header-additional-info">{{ content.header[2] }}</span>
+    </span>
+
+    <p *ngFor="let paragraph of content.paragraphs" class="dialog-content">
+        {{ paragraph }}
+    </p>
+
+    <ng-container ngProjectAs="[dialog-footer]">
+        <span
+            *ngFor="let item of content.stack; let last = last"
+            class="footer-item"
+        >
+            <span class="colored">{{ item }}</span>
+            <app-separator *ngIf="!last" />
+        </span>
+    </ng-container>
+</app-dialog>

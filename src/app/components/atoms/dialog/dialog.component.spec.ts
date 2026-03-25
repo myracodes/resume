@@ -14,11 +14,6 @@ describe("DialogComponent", () => {
         });
         fixture = TestBed.createComponent(DialogComponent);
         component = fixture.componentInstance;
-        component.content = {
-            header: ["Titre", "Sous-titre", "Info"],
-            paragraphs: ["Paragraphe 1"],
-            stack: ["Action 1"],
-        } as any;
         fixture.detectChanges();
     });
 

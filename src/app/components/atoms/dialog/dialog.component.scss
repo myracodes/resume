@@ -47,21 +47,6 @@ $padding: 2rem;
     align-items: flex-start !important;
     text-transform: uppercase;
     padding: $padding;
-    .title-container {
-        @include theme.flexCol;
-        width: 90%;
-
-        .header-title {
-            font-weight: 700;
-            color: theme.$primary;
-            width: 90%;
-        }
-
-        .header-additional-info {
-            font-style: italic;
-            font-size: 0.8rem;
-        }
-    }
 }
 
 // Close icon element
@@ -89,15 +74,4 @@ $padding: 2rem;
     @include theme.flexRow;
     flex-wrap: wrap;
     justify-content: flex-end;
-}
-
-.dialog-content {
-    @include theme.flexCol;
-    line-height: 1.5rem;
-    margin-bottom: 0.7rem;
-}
-
-.footer-item {
-    @include theme.flexRow;
-    flex-wrap: nowrap;
 }

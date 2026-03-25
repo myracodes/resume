@@ -1,5 +1,4 @@
 import { Component, ElementRef, HostListener, Input } from '@angular/core';
-import { IDetailsDialog } from 'src/app/interfaces/DetailsDialog.interface';
 import { closeOnClickOutside } from 'src/app/shared/utils/mouseEvent.utils';
 
 @Component({
@@ -11,14 +10,11 @@ export class DialogComponent {
     elementRef: any;
     isVisible: boolean = false;
 
-    @Input() content!: IDetailsDialog;
     @Input() buttonLabel: string = 'En savoir plus +';
 
     constructor(myElement: ElementRef) {
         this.elementRef = myElement;
     }
-
-    ngOnInit() {}
 
     showDialog() {
         this.isVisible = true;
