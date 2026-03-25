@@ -1,7 +1,5 @@
 a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
+    display: inline;
     text-decoration: none;
     color: inherit;
 
@@ -11,6 +9,9 @@ a {
 
     i {
         font-size: 0.875em;
+        margin-left: 0.3em;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     &:hover span {
