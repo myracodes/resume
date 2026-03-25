@@ -1,11 +1,10 @@
 <app-button
     variant="ghost"
-    [label]="buttonLabel"
     type="button"
     (click)="showDialog()"
     ariaLabel="Ouvrir la modale de détails"
     buttonId="open-modal-button"
-/>
+>{{ buttonLabel }}</app-button>
 <p-dialog [(visible)]="isVisible">
     <ng-template pTemplate="header">
         <ng-content select="[dialog-header]"></ng-content>

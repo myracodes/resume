@@ -5,5 +5,5 @@
     [attr.aria-label]="ariaLabel || null"
     [attr.id]="buttonId || null"
 >
-    <span class="btn-label">{{ label }}</span>
+    <span class="btn-label"><ng-content></ng-content></span>
 </button>
