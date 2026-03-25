@@ -71,7 +71,9 @@ button {
             border-color: theme.$primary;
 
             &::before {
-                transform: translateX(-50%);
+                transform: translateX(
+                    calc(-50% + 1px)
+                ); // +1px is necessary to prevent a small visual glitch
             }
         }
     }
