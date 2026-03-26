@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
+import { providePrimeNG } from "primeng/config";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -34,7 +35,7 @@ import { SharedModule } from "./shared/modules/shared.module";
         RainbowLineComponent,
     ],
     imports: [AppRoutingModule, BrowserModule, SharedModule],
-    providers: [],
+    providers: [providePrimeNG({ ripple: true })],
     bootstrap: [AppComponent],
 })
 export class AppModule {}
