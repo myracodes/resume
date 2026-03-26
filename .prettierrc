@@ -4,8 +4,9 @@
   "trailingComma": "es5",
   "printWidth": 80,
   "tabWidth": 4,
-  "bracketSameLine": true,
+  "bracketSameLine": false,
   "git.confirmSync": false,
+  "objectWrap": "collapse",
   "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
