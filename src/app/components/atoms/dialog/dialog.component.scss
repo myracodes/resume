@@ -15,8 +15,9 @@ $padding: 2rem;
 ::ng-deep .p-dialog {
     background-color: white;
     position: absolute;
-    border: 0.1rem solid theme.$primary;
-    border-radius: 10px;
+    border: 0.7rem solid;
+    border-radius: 0;
+    border-color: theme.$peach theme.$coral theme.$coral theme.$peach;
     width: min(95vw, 600px);
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
