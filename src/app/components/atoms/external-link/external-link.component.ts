@@ -9,4 +9,5 @@ export class ExternalLinkComponent {
     @Input() href!: string;
     @Input() target: string = "_blank";
     @Input() rel: string = "noopener noreferrer";
+    @Input() ariaLabel?: string;
 }
