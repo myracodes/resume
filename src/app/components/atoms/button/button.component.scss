@@ -31,12 +31,13 @@ button {
         overflow: hidden;
         background-color: transparent;
         color: theme.$primary;
-        border-bottom: 1px solid theme.$primary;
-        border-right: 1px solid theme.$primary;
-        border-top: 1px solid theme.$hot-pink;
-        border-left: 1px solid theme.$hot-pink;
+        border-bottom: 2px solid theme.$primary;
+        border-right: 2px solid theme.$primary;
+        border-top: 2px solid theme.$hot-pink;
+        border-left: 2px solid theme.$hot-pink;
         border-radius: 0px;
-        transition: color 0.2s ease;
+        transition: color 0.2s ease, border-top-color 0.5s ease,
+            border-left-color 0.5s ease 0.1s;
 
         .btn-label {
             position: relative;
@@ -67,7 +68,8 @@ button {
 
         &:hover:not(:disabled) {
             color: theme.$white;
-            transition: color 0.3s ease 0.3s;
+            transition: color 0.3s ease 0.3s, border-top-color 0.5s ease,
+                border-left-color 0.5s ease 0.1s;
             border-color: theme.$primary;
 
             &::before {
