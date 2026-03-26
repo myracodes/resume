@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-separator',
-  templateUrl: './separator.component.html',
-  styleUrls: ['./separator.component.scss']
+    selector: 'app-separator',
+    templateUrl: './separator.component.html',
+    styleUrls: ['./separator.component.scss'],
+    standalone: false
 })
 export class SeparatorComponent {
 

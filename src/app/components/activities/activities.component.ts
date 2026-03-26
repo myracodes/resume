@@ -4,5 +4,6 @@ import { Component } from "@angular/core";
     selector: "app-activities",
     templateUrl: "./activities.component.html",
     styleUrls: ["./activities.component.scss"],
+    standalone: false
 })
 export class ActivitiesComponent {}

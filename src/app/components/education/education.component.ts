@@ -4,6 +4,7 @@ import { Component } from "@angular/core";
     selector: "app-education",
     templateUrl: "./education.component.html",
     styleUrls: ["./education.component.scss"],
+    standalone: false
 })
 export class EducationComponent {
     wildCodeSchoolSkills = [

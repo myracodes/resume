@@ -1,5 +1,7 @@
-@import "src/_media-queries.scss";
-@import "src/_mixins.scss";
+@forward "media-queries";
+@forward "mixins";
+@use "media-queries" as *;
+@use "mixins" as *;
 
 $font-main: "Lexend", sans-serif;
 

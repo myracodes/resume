@@ -5,6 +5,7 @@ import { IDetailsDialog } from "src/app/interfaces/DetailsDialog.interface";
     selector: "app-professional-xp",
     templateUrl: "./professional-xp.component.html",
     styleUrls: ["./professional-xp.component.scss"],
+    standalone: false
 })
 export class ProfessionalXpComponent {
     detailsCapco: IDetailsDialog = {

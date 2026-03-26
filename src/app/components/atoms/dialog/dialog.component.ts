@@ -5,6 +5,7 @@ import { closeOnClickOutside } from 'src/app/shared/utils/mouseEvent.utils';
     selector: 'app-dialog',
     templateUrl: './dialog.component.html',
     styleUrls: ['./dialog.component.scss'],
+    standalone: false
 })
 export class DialogComponent {
     elementRef: any;
