@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
     selector: "app-skills",
     templateUrl: "./skills.component.html",
     styleUrls: ["./skills.component.scss"],
-    standalone: false
+    standalone: false,
 })
 export class SkillsComponent {
     professionalSkills = [
@@ -20,13 +20,12 @@ export class SkillsComponent {
             ],
         },
         {
-            sectionTitle: "CSS & composants",
+            sectionTitle: "Design et CSS",
             skills: [
                 "CSS vanilla",
-                "Tailwind CSS",
+                "Tailwind",
                 "SCSS",
-                "PrimeNG",
-                "Mantine",
+                "librairies (PrimeNG, Mantine, etc.)",
                 "Custom Design System",
                 "sensibilité UX/UI",
             ],

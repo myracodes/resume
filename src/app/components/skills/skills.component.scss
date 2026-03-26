@@ -11,14 +11,12 @@ section {
     flex-wrap: wrap;
 }
 
-.skill {
-    @include theme.flexRow;
-    flex-wrap: nowrap;
+.professional-skills-section {
+    display: inline;
 }
 
-.professional-skills-section {
-    @include theme.flexRow;
-    flex-wrap: wrap;
+.personal-skills-section {
+    display: inline;
 }
 
 .personal-skills-section h4,
@@ -33,8 +31,13 @@ section {
     display: inline;
 }
 
-.professional-skill,
-.personal-skill {
+.professional-skills-section .professional-skill,
+.professional-skills-section h4 {
+    line-height: normal;
+    display: inline;
+}
+
+.skill-item {
     width: fit-content;
 }
 

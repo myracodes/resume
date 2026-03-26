@@ -15,7 +15,7 @@
             </h4>
             <p
                 *ngFor="let skill of item.skills; let last = last"
-                class="professional-skill"
+                class="professional-skill skill-item"
             >
                 {{ skill }}
                 <app-separator *ngIf="!last" />
@@ -24,7 +24,7 @@
     </span>
 
     <span class="info"
-        >Toujours enthousiaste à l'idée d'allonger cette liste !</span
+        >Toujours enthousiaste à l'idée d'allonger cette liste&nbsp;!</span
     >
 
     <h3>Savoir-être</h3>
@@ -40,7 +40,7 @@
             </h4>
             <p
                 *ngFor="let skill of item.skills; let last = last"
-                class="personal-skill"
+                class="personal-skill skill-item"
             >
                 {{ skill }}
                 <app-separator *ngIf="!last" />
