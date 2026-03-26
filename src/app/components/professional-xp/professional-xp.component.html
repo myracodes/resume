@@ -51,7 +51,8 @@
     <section>
         <span class="experience-header">
             <h3>Développeuse web front-end</h3>
-            <app-see-more-dialog [content]="detailsAvanade"></app-see-more-dialog>
+            <app-see-more-dialog
+                [content]="detailsAvanade"></app-see-more-dialog>
         </span>
         <legend class="colored">Avanade (ESN) (2022 – 2023)</legend>
         <h4>
@@ -85,7 +86,8 @@
     <section>
         <span class="experience-header">
             <h3>Développeuse fullstack</h3>
-            <app-see-more-dialog [content]="detailsGoodVibes"></app-see-more-dialog>
+            <app-see-more-dialog
+                [content]="detailsGoodVibes"></app-see-more-dialog>
         </span>
         <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
         <h4>Équipe de 2 personnes</h4>
@@ -112,6 +114,11 @@
                 Amélioration continue : gestion de projets, documentation du
                 code, amélioration des processus internes
             </li>
+
+            <li>
+                Correction du contenu éditorial : orthographe et vérification
+                des traductions FR&nbsp;⇔&nbsp;EN
+            </li>
         </ul>
         <app-stack [stack]="detailsGoodVibes.stack" />
     </section>
@@ -120,7 +127,8 @@
     <section>
         <span class="experience-header">
             <h3>Chargée de projets web</h3>
-            <app-see-more-dialog [content]="detailsVisigo"></app-see-more-dialog>
+            <app-see-more-dialog
+                [content]="detailsVisigo"></app-see-more-dialog>
         </span>
         <legend class="colored">Visigo (2021 – 2022)</legend>
         <h4>Équipe de 2 personnes</h4>
@@ -132,8 +140,8 @@
             </li>
             <li>Gestion des projets web de l'agence</li>
             <li>
-                Implémentation de nouveaux outils et acculturation digitale de
-                l'équipe
+                Implémentation de nouveaux outils, formation et acculturation
+                digitale de l'équipe
             </li>
         </ul>
         <app-stack [stack]="detailsVisigo.stack" />
@@ -144,7 +152,8 @@
     <section>
         <span class="experience-header">
             <h3>Développement personnel</h3>
-            <app-see-more-dialog [content]="detailsGapYear"></app-see-more-dialog>
+            <app-see-more-dialog
+                [content]="detailsGapYear"></app-see-more-dialog>
         </span>
         <legend class="colored">(2018 – 2021)</legend>
         <ul>
@@ -165,13 +174,15 @@
     <section>
         <span class="experience-header">
             <h3>Chargée de projets, communication, et événements</h3>
-            <app-see-more-dialog [content]="detailsBnpParibas"></app-see-more-dialog>
+            <app-see-more-dialog
+                [content]="detailsBnpParibas"></app-see-more-dialog>
         </span>
         <legend class="colored">BNP Paribas (2015 – 2018)</legend>
         <ul>
             <li>
-                Développement des outils digitaux internes : architecture,
-                design, implémentation, formation des collaborateur·ices
+                Développement des outils numériques internes (ex : architecture,
+                design, et mise en place du réseau social interne) et formation
+                des collaborateur·ices
             </li>
 
             <li>
@@ -186,15 +197,15 @@
             </li>
 
             <li>
-                Mise à jour des sites intranet et internet : rédaction,
-                correction, traduction, illustration, mise en ligne
+                Webmastering du site intranet et mise à jour du site internet :
+                rédaction, correction, traduction FR&nbsp;⇔&nbsp;EN,
+                illustration, et mise en ligne du contenu
             </li>
         </ul>
     </section>
     <section>
         <app-see-more-dialog
             [content]="detailsOtherExperiences"
-            [buttonLabel]="'Voir plus d\'expériences'"
-        ></app-see-more-dialog>
+            [buttonLabel]="'Voir plus d\'expériences'"></app-see-more-dialog>
     </section>
 </div>
