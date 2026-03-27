@@ -60,7 +60,26 @@
 }
 
 footer {
+    width: 100%;
+    @include theme.flexRow;
+    justify-content: center;
     text-align: center;
     padding: 1rem;
     font-size: 0.8rem;
+
+    .footer-content {
+        flex-grow: 1;
+        margin: auto;
+    }
+
+    .app-version {
+        font-size: 0.6rem;
+        align-self: flex-start;
+        margin: auto;
+    }
+
+    @include theme.smallScreen {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
 }

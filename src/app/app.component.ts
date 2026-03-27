@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { GIT_HASH } from "../version";
 
 @Component({
     selector: "app-root",
@@ -8,4 +9,5 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
     title = "myracodes-resume";
+    version = GIT_HASH;
 }
