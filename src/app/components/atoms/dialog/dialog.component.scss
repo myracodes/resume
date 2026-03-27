@@ -1,9 +1,11 @@
-@use "src/styles.scss" as theme;
+@use "src/_mixins.scss" as mixins;
+@use "src/_variables.scss" as vars;
 
 $padding: 2rem;
 
-:host {
-    @include theme.flexRow;
+// Host element
+app-dialog {
+    @include mixins.flexRow;
     flex-wrap: wrap;
     min-width: fit-content;
     align-items: flex-start;
@@ -11,22 +13,8 @@ $padding: 2rem;
     margin-top: 0.2rem;
 }
 
-// Container element
-::ng-deep .p-dialog {
-    background-color: white;
-    position: absolute;
-    border: 0.7rem solid;
-    border-radius: 0;
-    border-color: theme.$peach theme.$coral theme.$coral theme.$peach;
-    width: min(95vw, 600px);
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 1rem;
-}
-
-::ng-deep app-button button {
-    @include theme.flexRow;
+app-dialog app-button button {
+    @include mixins.flexRow;
     flex-wrap: nowrap;
     width: fit-content;
     min-height: 1rem;
@@ -40,9 +28,23 @@ $padding: 2rem;
     padding: 0.15rem 0.55rem;
 }
 
+// Container element — spécificité 0,2,0 pour surcharger le CSS injecté par PrimeNG (0,1,0)
+.p-dialog.p-component {
+    background-color: white;
+    position: absolute;
+    border: 0.7rem solid;
+    border-radius: 0;
+    border-color: vars.$peach vars.$coral vars.$coral vars.$peach;
+    width: min(95vw, 600px);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+
 // Header
-::ng-deep .p-dialog-header {
-    @include theme.flexRow;
+.p-dialog .p-dialog-header {
+    @include mixins.flexRow;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-start !important;
@@ -51,9 +53,9 @@ $padding: 2rem;
 }
 
 // Close icon element
-::ng-deep .p-dialog-header-close {
+.p-dialog .p-dialog-close-button {
     background-color: transparent;
-    color: theme.$primary;
+    color: vars.$primary;
     font-weight: 800;
     border: none;
     width: 1rem;
@@ -67,8 +69,19 @@ $padding: 2rem;
     }
 
     &:hover {
-        animation: spin-rainbow 0.4s ease-in-out,
-            rainbow-icon 1s linear infinite;
+        animation:
+            spin-rainbow 0.4s ease-in-out,
+            rainbow-icon 1s linear normal;
+    }
+}
+
+.p-dialog .p-dialog-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+        animation: rainbow-icon 1s linear normal;
     }
 }
 
@@ -91,14 +104,14 @@ $padding: 2rem;
 }
 
 // Content element
-::ng-deep .p-dialog-content {
-    padding: calc($padding/2) $padding;
+.p-dialog .p-dialog-content {
+    padding: calc($padding / 2) $padding;
 }
 
 // Footer element
-::ng-deep .p-dialog-footer {
+.p-dialog .p-dialog-footer {
     padding: $padding;
-    @include theme.flexRow;
+    @include mixins.flexRow;
     flex-wrap: wrap;
     justify-content: flex-end;
 }

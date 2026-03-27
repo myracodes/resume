@@ -4,8 +4,9 @@
     (click)="showDialog()"
     ariaLabel="Ouvrir la modale de détails"
     buttonId="open-modal-button"
->{{ buttonLabel }}</app-button>
-<p-dialog [(visible)]="isVisible">
+    >{{ buttonLabel }}</app-button
+>
+<p-dialog [(visible)]="isVisible" maximizable="true">
     <ng-template pTemplate="header">
         <ng-content select="[dialog-header]"></ng-content>
     </ng-template>
