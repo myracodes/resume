@@ -28,11 +28,11 @@ app-dialog app-button button {
     padding: 0.15rem 0.55rem;
 }
 
-// Container element — spécificité 0,2,0 pour surcharger le CSS injecté par PrimeNG (0,1,0)
+// Container element
 .p-dialog.p-component {
     background-color: white;
     position: absolute;
-    border: 0.7rem solid;
+    border: 0.5rem solid;
     border-radius: 0;
     border-color: vars.$peach vars.$coral vars.$coral vars.$peach;
     width: min(95vw, 600px);
@@ -40,6 +40,9 @@ app-dialog app-button button {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 1rem;
+
+    // Override PrimeNG button styles within the dialog - necessary for the color and animation to work properly
+    --p-button-text-secondary-color: #{vars.$primary};
 }
 
 // Header
@@ -71,7 +74,16 @@ app-dialog app-button button {
     &:hover {
         animation:
             spin-rainbow 0.4s ease-in-out,
-            rainbow-icon 1s linear normal;
+            rainbow-icon 0.4s linear normal;
+    }
+}
+
+// Maximize button
+.p-dialog .p-dialog-maximize-button {
+    &:hover {
+        animation:
+            rainbow-icon 0.4s linear normal,
+            grow-icon 0.4s ease-in-out;
     }
 }
 
@@ -79,10 +91,6 @@ app-dialog app-button button {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-
-    &:hover {
-        animation: rainbow-icon 1s linear normal;
-    }
 }
 
 @keyframes spin-rainbow {
@@ -94,12 +102,24 @@ app-dialog app-button button {
     }
 }
 
-@keyframes rainbow-icon {
+@keyframes grow-icon {
     0% {
-        filter: sepia(1) saturate(4) hue-rotate(0deg);
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
     }
     100% {
-        filter: sepia(1) saturate(4) hue-rotate(360deg);
+        transform: scale(1);
+    }
+}
+
+@keyframes rainbow-icon {
+    0% {
+        filter: hue-rotate(0deg) saturate(3);
+    }
+    100% {
+        filter: hue-rotate(360deg) saturate(3);
     }
 }
 
