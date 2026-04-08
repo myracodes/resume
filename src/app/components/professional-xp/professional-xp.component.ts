@@ -5,7 +5,7 @@ import { IDetailsDialog } from "src/app/interfaces/DetailsDialog.interface";
     selector: "app-professional-xp",
     templateUrl: "./professional-xp.component.html",
     styleUrls: ["./professional-xp.component.scss"],
-    standalone: false
+    standalone: false,
 })
 export class ProfessionalXpComponent {
     detailsCapco: IDetailsDialog = {
@@ -30,19 +30,17 @@ export class ProfessionalXpComponent {
             "GraphQL",
             "Next.js",
             "Relay",
+            "react-hook-form",
             "Storybook",
             "Chromatic",
             "Figma",
             "Cypress",
-            "Jest",
             "CircleCI",
             "GitHub",
             "OrbStack",
-            "Mac OS",
             "NPM",
-            "Yarn",
             "Rituels agiles",
-            "Assistance IA",
+            "Claude Code",
         ],
     };
     detailsAvanade: IDetailsDialog = {
@@ -67,7 +65,6 @@ export class ProfessionalXpComponent {
             "NgRx",
             "SCRUM",
             "Azure DevOps",
-            "npm",
             "Rituels agiles",
             "SQL",
             "Figma",
@@ -101,7 +98,6 @@ export class ProfessionalXpComponent {
             "Jest",
             "GitHub",
             "Figma",
-            "yarn",
             "Sentry",
             "AppDrag",
             "SQL",

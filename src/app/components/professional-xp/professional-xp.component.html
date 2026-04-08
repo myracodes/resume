@@ -18,10 +18,7 @@
                 Maintenance de la librairie de composants (Design System) sur
                 NPM
             </li>
-            <li>
-                Amélioration de l’accessibilité (gestion du focus, navigation au
-                clavier, aria-roles)
-            </li>
+            <li>Amélioration de l’accessibilité</li>
             <li>
                 Réduction proactive de la dette technique (détection et
                 correction de bugs, refactorisations, mises à jour de sécurité,
@@ -30,16 +27,16 @@
             <li>
                 Amélioration de l’expérience développeuse (modification des
                 fichiers de configuration et des scripts, détection et
-                amélioration des tests “flaky” dans la CI, corrections de “faux
+                diminution des tests “flaky” dans la CI, corrections de “faux
                 diffs” dans les outils d’intégration continue comme Chromatic)
             </li>
             <li>
                 Diminution des coûts variables (optimisation de la CI et
                 réévaluation de la valeur ajoutée des outils payants)
             </li>
-            <li>Corrections back-end</li>
+            <li>Mise en place de l'ADR (Architecture Decision Record)</li>
             <li>
-                Utilisation de l’IA (Claude / ChatGPT / Copilot / Mistral) pour
+                Utilisation de l’IA (Claude Code / Copilot / Mistral) pour
                 l’aide au débug, pour refactoriser, et pour travailler sur du
                 back-end
             </li>
@@ -52,7 +49,8 @@
         <span class="experience-header">
             <h3>Développeuse web front-end</h3>
             <app-see-more-dialog
-                [content]="detailsAvanade"></app-see-more-dialog>
+                [content]="detailsAvanade"
+            ></app-see-more-dialog>
         </span>
         <legend class="colored">Avanade (ESN) (2022 – 2023)</legend>
         <h4>
@@ -87,14 +85,18 @@
         <span class="experience-header">
             <h3>Développeuse fullstack</h3>
             <app-see-more-dialog
-                [content]="detailsGoodVibes"></app-see-more-dialog>
+                [content]="detailsGoodVibes"
+            ></app-see-more-dialog>
         </span>
         <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
         <h4>Équipe de 2 personnes</h4>
         <ul>
             <li>
                 Refonte du
-                <app-external-link [href]="'https://goodvibes.news/'" [ariaLabel]="'GOOD Vibes'">
+                <app-external-link
+                    [href]="'https://goodvibes.news/'"
+                    [ariaLabel]="'GOOD Vibes'"
+                >
                     site vitrine
                 </app-external-link>
             </li>
@@ -128,7 +130,8 @@
         <span class="experience-header">
             <h3>Chargée de projets web</h3>
             <app-see-more-dialog
-                [content]="detailsVisigo"></app-see-more-dialog>
+                [content]="detailsVisigo"
+            ></app-see-more-dialog>
         </span>
         <legend class="colored">Visigo (2021 – 2022)</legend>
         <h4>Équipe de 2 personnes</h4>
@@ -153,7 +156,8 @@
         <span class="experience-header">
             <h3>Développement personnel</h3>
             <app-see-more-dialog
-                [content]="detailsGapYear"></app-see-more-dialog>
+                [content]="detailsGapYear"
+            ></app-see-more-dialog>
         </span>
         <legend class="colored">(2018 – 2021)</legend>
         <ul>
@@ -165,7 +169,12 @@
             <li>Bénévolat au sein de diverses associations et collectifs</li>
             <li>Projets musicaux et projets personnels</li>
             <li>
-                Reconversion professionnelle dans le <em>développement web</em>
+                Reconversion professionnelle dans le
+                <em>développement web</em>. Autoformation (freecodecamp,
+                CodeCademy), obtention de certifications (HTML, CSS), bootcamp
+                Développement web fullstack : HTML, CSS, JavaScript, React,
+                Node.js, MongoDB, ExpressJS
+                <span class="italic">("MERN stack")</span>.
             </li>
         </ul>
     </section>
@@ -175,7 +184,8 @@
         <span class="experience-header">
             <h3>Chargée de projets, communication, et événements</h3>
             <app-see-more-dialog
-                [content]="detailsBnpParibas"></app-see-more-dialog>
+                [content]="detailsBnpParibas"
+            ></app-see-more-dialog>
         </span>
         <legend class="colored">BNP Paribas (2015 – 2018)</legend>
         <ul>
@@ -206,6 +216,7 @@
     <section>
         <app-see-more-dialog
             [content]="detailsOtherExperiences"
-            [buttonLabel]="'Voir plus d\'expériences'"></app-see-more-dialog>
+            [buttonLabel]="'Voir plus d\'expériences'"
+        ></app-see-more-dialog>
     </section>
 </div>

@@ -22,12 +22,11 @@ export class SkillsComponent {
         {
             sectionTitle: "Design et CSS",
             skills: [
-                "CSS vanilla",
                 "Tailwind",
                 "SCSS",
                 "librairies (PrimeNG, Mantine, etc.)",
                 "Custom Design System",
-                "sensibilité UX/UI",
+                "perfectionnisme UX/UI",
             ],
         },
         { sectionTitle: "Back-end", skills: ["Node.js", "PHP"] },
