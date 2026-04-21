@@ -1,0 +1,6 @@
+<section>
+    <app-title [title]="'Langues'" />
+    <span *ngFor="let item of languages">
+        <em>{{ item.lang }} :</em> {{ item.level }}
+    </span>
+</section>

@@ -16,6 +16,7 @@ import { HeaderComponent } from "./components/header/header.component";
 import { ProfessionalXpComponent } from "./components/professional-xp/professional-xp.component";
 import { SeeMoreDialogComponent } from "./components/see-more-dialog/see-more-dialog.component";
 import { SkillsComponent } from "./components/skills/skills.component";
+import { LanguagesComponent } from "./components/languages/languages.component";
 import { SharedModule } from "./shared/modules/shared.module";
 
 @NgModule({
@@ -26,6 +27,7 @@ import { SharedModule } from "./shared/modules/shared.module";
         EducationComponent,
         SkillsComponent,
         ActivitiesComponent,
+        LanguagesComponent,
         TitleComponent,
         DialogComponent,
         SeeMoreDialogComponent,
