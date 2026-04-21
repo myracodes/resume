@@ -27,6 +27,7 @@ export class SkillsComponent {
                 "librairies (PrimeNG, Mantine, etc.)",
                 "Custom Design System",
                 "perfectionnisme UX/UI",
+                "accessibilité (WCAG, ARIA)",
             ],
         },
         { sectionTitle: "Back-end", skills: ["Node.js", "PHP"] },
