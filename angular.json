@@ -41,6 +41,7 @@
                                     "maximumError": "6kb"
                                 }
                             ],
+                            "optimization": true,
                             "outputHashing": "all"
                         },
                         "development": {
