@@ -1,4 +1,4 @@
-# MyracodesResume
+# Myracodes Resume
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
@@ -34,9 +34,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## TO DO LIST
 
--   [] check colors / contrast
--   [] add social preview image
--   [] implement i18n / english version
--   [] add a section with languages
--   [] add a technologies section
--   [] implement dark mode
+- [] check colors / contrast
+- [] add social preview image
+- [] implement i18n / english version
+- [] add a technologies section
+- [] implement dark mode
