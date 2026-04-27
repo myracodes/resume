@@ -26,7 +26,7 @@ export class ProfessionalXpComponent {
         ],
         stack: [
             "ReactJS",
-            "Typescript",
+            "TypeScript",
             "GraphQL",
             "Next.js",
             "Relay",
@@ -58,7 +58,7 @@ export class ProfessionalXpComponent {
         ],
         stack: [
             "Angular",
-            "Typescript",
+            "TypeScript",
             "REST",
             "Tailwind CSS",
             "SCSS",
@@ -89,7 +89,7 @@ export class ProfessionalXpComponent {
         ],
         stack: [
             "ReactJS",
-            "Typescript",
+            "TypeScript",
             "Storybook",
             "Chromatic",
             "Node.js",

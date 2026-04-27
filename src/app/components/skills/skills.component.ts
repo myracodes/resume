@@ -13,7 +13,8 @@ export class SkillsComponent {
             skills: [
                 "ReactJS",
                 "Angular",
-                "Typescript",
+                "JavaScript",
+                "TypeScript",
                 "Storybook",
                 "Chromatic",
                 "Next.js",
