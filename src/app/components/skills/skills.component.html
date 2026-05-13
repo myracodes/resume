@@ -1,16 +1,14 @@
 <section>
-    <app-title [title]="'Compétences'" />
+    <app-title [title]="sectionTitle" />
 
-    <h3>Savoir-faire</h3>
+    <h3 i18n="@@skills.hardSkillsHeading">Savoir-faire</h3>
 
     <span *ngFor="let item of professionalSkills">
         <span class="professional-skills-section">
             <h4>
                 <em
                     >{{ item.sectionTitle
-                    }}<span *ngIf="item.skills && item.skills.length > 0">
-                        :&nbsp;</span
-                    ></em
+                    }}<span *ngIf="item.skills && item.skills.length > 0" i18n="@@common.sectionColon">&nbsp;:&nbsp;</span></em
                 >
             </h4>
             <p
@@ -23,19 +21,17 @@
         </span>
     </span>
 
-    <span class="info"
+    <span class="info" i18n="@@skills.moreToLearnNote"
         >Toujours enthousiaste à l'idée d'allonger cette liste&nbsp;!</span
     >
 
-    <h3>Savoir-être</h3>
+    <h3 i18n="@@skills.softSkillsHeading">Savoir-être</h3>
     <span *ngFor="let item of personalSkills">
         <span class="personal-skills-section">
             <h4>
                 <em
                     >{{ item.sectionTitle
-                    }}<span *ngIf="item.skills && item.skills.length > 0">
-                        :&nbsp;</span
-                    ></em
+                    }}<span *ngIf="item.skills && item.skills.length > 0" i18n="@@common.sectionColon">&nbsp;:&nbsp;</span></em
                 >
             </h4>
             <p

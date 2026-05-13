@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="education.wcsTitle" datatype="html">
+        <source>Développement web et mobile avancé</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.wcsDetails" datatype="html">
+        <source>Wild Code School (2021 - 2022) – 100% remote</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.ironhackTitle" datatype="html">
+        <source>Développement web fullstack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.ironhackDetails" datatype="html">
+        <source>Ironhack (2021) – Cursus anglophone – 100 % remote</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.ironhackDegree" datatype="html">
+        <source>Titre RNCP niveau 6 / Bac+3/4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.commTitle" datatype="html">
+        <source>Communication &amp; Marketing (5 ans)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">47,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.commSpeciality" datatype="html">
+        <source>Spécialité digital / culture / multimédias</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.masterLabel" datatype="html">
+        <source> Master : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.licenceLabel" datatype="html">
+        <source> Licence Pro : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.sectionTitle" datatype="html">
+        <source>Formation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.authentication" datatype="html">
+        <source>authentification</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.deployment" datatype="html">
+        <source>déploiement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.security" datatype="html">
+        <source>sécurité</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.continuousIntegration" datatype="html">
+        <source>intégration continue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.mobileDevelopment" datatype="html">
+        <source>développement mobile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.hardSkillsHeading" datatype="html">
+        <source>Savoir-faire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="common.sectionColon" datatype="html">
+        <source> : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.moreToLearnNote" datatype="html">
+        <source>Toujours enthousiaste à l&apos;idée d&apos;allonger cette liste !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.softSkillsHeading" datatype="html">
+        <source>Savoir-être</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.sectionTitle" datatype="html">
+        <source>Compétences</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.designAndCss" datatype="html">
+        <source>Design et CSS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.libraries" datatype="html">
+        <source>librairies (PrimeNG, Mantine, etc.)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.uxUiPerfectionism" datatype="html">
+        <source>perfectionnisme UX/UI</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.accessibility" datatype="html">
+        <source>accessibilité (WCAG, ARIA)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.prototyping" datatype="html">
+        <source>Maquettage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.testing" datatype="html">
+        <source>Tests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.methodology" datatype="html">
+        <source>Méthodologie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.techWatch" datatype="html">
+        <source>Veille</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.conferences" datatype="html">
+        <source>conférences</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.communitySharing" datatype="html">
+        <source>Partage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.ladiesOfCode" datatype="html">
+        <source>oratrice Ladies of Code Paris</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.continuousImprovement" datatype="html">
+        <source>Amélioration continue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.continuousImprovementDesc" datatype="html">
+        <source>identification et mise en œuvre d’améliorations dans les processus et le code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.attentionToDetail" datatype="html">
+        <source>Sens du détail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.attentionToDetailDesc" datatype="html">
+        <source>attention élevée à la qualité, à la précision, et aux bonnes pratiques.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.curiosity" datatype="html">
+        <source>Curiosité</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.curiosityDesc" datatype="html">
+        <source>goût pour l’expérimentation, y compris sur des sujets inconnus.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.longTermVision" datatype="html">
+        <source>Vision long terme</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.longTermVisionDesc" datatype="html">
+        <source>documentation, maintenabilité des solutions, et prévention de la dette technique.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.systemsThinking" datatype="html">
+        <source>Pensée systémique</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.systemsThinkingDesc" datatype="html">
+        <source>approche globale pour anticiper les impacts et les dépendances.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.communication" datatype="html">
+        <source>Communication</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.communicationDesc" datatype="html">
+        <source>excellente maîtrise de l’expression écrite (FR/EN) ; communication claire et structurée avec toutes les équipes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

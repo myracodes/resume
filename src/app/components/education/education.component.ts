@@ -4,18 +4,20 @@ import { Component } from "@angular/core";
     selector: "app-education",
     templateUrl: "./education.component.html",
     styleUrls: ["./education.component.scss"],
-    standalone: false
+    standalone: false,
 })
 export class EducationComponent {
+    sectionTitle = $localize`:@@education.sectionTitle:Formation`;
+
     wildCodeSchoolSkills = [
         "Microservices",
-        "authentification",
-        "déploiement",
-        "sécurité",
+        $localize`:@@education.authentication:authentification`,
+        $localize`:@@education.deployment:déploiement`,
+        $localize`:@@education.security:sécurité`,
         "SCRUM",
         "DevOps",
-        "intégration continue",
-        "développement mobile",
+        $localize`:@@education.continuousIntegration:intégration continue`,
+        $localize`:@@education.mobileDevelopment:développement mobile`,
     ];
     ironhackSkills = [
         "HTML",

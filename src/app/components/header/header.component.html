@@ -1,4 +1,18 @@
 <div class="bg-container">
+    <div class="lang-switcher" role="group" aria-label="Language switcher">
+        <button
+            class="lang-btn"
+            [class.active]="locale === 'fr'"
+            [attr.aria-current]="locale === 'fr' ? 'true' : null"
+            (click)="switchLocale('fr')"
+        ><span class="btn-label">FR</span></button>
+        <button
+            class="lang-btn"
+            [class.active]="locale === 'en'"
+            [attr.aria-current]="locale === 'en' ? 'true' : null"
+            (click)="switchLocale('en')"
+        ><span class="btn-label">EN</span></button>
+    </div>
     <div class="parent">
         <div class="picture-container">
             <img

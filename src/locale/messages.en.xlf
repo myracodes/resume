@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="common.sectionColon" datatype="html">
+        <source> : </source>
+        <target>: </target>
+      </trans-unit>
+      <trans-unit id="skills.hardSkillsHeading" datatype="html">
+        <source>Savoir-faire</source>
+        <target>Hard skills</target>
+      </trans-unit>
+      <trans-unit id="skills.moreToLearnNote" datatype="html">
+        <source>Toujours enthousiaste à l&apos;idée d&apos;allonger cette liste !</source>
+        <target>Always eager to keep this list growing!</target>
+      </trans-unit>
+      <trans-unit id="skills.softSkillsHeading" datatype="html">
+        <source>Savoir-être</source>
+        <target>Soft skills</target>
+      </trans-unit>
+      <trans-unit id="skills.sectionTitle" datatype="html">
+        <source>Compétences</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="skills.designAndCss" datatype="html">
+        <source>Design et CSS</source>
+        <target>Design &amp; CSS</target>
+      </trans-unit>
+      <trans-unit id="skills.libraries" datatype="html">
+        <source>librairies (PrimeNG, Mantine, etc.)</source>
+        <target>libraries (PrimeNG, Mantine, etc.)</target>
+      </trans-unit>
+      <trans-unit id="skills.uxUiPerfectionism" datatype="html">
+        <source>perfectionnisme UX/UI</source>
+        <target>UX/UI perfectionism</target>
+      </trans-unit>
+      <trans-unit id="skills.accessibility" datatype="html">
+        <source>accessibilité (WCAG, ARIA)</source>
+        <target>accessibility (WCAG, ARIA)</target>
+      </trans-unit>
+      <trans-unit id="skills.prototyping" datatype="html">
+        <source>Maquettage</source>
+        <target>Prototyping</target>
+      </trans-unit>
+      <trans-unit id="skills.testing" datatype="html">
+        <source>Tests</source>
+        <target>Testing</target>
+      </trans-unit>
+      <trans-unit id="skills.methodology" datatype="html">
+        <source>Méthodologie</source>
+        <target>Methodology</target>
+      </trans-unit>
+      <trans-unit id="skills.techWatch" datatype="html">
+        <source>Veille</source>
+        <target>Tech watch</target>
+      </trans-unit>
+      <trans-unit id="skills.conferences" datatype="html">
+        <source>conférences</source>
+        <target>conferences</target>
+      </trans-unit>
+      <trans-unit id="skills.communitySharing" datatype="html">
+        <source>Partage</source>
+        <target>Community</target>
+      </trans-unit>
+      <trans-unit id="skills.ladiesOfCode" datatype="html">
+        <source>oratrice Ladies of Code Paris</source>
+        <target>speaker at Ladies of Code Paris</target>
+      </trans-unit>
+      <trans-unit id="skills.continuousImprovement" datatype="html">
+        <source>Amélioration continue</source>
+        <target>Continuous improvement</target>
+      </trans-unit>
+      <trans-unit id="skills.continuousImprovementDesc" datatype="html">
+        <source>identification et mise en œuvre d'améliorations dans les processus et le code.</source>
+        <target>identifying and implementing improvements in processes and code.</target>
+      </trans-unit>
+      <trans-unit id="skills.attentionToDetail" datatype="html">
+        <source>Sens du détail</source>
+        <target>Attention to detail</target>
+      </trans-unit>
+      <trans-unit id="skills.attentionToDetailDesc" datatype="html">
+        <source>attention élevée à la qualité, à la précision, et aux bonnes pratiques.</source>
+        <target>high attention to quality, precision, and best practices.</target>
+      </trans-unit>
+      <trans-unit id="skills.curiosity" datatype="html">
+        <source>Curiosité</source>
+        <target>Curiosity</target>
+      </trans-unit>
+      <trans-unit id="skills.curiosityDesc" datatype="html">
+        <source>goût pour l'expérimentation, y compris sur des sujets inconnus.</source>
+        <target>a taste for experimentation, including on unfamiliar topics.</target>
+      </trans-unit>
+      <trans-unit id="skills.longTermVision" datatype="html">
+        <source>Vision long terme</source>
+        <target>Long-term vision</target>
+      </trans-unit>
+      <trans-unit id="skills.longTermVisionDesc" datatype="html">
+        <source>documentation, maintenabilité des solutions, et prévention de la dette technique.</source>
+        <target>documentation, solution maintainability, and technical debt prevention.</target>
+      </trans-unit>
+      <trans-unit id="skills.systemsThinking" datatype="html">
+        <source>Pensée systémique</source>
+        <target>Systems thinking</target>
+      </trans-unit>
+      <trans-unit id="skills.systemsThinkingDesc" datatype="html">
+        <source>approche globale pour anticiper les impacts et les dépendances.</source>
+        <target>holistic approach to anticipate impacts and dependencies.</target>
+      </trans-unit>
+      <trans-unit id="skills.communication" datatype="html">
+        <source>Communication</source>
+        <target>Communication</target>
+      </trans-unit>
+      <trans-unit id="skills.communicationDesc" datatype="html">
+        <source>excellente maîtrise de l'expression écrite (FR/EN) ; communication claire et structurée avec toutes les équipes.</source>
+        <target>excellent written expression (FR/EN); clear and structured communication with all teams.</target>
+      </trans-unit>
+      <trans-unit id="education.sectionTitle" datatype="html">
+        <source>Formation</source>
+        <target>Education</target>
+      </trans-unit>
+      <trans-unit id="education.authentication" datatype="html">
+        <source>authentification</source>
+        <target>authentication</target>
+      </trans-unit>
+      <trans-unit id="education.deployment" datatype="html">
+        <source>déploiement</source>
+        <target>deployment</target>
+      </trans-unit>
+      <trans-unit id="education.security" datatype="html">
+        <source>sécurité</source>
+        <target>security</target>
+      </trans-unit>
+      <trans-unit id="education.continuousIntegration" datatype="html">
+        <source>intégration continue</source>
+        <target>continuous integration</target>
+      </trans-unit>
+      <trans-unit id="education.mobileDevelopment" datatype="html">
+        <source>développement mobile</source>
+        <target>mobile development</target>
+      </trans-unit>
+      <trans-unit id="education.wcsTitle" datatype="html">
+        <source>Développement web et mobile avancé</source>
+        <target>Advanced web and mobile development</target>
+      </trans-unit>
+      <trans-unit id="education.wcsDetails" datatype="html">
+        <source>Wild Code School (2021 - 2022) – Paris (hybrid)</source>
+        <target>Wild Code School (2021 - 2022) – Paris (hybrid)</target>
+      </trans-unit>
+      <trans-unit id="education.ironhackTitle" datatype="html">
+        <source>Développement web fullstack</source>
+        <target>Full-stack web development</target>
+      </trans-unit>
+      <trans-unit id="education.ironhackDetails" datatype="html">
+        <source>Ironhack (2021) – Cursus anglophone – Paris (hybrid)</source>
+        <target>Ironhack (2021) – In English – Paris (hybrid)</target>
+      </trans-unit>
+      <trans-unit id="education.ironhackDegree" datatype="html">
+        <source>Titre RNCP niveau 6 / Bac+3/4</source>
+        <target>RNCP level 6 / Bachelor's equivalent</target>
+      </trans-unit>
+      <trans-unit id="education.commTitle" datatype="html">
+        <source>Communication &amp; Marketing (5 ans)</source>
+        <target>Communication &amp; Marketing (5 years)</target>
+      </trans-unit>
+      <trans-unit id="education.commSpeciality" datatype="html">
+        <source>Spécialité digital / culture / multimédias</source>
+        <target>Specialization in digital, culture, and multimedia</target>
+      </trans-unit>
+      <trans-unit id="education.masterLabel" datatype="html">
+        <source> Master : </source>
+        <target> Master's degree: </target>
+      </trans-unit>
+      <trans-unit id="education.licenceLabel" datatype="html">
+        <source> Licence Pro : </source>
+        <target> Bachelor's degree: </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
