@@ -4,6 +4,8 @@ import { Component } from "@angular/core";
     selector: "app-activities",
     templateUrl: "./activities.component.html",
     styleUrls: ["./activities.component.scss"],
-    standalone: false
+    standalone: false,
 })
-export class ActivitiesComponent {}
+export class ActivitiesComponent {
+    sectionTitle = $localize`:@@activities.sectionTitle:Activités`;
+}

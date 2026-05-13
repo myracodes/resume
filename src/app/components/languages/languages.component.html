@@ -1,6 +1,7 @@
 <section>
-    <app-title [title]="'Langues'" />
+    <app-title [title]="sectionTitle" />
     <span *ngFor="let item of languages">
-        <em>{{ item.lang }} :</em> {{ item.level }}
+        <em>{{ item.lang }}</em
+        ><span i18n="@@common.colon">&nbsp;:&nbsp;</span>{{ item.level }}
     </span>
 </section>

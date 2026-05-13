@@ -7,17 +7,28 @@ import { Component } from "@angular/core";
     standalone: false,
 })
 export class LanguagesComponent {
+    sectionTitle = $localize`:@@languages.sectionTitle:Langues`;
+
     languages = [
-        { lang: "Français", level: "Langue maternelle" },
-        { lang: "Anglais", level: "Maîtrise professionnelle (C1)" },
         {
-            lang: "Espagnol",
-            level: "Compétence professionnelle limitée (B1/B2)",
+            lang: $localize`:@@languages.french:Français`,
+            level: $localize`:@@languages.frenchLevel:Langue maternelle`,
         },
-        { lang: "Japonais", level: "Notions (A1/A2)" },
         {
-            lang: "Chinois",
-            level: "Niveau élémentaire (A2), bases académiques (INALCO) ",
+            lang: $localize`:@@languages.english:Anglais`,
+            level: $localize`:@@languages.englishLevel:Maîtrise professionnelle (C1)`,
+        },
+        {
+            lang: $localize`:@@languages.spanish:Espagnol`,
+            level: $localize`:@@languages.spanishLevel:Compétence professionnelle limitée (B1/B2)`,
+        },
+        {
+            lang: $localize`:@@languages.japanese:Japonais`,
+            level: $localize`:@@languages.japaneseLevel:Notions (A1/A2)`,
+        },
+        {
+            lang: $localize`:@@languages.chinese:Chinois`,
+            level: $localize`:@@languages.chineseLevel:Niveau élémentaire (A2), bases académiques (INALCO)`,
         },
     ];
 }

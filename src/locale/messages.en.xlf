@@ -2,7 +2,7 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="common.sectionColon" datatype="html">
+      <trans-unit id="common.colon" datatype="html">
         <source> : </source>
         <target>: </target>
       </trans-unit>
@@ -173,6 +173,78 @@
       <trans-unit id="education.licenceLabel" datatype="html">
         <source> Licence Pro : </source>
         <target> Bachelor's degree: </target>
+      </trans-unit>
+      <trans-unit id="languages.sectionTitle" datatype="html">
+        <source>Langues</source>
+        <target>Languages</target>
+      </trans-unit>
+      <trans-unit id="languages.french" datatype="html">
+        <source>Français</source>
+        <target>French</target>
+      </trans-unit>
+      <trans-unit id="languages.frenchLevel" datatype="html">
+        <source>Langue maternelle</source>
+        <target>Native language</target>
+      </trans-unit>
+      <trans-unit id="languages.english" datatype="html">
+        <source>Anglais</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="languages.englishLevel" datatype="html">
+        <source>Maîtrise professionnelle (C1)</source>
+        <target>Professional proficiency (C1)</target>
+      </trans-unit>
+      <trans-unit id="languages.spanish" datatype="html">
+        <source>Espagnol</source>
+        <target>Spanish</target>
+      </trans-unit>
+      <trans-unit id="languages.spanishLevel" datatype="html">
+        <source>Compétence professionnelle limitée (B1/B2)</source>
+        <target>Limited professional proficiency (B1/B2)</target>
+      </trans-unit>
+      <trans-unit id="languages.japanese" datatype="html">
+        <source>Japonais</source>
+        <target>Japanese</target>
+      </trans-unit>
+      <trans-unit id="languages.japaneseLevel" datatype="html">
+        <source>Notions (A1/A2)</source>
+        <target>Elementary (A1/A2)</target>
+      </trans-unit>
+      <trans-unit id="languages.chinese" datatype="html">
+        <source>Chinois</source>
+        <target>Chinese</target>
+      </trans-unit>
+      <trans-unit id="languages.chineseLevel" datatype="html">
+        <source>Niveau élémentaire (A2), bases académiques (INALCO)</source>
+        <target>Elementary level (A2), academic foundations (INALCO)</target>
+      </trans-unit>
+      <trans-unit id="activities.sectionTitle" datatype="html">
+        <source>Activités</source>
+        <target>Activities</target>
+      </trans-unit>
+      <trans-unit id="activities.sport" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Sport :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> le midi, je nage ou je cours</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Sport:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> at lunchtime, I swim or run</target>
+      </trans-unit>
+      <trans-unit id="activities.music" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Musique :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> chant, guitare, piano, banjolele 🪕</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Music:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> singing, guitar, piano, banjolele 🪕</target>
+      </trans-unit>
+      <trans-unit id="activities.volunteering" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Bénévolat<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> et engagement : droits des Femmes, droits des animaux, solidarité, écologie &amp; environnement</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Volunteering<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> &amp; advocacy: women's rights, animal rights, solidarity, ecology &amp; environment</target>
+      </trans-unit>
+      <trans-unit id="activities.reading" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Lecture :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> tout ce qui me passe sous la main</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Reading:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> whatever I can get my hands on</target>
+      </trans-unit>
+      <trans-unit id="activities.travel" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Voyages :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> idéalement en train !</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Travel:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> ideally by train!</target>
+      </trans-unit>
+      <trans-unit id="activities.theatre" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Théâtre :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classique, opéra, stand-up, comédie musicale...</source>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Theater:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classical, opera, stand-up, musical comedy...</target>
       </trans-unit>
     </body>
   </file>

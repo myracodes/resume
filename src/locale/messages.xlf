@@ -2,6 +2,55 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="activities.sport" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Sport :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> le midi, je nage ou je cours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.music" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Musique :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> chant, guitare, piano, banjolele 🪕</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.volunteering" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Bénévolat<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> et engagement : droits des Femmes, droits des animaux, solidarité, écologie &amp; environnement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.reading" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Lecture :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> tout ce qui me passe sous la main</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.travel" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Voyages :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> idéalement en train !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.theatre" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Théâtre :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classique, opéra, stand-up, comédie musicale...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activities.sectionTitle" datatype="html">
+        <source>Activités</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/activities/activities.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="education.wcsTitle" datatype="html">
         <source>Développement web et mobile avancé</source>
         <context-group purpose="location">
@@ -107,15 +156,12 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="skills.hardSkillsHeading" datatype="html">
-        <source>Savoir-faire</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
-          <context context-type="linenumber">4,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="common.sectionColon" datatype="html">
+      <trans-unit id="common.colon" datatype="html">
         <source> : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
           <context context-type="linenumber">11,12</context>
@@ -123,6 +169,90 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
           <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.sectionTitle" datatype="html">
+        <source>Langues</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.french" datatype="html">
+        <source>Français</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.frenchLevel" datatype="html">
+        <source>Langue maternelle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.english" datatype="html">
+        <source>Anglais</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.englishLevel" datatype="html">
+        <source>Maîtrise professionnelle (C1)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.spanish" datatype="html">
+        <source>Espagnol</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.spanishLevel" datatype="html">
+        <source>Compétence professionnelle limitée (B1/B2)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.japanese" datatype="html">
+        <source>Japonais</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.japaneseLevel" datatype="html">
+        <source>Notions (A1/A2)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.chinese" datatype="html">
+        <source>Chinois</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages.chineseLevel" datatype="html">
+        <source>Niveau élémentaire (A2), bases académiques (INALCO)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/languages/languages.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.hardSkillsHeading" datatype="html">
+        <source>Savoir-faire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">4,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="skills.moreToLearnNote" datatype="html">
