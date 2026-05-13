@@ -1,24 +1,30 @@
 <div class="bg-container">
-    <div class="lang-switcher" role="group" aria-label="Language switcher">
+    <!-- temporarily disable until translations are finished and polished -->
+    <!-- <div class="lang-switcher" role="group" aria-label="Language switcher">
         <button
             class="lang-btn"
             [class.active]="locale === 'fr'"
             [attr.aria-current]="locale === 'fr' ? 'true' : null"
             (click)="switchLocale('fr')"
-        ><span class="btn-label">FR</span></button>
+        >
+            <span class="btn-label">FR</span>
+        </button>
         <button
             class="lang-btn"
             [class.active]="locale === 'en'"
             [attr.aria-current]="locale === 'en' ? 'true' : null"
             (click)="switchLocale('en')"
-        ><span class="btn-label">EN</span></button>
-    </div>
+        >
+            <span class="btn-label">EN</span>
+        </button>
+    </div> -->
     <div class="parent">
         <div class="picture-container">
             <img
                 src="assets/images/photo.webp"
                 alt="portrait"
-                class="picture" />
+                class="picture"
+            />
         </div>
 
         <div class="content">
@@ -27,18 +33,33 @@
             <div class="items">
                 <!-- LOCALISATION -->
                 <span class="item">
-                    <img src="assets/icons/map-pin.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/map-pin.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <span>Basée en Île-de-France</span>
                 </span>
 
                 <!-- MOBILITE -->
                 <span class="item">
-                    <img src="assets/icons/bus.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/bus.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <span>Permis B | vélo</span>
                 </span>
                 <!-- LINKEDIN -->
                 <span class="item">
-                    <img src="assets/icons/linkedin.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/linkedin.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <app-external-link
                         [href]="'https://www.linkedin.com/in/myriam-mira/'"
                         >LinkedIn</app-external-link
@@ -47,7 +68,12 @@
 
                 <!-- GITHUB -->
                 <span class="item">
-                    <img src="assets/icons/github.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/github.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <app-external-link [href]="'https://github.com/myracodes'"
                         >GitHub</app-external-link
                     >
@@ -55,13 +81,23 @@
 
                 <!-- LANGUES -->
                 <span class="item">
-                    <img src="assets/icons/comments.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/comments.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <span>Bilingue anglais / français</span>
                 </span>
 
                 <!-- DEV -->
                 <span class="item">
-                    <img src="assets/icons/code.svg" class="icon" alt="" aria-hidden="true" />
+                    <img
+                        src="assets/icons/code.svg"
+                        class="icon"
+                        alt=""
+                        aria-hidden="true"
+                    />
                     <span>Spécialité front-end</span>
                 </span>
             </div>
