@@ -9,5 +9,5 @@ import { IDetailsDialog } from 'src/app/interfaces/DetailsDialog.interface';
 })
 export class SeeMoreDialogComponent {
     @Input() content!: IDetailsDialog;
-    @Input() buttonLabel: string = 'En savoir plus +';
+    @Input() buttonLabel: string = $localize`:@@dialog.defaultButtonLabel:En savoir plus +`;
 }

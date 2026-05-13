@@ -2,6 +2,20 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="app.title" datatype="html">
+        <source>Software Engineer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="app.subtitle" datatype="html">
+        <source>5 années d&apos;expérience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="activities.sport" datatype="html">
         <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Sport :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> le midi, je nage ou je cours</source>
         <context-group purpose="location">
@@ -160,15 +174,15 @@
         <source> : </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/languages/languages.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
-          <context context-type="linenumber">11,12</context>
+          <context context-type="linenumber">14,15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
-          <context context-type="linenumber">34,35</context>
+          <context context-type="linenumber">41,42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="languages.sectionTitle" datatype="html">
@@ -248,6 +262,987 @@
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="xp.role.frontEndDev" datatype="html">
+        <source>Développeuse web front-end</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.legend" datatype="html">
+        <source>Cap Collectif (2024 – aujourd&apos;hui)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.team" datatype="html">
+        <source>Équipe de 9 personnes - équipe tech de 6 personnes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li1" datatype="html">
+        <source>Développement de fonctionnalités, refontes techniques et visuelles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li2" datatype="html">
+        <source>Maintenance de la librairie de composants (Design System) sur NPM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li3" datatype="html">
+        <source>Amélioration de l&apos;accessibilité : implémentation de nouveaux patterns et nouvelles balises HTML, application des bonnes pratiques, mise en oeuvre des retours d&apos;audits, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li4" datatype="html">
+        <source>Réduction proactive de la dette technique : détection et correction de bugs, refactorisations, mises à jour de sécurité, montées de versions, amélioration de tests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li5" datatype="html">
+        <source>Amélioration de l&apos;expérience développeuse : modification des configurations et des scripts, correction des tests &quot;flaky&quot; dans la CI, correction de &quot;faux diffs&quot; dans les outils d&apos;intégration continue comme Chromatic pour réduire les validations manuelles, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li6" datatype="html">
+        <source>Diminution des coûts variables : optimisation de la CI et réévaluation de la valeur ajoutée des outils payants</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li7" datatype="html">
+        <source>Mise en place des ADR (Architecture Decision Records)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.li8" datatype="html">
+        <source>Utilisation quotidienne de l&apos;IA (Claude Code / Copilot / Mistral) pour accélérer le développement, pour l&apos;aide au débug, pour refactoriser, pour travailler sur du back-end, ou en mode &quot;teacher&quot; pour approfondir un sujet technique</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.legend" datatype="html">
+        <source>Avanade (ESN) (2022 – 2023)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.team1" datatype="html">
+        <source>Somei / VEOLIA - équipe de 20 personnes - équipe tech de 15 personnes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li1" datatype="html">
+        <source>Portage du front-end d&apos;une application ASP.NET vers Angular</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li2" datatype="html">
+        <source>Création de composants réutilisables</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li3" datatype="html">
+        <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> des écrans et développement des fonctionnalités</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li4" datatype="html">
+        <source>Correction des bugs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li5" datatype="html">
+        <source>Proposition et mise en place de normes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.team2" datatype="html">
+        <source>Projets internes Avanade - équipe front-end : 10 personnes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li6" datatype="html">
+        <source>Création d&apos;outils internes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li7" datatype="html">
+        <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> de maquettes Adobe XD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li8" datatype="html">
+        <source>Travail sur le Design System interne (conception, développement et mise à jour des composants)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.fullstackDevShort" datatype="html">
+        <source>Développeuse fullstack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.legend" datatype="html">
+        <source>GOOD Vibes (2021 – 2022)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.teamOf2" datatype="html">
+        <source>Équipe de 2 personnes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">57,59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li1" datatype="html">
+        <source>Refonte du <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link [href]=&quot;&apos;https://goodvibes.news/&apos;&quot; [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;&gt;"/>site vitrine<x id="CLOSE_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;/app-external-link&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li2" datatype="html">
+        <source>Développement des améliorations et évolutions front-end de l&apos;application</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li3" datatype="html">
+        <source>Améliorations back-end de la plateforme produit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li4" datatype="html">
+        <source>CI/CD, déploiement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li5" datatype="html">
+        <source>Implémentation de tests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li6" datatype="html">
+        <source>Suivi des erreurs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li7" datatype="html">
+        <source>Maquettage / design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li8" datatype="html">
+        <source>Amélioration continue : gestion de projets, documentation du code, amélioration des processus internes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li9" datatype="html">
+        <source>Correction du contenu éditorial : orthographe et vérification des traductions FR ⇔ EN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.webProjectManager" datatype="html">
+        <source>Chargée de projets web</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.legend" datatype="html">
+        <source>Visigo (2021 – 2022)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li1" datatype="html">
+        <source>Définition et application de la stratégie SEO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li2" datatype="html">
+        <source>Maintenance du site internet : refonte de pages, corrections (responsive, orthographe, syntaxe, etc.)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li3" datatype="html">
+        <source>Gestion des projets web de l&apos;agence</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li4" datatype="html">
+        <source>Implémentation de nouveaux outils, formation et acculturation digitale de l&apos;équipe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">84,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.personalDev" datatype="html">
+        <source>Développement personnel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.legend" datatype="html">
+        <source>(2018 – 2021)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">95,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li1" datatype="html">
+        <source>Voyages et Permis Vacances-Travail (Europe, USA, Canada)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li2" datatype="html">
+        <source>Co-fondation et développement de Pourvoir Féministe, think tank politique</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li3" datatype="html">
+        <source>Bénévolat au sein de diverses associations et collectifs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">99,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li4" datatype="html">
+        <source>Projets musicaux et projets personnels</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li5" datatype="html">
+        <source>Reconversion professionnelle dans le <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>développement web<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Autoformation (freecodecamp, CodeCademy), obtention de certifications (HTML, CSS), bootcamp Développement web fullstack : HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>(&quot;MERN stack&quot;)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">101,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.commsManager" datatype="html">
+        <source>Chargée de projets, communication, et événements</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.legend" datatype="html">
+        <source>BNP Paribas (2015 – 2018)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">111,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li1" datatype="html">
+        <source>Développement des outils numériques internes (ex : architecture, design, et mise en place du réseau social interne) et formation des collaborateur·ices</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li2" datatype="html">
+        <source>Organisation d&apos;événements : jusqu&apos;à 130 par an, de 10 à 150 participant·es (logistique, communication, gestion <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>in situ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">114,115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li3" datatype="html">
+        <source>Création d&apos;outils réutilisables, développement des processus et amélioration continue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">115,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li4" datatype="html">
+        <source>Webmastering du site intranet et mise à jour du site internet : rédaction, correction, traduction FR ⇔ EN, illustration, et mise en ligne du contenu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.sectionTitle" datatype="html">
+        <source>Expérience professionnelle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.otherExperiencesLabel" datatype="html">
+        <source>Voir plus d&apos;expériences</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.dates" datatype="html">
+        <source>avril 2024 - aujourd&apos;hui</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p1" datatype="html">
+        <source>Cap Collectif développe des outils open source d&apos;intelligence collective, sous la forme d&apos;un SaaS.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p2" datatype="html">
+        <source>Les différentes applications du produit : budget participatif, questionnaire, débat, boîte à idées, consultation, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p3" datatype="html">
+        <source>⭐️ Ma valeur ajoutée : la proactivité dans la réduction de la dette technique, la réduction des coûts, et l&apos;amélioration de l&apos;expérience Développeuse.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p4" datatype="html">
+        <source>📌 Une initiative : j&apos;ai suggéré et pris en charge la correction régulière des failles de sécurité.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p5" datatype="html">
+        <source>📌 Une optimisation clé : j&apos;ai réorganisé les tests et corrigé &quot;flaky&quot; en priorisant ceux qui échouaient le plus fréquemment, ce qui a permis d&apos;économiser des crédits CI, et de faire gagner du temps à l&apos;équipe tech au quotidien (diminution de 33% de la durée moyenne d&apos;une CI).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p6" datatype="html">
+        <source>📌 Une amélioration invisible mais impactante : en supprimant les sources de variabilité comme les images aléatoires et les dates dynamiques dans Storybook, j&apos;ai réduit les faux positifs dans les tests visuels. Cela a permis de diminuer le besoin de validations manuelles.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p7" datatype="html">
+        <source>📌 Une tâche challengeante : le remplacement de l&apos;outil de bundle du Design System, non-maintenu (TSDX) par Rollup.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p8" datatype="html">
+        <source>Recrutée au poste de développeuse front-end, je n&apos;ai pas hésité à me porter volontaire pour des tâches back-end, avec l&apos;assistance de l&apos;IA, afin de réduire la charge de travail de l&apos;équipe.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.agileRituals" datatype="html">
+        <source>Rituels Agiles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.dates" datatype="html">
+        <source>septembre 2022 - décembre 2023</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p1" datatype="html">
+        <source>Avanade est une ESN, joint-venture entre Microsoft et Accenture</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p2" datatype="html">
+        <source>📌 De décembre 2022 à décembre 2023 (pour VEOLIA et la Société des Eaux de Marseille) : portage en Angular d&apos;une application web existante permettant de gérer les abonnements en eau sur toute la France.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p3" datatype="html">
+        <source>L&apos;application permet la gestion des données relatives aux clientes et clients, aux interventions, aux contrats, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p4" datatype="html">
+        <source>⭐️ Ma valeur ajoutée : proposer l&apos;adoption de normes (git flow, conventional commits, approche design system, conventions de nommage, etc.) et l&apos;uniformisation du code, nécessaires sur un projet d&apos;une telle ampleur.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p5" datatype="html">
+        <source>📌 Avant décembre 2022 (en interne) : j&apos;ai participé au développement de divers outils et applications.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.fullstackDev" datatype="html">
+        <source>Développeuse web fullstack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.dates" datatype="html">
+        <source>Juillet 2021 - juillet 2022</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p1" datatype="html">
+        <source>GOOD Vibes est un système d&apos;envoi de vidéos personnalisées pour les entreprises, par e-mail et sms.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p2" datatype="html">
+        <source>Le produit comporte une plate-forme admin, qui permet de créer une playlist et de gérer les envois, ainsi qu&apos;un player vidéo interactif.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p3" datatype="html">
+        <source>J&apos;ai travaillé sur 3 projets : la refonte du site vitrine, l&apos;amélioration de la plate-forme, et l&apos;amélioration du &quot;player&quot; (le lecteur vidéo et son écosystème).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p4" datatype="html">
+        <source>📌 Le site vitrine a été réalisé en ReactJS.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p5" datatype="html">
+        <source>📌 Les améliorations front-end ont consisté en la proposition de nouvelles maquettes (réalisées sur Figma), ensuite développées en ReactJS et SCSS avec Storybook, ainsi que le développement d&apos;une galerie de composants réutilisables. Pour éviter toute régression visuelle, une validation des écrans sur Chromatic était obligatoire.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p6" datatype="html">
+        <source>📌 Côté back-end, il s&apos;agissait de correction de bugs.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p7" datatype="html">
+        <source>Chaque fonctionnalité était testée (Cypress &amp; Jest) au moment du développement, et les erreurs monitorées sur Sentry.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p8" datatype="html">
+        <source>📌 J&apos;ai mis à profit mes compétences en gestion de projet pour améliorer les processus internes et la documentation du code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.stack.asyncWork" datatype="html">
+        <source>Travail asynchrone France - USA</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.dates" datatype="html">
+        <source>Juillet 2021 - juillet 2022</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p1" datatype="html">
+        <source>📌 J&apos;ai œuvré à la mise à jour et l&apos;optimisation du site internet.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p2" datatype="html">
+        <source>Avec l&apos;aide d&apos;un consultant spécialisé, j&apos;ai effectué un diagnostic de l&apos;existant et cherché les améliorations possibles pour le référencement, notamment avec les outils de la suite Google (Lighthouse, Search Console, Analytics).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p3" datatype="html">
+        <source>J&apos;ai travaillé avec une graphiste à la refonte de certaines pages, que j&apos;ai mises à jour en implémentant les nouveaux designs et en améliorant le responsive design.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p4" datatype="html">
+        <source>J&apos;ai également corrigé et amélioré le contenu éditorial (notamment la syntaxe et l&apos;orthographe).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p5" datatype="html">
+        <source>📌 Afin d&apos;améliorer la fluidité des processus internes, j&apos;ai mis en place de nouveaux outils, et formé l&apos;équipe à leur utilisation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.seo" datatype="html">
+        <source>Référencement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.dates" datatype="html">
+        <source>Novembre 2018 - juillet 2021</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p1" datatype="html">
+        <source>📌 Après l&apos;obtention de mon Master, j&apos;ai souhaité faire une année de césure afin de voyager et de développer mes projets personnels.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p2" datatype="html">
+        <source>Mon visa Vacances-Travail en poche, je me suis rendue au Canada pour 2 ans (durée raccourcie en raison de la pandémie 😷). Sur place, j&apos;ai voyagé et occupé divers postes : commise en boulangerie, professoresse de français (pour anglophones), et nanny dans une famille Canadienne.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p3" datatype="html">
+        <source>J&apos;ai été guitariste dans un groupe de rock 60&apos;s à Montréal, et chanteuse-guitariste dans un duo de bluegrass (musique traditionnelle américaine).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p4" datatype="html">
+        <source>Durant ces deux années, j&apos;ai voyagé seule au Canada, aux Etats-Unis, en Europe, et en France.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p5" datatype="html">
+        <source>📌 De retour du Canada, j&apos;ai co-fondé l&apos;association Pourvoir Féministe, laboratoire d&apos;idées et d&apos;actions, en lien avec des chercheuses et spécialistes des questions politiques et féministes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p6" datatype="html">
+        <source>📌 J&apos;ai également participé à l&apos;organisation et la coordination d&apos;événements féministes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p7" datatype="html">
+        <source>📌 C&apos;est durant cette période que j&apos;ai commencé à m&apos;autoformer afin de lancer ma reconversion professionnelle et de devenir développeuse web.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.volunteering" datatype="html">
+        <source>Bénévolat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.travel" datatype="html">
+        <source>Voyages</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.projectDev" datatype="html">
+        <source>Développement de projets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.eventOrg" datatype="html">
+        <source>Organisation d&apos;événements</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.docWriting" datatype="html">
+        <source>Rédaction de documents</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.frenchLessons" datatype="html">
+        <source>Cours de français</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.guitarSinging" datatype="html">
+        <source>Guitare &amp; chant</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.dates" datatype="html">
+        <source>Septembre 2015 - octobre 2018</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p1" datatype="html">
+        <source>Poste occupé dans 3 entités différentes du Groupe. A chaque fois, en charge de l&apos;organisation de nombreux événements ainsi que de la communication digitale.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p2" datatype="html">
+        <source>📌 A la Fondation (mécénat d&apos;entreprise) - de 2017 à 2018</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p3" datatype="html">
+        <source>J&apos;ai organisé plus de 130 soirées de relations publiques partout en France (et quelques événements à l&apos;étranger) : concerts et festivals musicaux, avant-premières à l&apos;Opéra national de Paris, spectacles de cirque nouveau, magie nouvelle, danse contemporaine.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p4" datatype="html">
+        <source>J&apos;ai également participé à la création du Dansathon, premier hackathon mêlant danse et technologie, durant 3 jours, à Lyon (France), Liège (Belgique) et Londres (Royaume-Uni).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p5" datatype="html">
+        <source>En plus de ces missions, j&apos;ai participé au suivi du lien avec les artistes soutenu·es par la Fondation ainsi qu&apos;à la communication digitale autour de leurs actualités.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p6" datatype="html">
+        <source>📌 Chez LEGAL (fonction Juridique) - de 2016 à 2017</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p7" datatype="html">
+        <source>En charge de la production et publication quotidienne du contenu éditorial : entretiens, portraits, nouveautés et actualités juridiques, images d&apos;illustration, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p8" datatype="html">
+        <source>Je prenais également en charge l&apos;organisation des événements : séminaires, collectes caritatives, team buildings, journées d&apos;accueil, salons de recrutement, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p9" datatype="html">
+        <source>Afin d&apos;améliorer la fluidité du travail et la performance des équipes, j&apos;ai pu développer de nouveaux outils (tels que le réseau social interne) et former les équipes à son utilisation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p10" datatype="html">
+        <source>📌 Au sein de Group Procurement (fonction Achats) - de 2015 à 2016</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p11" datatype="html">
+        <source>En binôme avec ma responsable, j&apos;ai organisé tous les événements de la filière Achats en France et à l&apos;étranger pour le Groupe. Des événements caritatifs (collectes de dons et de fonds pour des associations nationales) aux séminaires avec les responsables Achats à l&apos;étranger, en passant par les journées d&apos;accueil des nouveaux et nouvelles arrivantes et les teams buildings des différentes équipes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p12" datatype="html">
+        <source>J&apos;ai également développé (architecture et design) le réseau social interne, promu son utilisation et formé les équipes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.internalExternalComms" datatype="html">
+        <source>Communication interne &amp; externe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.digitalCulture" datatype="html">
+        <source>Acculturation digitale</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.role.otherXp" datatype="html">
+        <source>Bénévolat et jobs étudiants</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.dates" datatype="html">
+        <source>Depuis 2010</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p1" datatype="html">
+        <source>📌 Vendeuse et auxiliaire d&apos;accueil (les week-ends et vacances scolaires) pendant mes études</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p2" datatype="html">
+        <source>📌 Baby-sitter (10 ans d&apos;expérience)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p3" datatype="html">
+        <source>📌 Photographe éditrice bénévole au sein d&apos;associations (concerts et événements)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p4" datatype="html">
+        <source>📌 Correctrice-relectrice bénévole pour divers médias</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p5" datatype="html">
+        <source>📌 Régie plateau bénévole d&apos;une compagnie de théâtre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p6" datatype="html">
+        <source>📌 Organisation de collectes (Restos du Coeur et Téléthon)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.responsibility" datatype="html">
+        <source>Sens des responsabilités</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.sharing" datatype="html">
+        <source>Sens du partage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.solidarity" datatype="html">
+        <source>Solidarité</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.photoEditing" datatype="html">
+        <source>Production &amp; édition d&apos;images</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.customerRelations" datatype="html">
+        <source>Relation client</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.autonomy" datatype="html">
+        <source>Autonomie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.stack.financialManagement" datatype="html">
+        <source>Gestion financière</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.ts</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.defaultButtonLabel" datatype="html">
+        <source>En savoir plus +</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/see-more-dialog/see-more-dialog.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="skills.hardSkillsHeading" datatype="html">
         <source>Savoir-faire</source>
         <context-group purpose="location">
@@ -259,14 +1254,14 @@
         <source>Toujours enthousiaste à l&apos;idée d&apos;allonger cette liste !</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
-          <context context-type="linenumber">25,28</context>
+          <context context-type="linenumber">29,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="skills.softSkillsHeading" datatype="html">
         <source>Savoir-être</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
-          <context context-type="linenumber">28,29</context>
+          <context context-type="linenumber">32,33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="skills.sectionTitle" datatype="html">

@@ -1,51 +1,23 @@
 <div>
-    <app-title [title]="'Expérience professionnelle'" />
+    <app-title [title]="sectionTitle" />
 
     <!-- DEV Capco -->
     <section>
         <span class="experience-header">
-            <h3>Développeuse web front-end</h3>
+            <h3 i18n="@@xp.role.frontEndDev">Développeuse web front-end</h3>
             <app-see-more-dialog [content]="detailsCapco"></app-see-more-dialog>
         </span>
-        <legend class="colored">Cap Collectif (2024 – aujourd'hui)</legend>
-        <h4>Équipe de 9 personnes - équipe tech de 6 personnes</h4>
+        <legend class="colored" i18n="@@xp.capco.legend">Cap Collectif (2024 – aujourd'hui)</legend>
+        <h4 i18n="@@xp.capco.team">Équipe de 9 personnes - équipe tech de 6 personnes</h4>
         <ul>
-            <li>
-                Développement de fonctionnalités, refontes techniques et
-                visuelles
-            </li>
-            <li>
-                Maintenance de la librairie de composants (Design System) sur
-                NPM
-            </li>
-            <li>
-                Amélioration de l’accessibilité : implémentation de nouveaux
-                patterns et nouvelles balises HTML, application des bonnes
-                pratiques, mise en oeuvre des retours d'audits, etc.
-            </li>
-            <li>
-                Réduction proactive de la dette technique : détection et
-                correction de bugs, refactorisations, mises à jour de sécurité,
-                montées de versions, amélioration de tests
-            </li>
-            <li>
-                Amélioration de l’expérience développeuse : modification des
-                configurations et des scripts, correction des tests “flaky” dans
-                la CI, correction de “faux diffs” dans les outils d’intégration
-                continue comme Chromatic pour réduire les validations manuelles,
-                etc.
-            </li>
-            <li>
-                Diminution des coûts variables : optimisation de la CI et
-                réévaluation de la valeur ajoutée des outils payants
-            </li>
-            <li>Mise en place des ADR (Architecture Decision Records)</li>
-            <li>
-                Utilisation quotidienne de l’IA (Claude Code / Copilot /
-                Mistral) pour accélérer le développement, pour l’aide au débug,
-                pour refactoriser, pour travailler sur du back-end, ou en mode
-                "teacher" pour approfondir un sujet technique
-            </li>
+            <li i18n="@@xp.capco.li1">Développement de fonctionnalités, refontes techniques et visuelles</li>
+            <li i18n="@@xp.capco.li2">Maintenance de la librairie de composants (Design System) sur NPM</li>
+            <li i18n="@@xp.capco.li3">Amélioration de l'accessibilité : implémentation de nouveaux patterns et nouvelles balises HTML, application des bonnes pratiques, mise en oeuvre des retours d'audits, etc.</li>
+            <li i18n="@@xp.capco.li4">Réduction proactive de la dette technique : détection et correction de bugs, refactorisations, mises à jour de sécurité, montées de versions, amélioration de tests</li>
+            <li i18n="@@xp.capco.li5">Amélioration de l'expérience développeuse : modification des configurations et des scripts, correction des tests "flaky" dans la CI, correction de "faux diffs" dans les outils d'intégration continue comme Chromatic pour réduire les validations manuelles, etc.</li>
+            <li i18n="@@xp.capco.li6">Diminution des coûts variables : optimisation de la CI et réévaluation de la valeur ajoutée des outils payants</li>
+            <li i18n="@@xp.capco.li7">Mise en place des ADR (Architecture Decision Records)</li>
+            <li i18n="@@xp.capco.li8">Utilisation quotidienne de l'IA (Claude Code / Copilot / Mistral) pour accélérer le développement, pour l'aide au débug, pour refactoriser, pour travailler sur du back-end, ou en mode "teacher" pour approfondir un sujet technique</li>
         </ul>
         <app-stack [stack]="detailsCapco.stack" />
     </section>
@@ -53,35 +25,24 @@
     <!-- DEV AVANADE -->
     <section>
         <span class="experience-header">
-            <h3>Développeuse web front-end</h3>
-            <app-see-more-dialog
-                [content]="detailsAvanade"
-            ></app-see-more-dialog>
+            <h3 i18n="@@xp.role.frontEndDev">Développeuse web front-end</h3>
+            <app-see-more-dialog [content]="detailsAvanade"></app-see-more-dialog>
         </span>
-        <legend class="colored">Avanade (ESN) (2022 – 2023)</legend>
-        <h4>
-            Somei / VEOLIA - équipe de 20 personnes - équipe tech de 15
-            personnes
-        </h4>
+        <legend class="colored" i18n="@@xp.avanade.legend">Avanade (ESN) (2022 – 2023)</legend>
+        <h4 i18n="@@xp.avanade.team1">Somei / VEOLIA - équipe de 20 personnes - équipe tech de 15 personnes</h4>
         <ul>
-            <li>Portage du front-end d’une application ASP.NET vers Angular</li>
-            <li>Création de composants réutilisables</li>
-            <li>
-                Réalisation <i>pixel perfect</i> des écrans et développement des
-                fonctionnalités
-            </li>
-            <li>Correction des bugs</li>
-            <li>Proposition et mise en place de normes</li>
+            <li i18n="@@xp.avanade.li1">Portage du front-end d'une application ASP.NET vers Angular</li>
+            <li i18n="@@xp.avanade.li2">Création de composants réutilisables</li>
+            <li i18n="@@xp.avanade.li3">Réalisation <i>pixel perfect</i> des écrans et développement des fonctionnalités</li>
+            <li i18n="@@xp.avanade.li4">Correction des bugs</li>
+            <li i18n="@@xp.avanade.li5">Proposition et mise en place de normes</li>
         </ul>
         <br />
-        <h4>Projets internes Avanade - équipe front-end : 10 personnes</h4>
+        <h4 i18n="@@xp.avanade.team2">Projets internes Avanade - équipe front-end : 10 personnes</h4>
         <ul>
-            <li>Création d'outils internes</li>
-            <li>Réalisation <i>pixel perfect</i> de maquettes Adobe XD</li>
-            <li>
-                Travail sur le Design System interne (conception, développement
-                et mise à jour des composants)
-            </li>
+            <li i18n="@@xp.avanade.li6">Création d'outils internes</li>
+            <li i18n="@@xp.avanade.li7">Réalisation <i>pixel perfect</i> de maquettes Adobe XD</li>
+            <li i18n="@@xp.avanade.li8">Travail sur le Design System interne (conception, développement et mise à jour des composants)</li>
         </ul>
         <app-stack [stack]="detailsAvanade.stack" />
     </section>
@@ -89,44 +50,21 @@
     <!-- DEV GOOD VIBES -->
     <section>
         <span class="experience-header">
-            <h3>Développeuse fullstack</h3>
-            <app-see-more-dialog
-                [content]="detailsGoodVibes"
-            ></app-see-more-dialog>
+            <h3 i18n="@@xp.role.fullstackDevShort">Développeuse fullstack</h3>
+            <app-see-more-dialog [content]="detailsGoodVibes"></app-see-more-dialog>
         </span>
-        <legend class="colored">GOOD Vibes (2021 – 2022)</legend>
-        <h4>Équipe de 2 personnes</h4>
+        <legend class="colored" i18n="@@xp.goodVibes.legend">GOOD Vibes (2021 – 2022)</legend>
+        <h4 i18n="@@xp.teamOf2">Équipe de 2 personnes</h4>
         <ul>
-            <li>
-                Refonte du
-                <app-external-link
-                    [href]="'https://goodvibes.news/'"
-                    [ariaLabel]="'GOOD Vibes'"
-                >
-                    site vitrine
-                </app-external-link>
-            </li>
-            <li>
-                Développement des améliorations et évolutions front-end de
-                l'application
-            </li>
-            <li>Améliorations back-end de la plateforme produit</li>
-            <li>CI/CD, déploiement</li>
-
-            <li>Implémentation de tests</li>
-            <li>Suivi des erreurs</li>
-
-            <li>Maquettage / design</li>
-
-            <li>
-                Amélioration continue : gestion de projets, documentation du
-                code, amélioration des processus internes
-            </li>
-
-            <li>
-                Correction du contenu éditorial : orthographe et vérification
-                des traductions FR&nbsp;⇔&nbsp;EN
-            </li>
+            <li i18n="@@xp.goodVibes.li1">Refonte du <app-external-link [href]="'https://goodvibes.news/'" [ariaLabel]="'GOOD Vibes'">site vitrine</app-external-link></li>
+            <li i18n="@@xp.goodVibes.li2">Développement des améliorations et évolutions front-end de l'application</li>
+            <li i18n="@@xp.goodVibes.li3">Améliorations back-end de la plateforme produit</li>
+            <li i18n="@@xp.goodVibes.li4">CI/CD, déploiement</li>
+            <li i18n="@@xp.goodVibes.li5">Implémentation de tests</li>
+            <li i18n="@@xp.goodVibes.li6">Suivi des erreurs</li>
+            <li i18n="@@xp.goodVibes.li7">Maquettage / design</li>
+            <li i18n="@@xp.goodVibes.li8">Amélioration continue : gestion de projets, documentation du code, amélioration des processus internes</li>
+            <li i18n="@@xp.goodVibes.li9">Correction du contenu éditorial : orthographe et vérification des traductions FR&nbsp;⇔&nbsp;EN</li>
         </ul>
         <app-stack [stack]="detailsGoodVibes.stack" />
     </section>
@@ -134,24 +72,16 @@
     <!-- DEV VISIGO -->
     <section>
         <span class="experience-header">
-            <h3>Chargée de projets web</h3>
-            <app-see-more-dialog
-                [content]="detailsVisigo"
-            ></app-see-more-dialog>
+            <h3 i18n="@@xp.role.webProjectManager">Chargée de projets web</h3>
+            <app-see-more-dialog [content]="detailsVisigo"></app-see-more-dialog>
         </span>
-        <legend class="colored">Visigo (2021 – 2022)</legend>
-        <h4>Équipe de 2 personnes</h4>
+        <legend class="colored" i18n="@@xp.visigo.legend">Visigo (2021 – 2022)</legend>
+        <h4 i18n="@@xp.teamOf2">Équipe de 2 personnes</h4>
         <ul>
-            <li>Définition et application de la stratégie SEO</li>
-            <li>
-                Maintenance du site internet : refonte de pages, corrections
-                (responsive, orthographe, syntaxe, etc.)
-            </li>
-            <li>Gestion des projets web de l'agence</li>
-            <li>
-                Implémentation de nouveaux outils, formation et acculturation
-                digitale de l'équipe
-            </li>
+            <li i18n="@@xp.visigo.li1">Définition et application de la stratégie SEO</li>
+            <li i18n="@@xp.visigo.li2">Maintenance du site internet : refonte de pages, corrections (responsive, orthographe, syntaxe, etc.)</li>
+            <li i18n="@@xp.visigo.li3">Gestion des projets web de l'agence</li>
+            <li i18n="@@xp.visigo.li4">Implémentation de nouveaux outils, formation et acculturation digitale de l'équipe</li>
         </ul>
         <app-stack [stack]="detailsVisigo.stack" />
     </section>
@@ -159,69 +89,37 @@
     <!-- DEVELOPPEMENT PERSONNEL -->
     <section>
         <span class="experience-header">
-            <h3>Développement personnel</h3>
-            <app-see-more-dialog
-                [content]="detailsGapYear"
-            ></app-see-more-dialog>
+            <h3 i18n="@@xp.role.personalDev">Développement personnel</h3>
+            <app-see-more-dialog [content]="detailsGapYear"></app-see-more-dialog>
         </span>
-        <legend class="colored">(2018 – 2021)</legend>
+        <legend class="colored" i18n="@@xp.gapYear.legend">(2018 – 2021)</legend>
         <ul>
-            <li>Voyages et Permis Vacances-Travail (Europe, USA, Canada)</li>
-            <li>
-                Co-fondation et développement de Pourvoir Féministe, think tank
-                politique
-            </li>
-            <li>Bénévolat au sein de diverses associations et collectifs</li>
-            <li>Projets musicaux et projets personnels</li>
-            <li>
-                Reconversion professionnelle dans le
-                <em>développement web</em>. Autoformation (freecodecamp,
-                CodeCademy), obtention de certifications (HTML, CSS), bootcamp
-                Développement web fullstack : HTML, CSS, JavaScript, React,
-                Node.js, MongoDB, ExpressJS
-                <span class="italic">("MERN stack")</span>.
-            </li>
+            <li i18n="@@xp.gapYear.li1">Voyages et Permis Vacances-Travail (Europe, USA, Canada)</li>
+            <li i18n="@@xp.gapYear.li2">Co-fondation et développement de Pourvoir Féministe, think tank politique</li>
+            <li i18n="@@xp.gapYear.li3">Bénévolat au sein de diverses associations et collectifs</li>
+            <li i18n="@@xp.gapYear.li4">Projets musicaux et projets personnels</li>
+            <li i18n="@@xp.gapYear.li5">Reconversion professionnelle dans le <em>développement web</em>. Autoformation (freecodecamp, CodeCademy), obtention de certifications (HTML, CSS), bootcamp Développement web fullstack : HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <span class="italic">("MERN stack")</span>.</li>
         </ul>
     </section>
 
     <!-- COMMUNICATION -->
     <section>
         <span class="experience-header">
-            <h3>Chargée de projets, communication, et événements</h3>
-            <app-see-more-dialog
-                [content]="detailsBnpParibas"
-            ></app-see-more-dialog>
+            <h3 i18n="@@xp.role.commsManager">Chargée de projets, communication, et événements</h3>
+            <app-see-more-dialog [content]="detailsBnpParibas"></app-see-more-dialog>
         </span>
-        <legend class="colored">BNP Paribas (2015 – 2018)</legend>
+        <legend class="colored" i18n="@@xp.bnp.legend">BNP Paribas (2015 – 2018)</legend>
         <ul>
-            <li>
-                Développement des outils numériques internes (ex : architecture,
-                design, et mise en place du réseau social interne) et formation
-                des collaborateur·ices
-            </li>
-
-            <li>
-                Organisation d’événements : jusqu’à 130 par an, de 10 à 150
-                participant·es (logistique, communication, gestion
-                <span class="italic">in situ</span>)
-            </li>
-
-            <li>
-                Création d'outils réutilisables, développement des processus et
-                amélioration continue
-            </li>
-
-            <li>
-                Webmastering du site intranet et mise à jour du site internet :
-                rédaction, correction, traduction FR&nbsp;⇔&nbsp;EN,
-                illustration, et mise en ligne du contenu
-            </li>
+            <li i18n="@@xp.bnp.li1">Développement des outils numériques internes (ex : architecture, design, et mise en place du réseau social interne) et formation des collaborateur·ices</li>
+            <li i18n="@@xp.bnp.li2">Organisation d'événements : jusqu'à 130 par an, de 10 à 150 participant·es (logistique, communication, gestion <span class="italic">in situ</span>)</li>
+            <li i18n="@@xp.bnp.li3">Création d'outils réutilisables, développement des processus et amélioration continue</li>
+            <li i18n="@@xp.bnp.li4">Webmastering du site intranet et mise à jour du site internet : rédaction, correction, traduction FR&nbsp;⇔&nbsp;EN, illustration, et mise en ligne du contenu</li>
         </ul>
     </section>
     <section>
         <app-see-more-dialog
             [content]="detailsOtherExperiences"
-            [buttonLabel]="'Voir plus d\'expériences'"
+            [buttonLabel]="otherExperiencesLabel"
         ></app-see-more-dialog>
     </section>
 </div>

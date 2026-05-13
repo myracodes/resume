@@ -2,6 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="app.title" datatype="html">
+        <source>Software Engineer</source>
+        <target>Software Engineer</target>
+      </trans-unit>
+      <trans-unit id="app.subtitle" datatype="html">
+        <source>5 années d'expérience</source>
+        <target>5 years of experience</target>
+      </trans-unit>
       <trans-unit id="common.colon" datatype="html">
         <source> : </source>
         <target>: </target>
@@ -244,7 +252,565 @@
       </trans-unit>
       <trans-unit id="activities.theatre" datatype="html">
         <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Théâtre :<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classique, opéra, stand-up, comédie musicale...</source>
-        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Theater:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classical, opera, stand-up, musical comedy...</target>
+        <target><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Theater:<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> vaudeville, classical, opera, stand-up, musical...</target>
+      </trans-unit>
+      <trans-unit id="dialog.defaultButtonLabel" datatype="html">
+        <source>En savoir plus +</source>
+        <target>Learn more +</target>
+      </trans-unit>
+      <trans-unit id="xp.sectionTitle" datatype="html">
+        <source>Expérience professionnelle</source>
+        <target>Professional experience</target>
+      </trans-unit>
+      <trans-unit id="xp.otherExperiencesLabel" datatype="html">
+        <source>Voir plus d'expériences</source>
+        <target>See more experience</target>
+      </trans-unit>
+      <!-- Roles -->
+      <trans-unit id="xp.role.frontEndDev" datatype="html">
+        <source>Software Engineer</source>
+        <target>Software Engineer</target>
+      </trans-unit>
+      <trans-unit id="xp.role.fullstackDev" datatype="html">
+        <source>Développeuse web full-stack</source>
+        <target>Full-stack web developer</target>
+      </trans-unit>
+      <trans-unit id="xp.role.fullstackDevShort" datatype="html">
+        <source>Développeuse full-stack</source>
+        <target>Full-stack developer</target>
+      </trans-unit>
+      <trans-unit id="xp.role.webProjectManager" datatype="html">
+        <source>Chargée de projets web</source>
+        <target>Web project manager</target>
+      </trans-unit>
+      <trans-unit id="xp.role.personalDev" datatype="html">
+        <source>Développement personnel</source>
+        <target>Personal development</target>
+      </trans-unit>
+      <trans-unit id="xp.role.commsManager" datatype="html">
+        <source>Chargée de projets, communication, et événements</source>
+        <target>Projects, communications, and events manager</target>
+      </trans-unit>
+      <trans-unit id="xp.role.otherXp" datatype="html">
+        <source>Bénévolat et jobs étudiants</source>
+        <target>Volunteering and student jobs</target>
+      </trans-unit>
+      <!-- Legends -->
+      <trans-unit id="xp.capco.legend" datatype="html">
+        <source>Cap Collectif (2024 – aujourd'hui)</source>
+        <target>Cap Collectif (2024 – present)</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.legend" datatype="html">
+        <source>Avanade (ESN) (2022 – 2023)</source>
+        <target>Avanade (ESN) (2022 – 2023)</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.legend" datatype="html">
+        <source>GOOD Vibes (2021 – 2022)</source>
+        <target>GOOD Vibes (2021 – 2022)</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.legend" datatype="html">
+        <source>Visigo (2021 – 2022)</source>
+        <target>Visigo (2021 – 2022)</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.legend" datatype="html">
+        <source>(2018 – 2021)</source>
+        <target>(2018 – 2021)</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.legend" datatype="html">
+        <source>BNP Paribas (2015 – 2018)</source>
+        <target>BNP Paribas (2015 – 2018)</target>
+      </trans-unit>
+      <!-- Team descriptions -->
+      <trans-unit id="xp.capco.team" datatype="html">
+        <source>Équipe de 9 personnes - équipe tech de 6 personnes</source>
+        <target>Team of 9 – tech team of 6</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.team1" datatype="html">
+        <source>Somei / VEOLIA - équipe de 20 personnes - équipe tech de 15 personnes</source>
+        <target>Somei / VEOLIA – team of 20 – tech team of 15</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.team2" datatype="html">
+        <source>Projets internes Avanade - équipe front-end : 10 personnes</source>
+        <target>Internal Avanade projects – front-end team of 10</target>
+      </trans-unit>
+      <trans-unit id="xp.teamOf2" datatype="html">
+        <source>Équipe de 2 personnes</source>
+        <target>Team of 2</target>
+      </trans-unit>
+      <!-- Cap Collectif bullet points -->
+      <trans-unit id="xp.capco.li1" datatype="html">
+        <source>Développement de fonctionnalités, refontes techniques et visuelles</source>
+        <target>Feature development, technical and visual refactoring</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li2" datatype="html">
+        <source>Maintenance de la librairie de composants (Design System) sur NPM</source>
+        <target>Component library (Design System) maintenance on NPM</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li3" datatype="html">
+        <source>Amélioration de l'accessibilité : implémentation de nouveaux patterns et nouvelles balises HTML, application des bonnes pratiques, mise en oeuvre des retours d'audits, etc.</source>
+        <target>Accessibility improvements: implementing new patterns and HTML elements, applying best practices, acting on audit feedback, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li4" datatype="html">
+        <source>Réduction proactive de la dette technique : détection et correction de bugs, refactorisations, mises à jour de sécurité, montées de versions, amélioration de tests</source>
+        <target>Proactive technical debt reduction: bug detection and fixes, refactoring, security updates, version upgrades, test improvements</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li5" datatype="html">
+        <source>Amélioration de l'expérience développeuse : modification des configurations et des scripts, correction des tests "flaky" dans la CI, correction de "faux diffs" dans les outils d'intégration continue comme Chromatic pour réduire les validations manuelles, etc.</source>
+        <target>Developer experience improvements: updating configurations and scripts, fixing flaky tests in CI, fixing false diffs in continuous integration tools like Chromatic to reduce manual validations, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li6" datatype="html">
+        <source>Diminution des coûts variables : optimisation de la CI et réévaluation de la valeur ajoutée des outils payants</source>
+        <target>Variable cost reduction: CI optimization and re-evaluation of paid tools' added value</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li7" datatype="html">
+        <source>Mise en place des ADR (Architecture Decision Records)</source>
+        <target>Implementation of ADRs (Architecture Decision Records)</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.li8" datatype="html">
+        <source>Utilisation quotidienne de l'IA (Claude Code / Copilot / Mistral) pour accélérer le développement, pour l'aide au débug, pour refactoriser, pour travailler sur du back-end, ou en mode "teacher" pour approfondir un sujet technique</source>
+        <target>Daily AI use (Claude Code / Copilot / Mistral) to speed up development, help with debugging, refactoring, back-end work, or in "teacher" mode to go deeper on a technical topic</target>
+      </trans-unit>
+      <!-- Avanade bullet points -->
+      <trans-unit id="xp.avanade.li1" datatype="html">
+        <source>Portage du front-end d'une application ASP.NET vers Angular</source>
+        <target>Migrating the front-end of an ASP.NET application to Angular</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li2" datatype="html">
+        <source>Création de composants réutilisables</source>
+        <target>Building reusable components</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li3" datatype="html">
+        <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> des écrans et développement des fonctionnalités</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Pixel-perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> screen implementation and feature development</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li4" datatype="html">
+        <source>Correction des bugs</source>
+        <target>Bug fixing</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li5" datatype="html">
+        <source>Proposition et mise en place de normes</source>
+        <target>Proposing and implementing coding standards</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li6" datatype="html">
+        <source>Création d'outils internes</source>
+        <target>Building internal tools</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li7" datatype="html">
+        <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> de maquettes Adobe XD</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Pixel-perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> implementation of Adobe XD mockups</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.li8" datatype="html">
+        <source>Travail sur le Design System interne (conception, développement et mise à jour des composants)</source>
+        <target>Work on the internal Design System (design, development, and component updates)</target>
+      </trans-unit>
+      <!-- GOOD Vibes bullet points -->
+      <trans-unit id="xp.goodVibes.li1" datatype="html">
+        <source>Refonte du <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link [href]=&quot;&apos;https://goodvibes.news/&apos;&quot; [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;&gt;"/>site vitrine<x id="CLOSE_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;/app-external-link&gt;"/></source>
+        <target>Redesign of the <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link [href]=&quot;&apos;https://goodvibes.news/&apos;&quot; [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;&gt;"/>showcase website<x id="CLOSE_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;/app-external-link&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li2" datatype="html">
+        <source>Développement des améliorations et évolutions front-end de l'application</source>
+        <target>Front-end improvements and new feature development</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li3" datatype="html">
+        <source>Améliorations back-end de la plateforme produit</source>
+        <target>Back-end improvements to the product platform</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li4" datatype="html">
+        <source>CI/CD, déploiement</source>
+        <target>CI/CD, deployment</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li5" datatype="html">
+        <source>Implémentation de tests</source>
+        <target>Test implementation</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li6" datatype="html">
+        <source>Suivi des erreurs</source>
+        <target>Error monitoring</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li7" datatype="html">
+        <source>Maquettage / design</source>
+        <target>Prototyping / design</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li8" datatype="html">
+        <source>Amélioration continue : gestion de projets, documentation du code, amélioration des processus internes</source>
+        <target>Continuous improvement: project management, code documentation, internal process improvements</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.li9" datatype="html">
+        <source>Correction du contenu éditorial : orthographe et vérification des traductions FR&nbsp;⇔&nbsp;EN</source>
+        <target>Editorial content corrections: spelling and FR&nbsp;⇔&nbsp;EN translation review</target>
+      </trans-unit>
+      <!-- Visigo bullet points -->
+      <trans-unit id="xp.visigo.li1" datatype="html">
+        <source>Définition et application de la stratégie SEO</source>
+        <target>Defining and implementing the SEO strategy</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li2" datatype="html">
+        <source>Maintenance du site internet : refonte de pages, corrections (responsive, orthographe, syntaxe, etc.)</source>
+        <target>Website maintenance: page redesigns, corrections (responsive, spelling, syntax, etc.)</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li3" datatype="html">
+        <source>Gestion des projets web de l'agence</source>
+        <target>Managing the agency's web projects</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.li4" datatype="html">
+        <source>Implémentation de nouveaux outils, formation et acculturation digitale de l'équipe</source>
+        <target>Implementing new tools, team training, and digital culture development</target>
+      </trans-unit>
+      <!-- Gap year bullet points -->
+      <trans-unit id="xp.gapYear.li1" datatype="html">
+        <source>Voyages et Permis Vacances-Travail (Europe, USA, Canada)</source>
+        <target>Travel and Working Holiday Visa (Europe, USA, Canada)</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li2" datatype="html">
+        <source>Co-fondation et développement de Pourvoir Féministe, think tank politique</source>
+        <target>Co-founding and development of Pourvoir Féministe, a political think tank</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li3" datatype="html">
+        <source>Bénévolat au sein de diverses associations et collectifs</source>
+        <target>Volunteering within various associations and collectives</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li4" datatype="html">
+        <source>Projets musicaux et projets personnels</source>
+        <target>Music projects and personal projects</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.li5" datatype="html">
+        <source>Reconversion professionnelle dans le <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>développement web<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Autoformation (freecodecamp, CodeCademy), obtention de certifications (HTML, CSS), bootcamp Développement web fullstack : HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>(&quot;MERN stack&quot;)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>.</source>
+        <target>Career change into <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>web development<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Self-training (freeCodeCamp, CodeCademy), certifications (HTML, CSS), full-stack web development bootcamp: HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>("MERN stack")<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>.</target>
+      </trans-unit>
+      <!-- BNP Paribas bullet points -->
+      <trans-unit id="xp.bnp.li1" datatype="html">
+        <source>Développement des outils numériques internes (ex : architecture, design, et mise en place du réseau social interne) et formation des collaborateur·ices</source>
+        <target>Development of internal digital tools (e.g. architecture, design, and deployment of the internal social network) and employee training</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li2" datatype="html">
+        <source>Organisation d&apos;événements : jusqu&apos;à 130 par an, de 10 à 150 participant·es (logistique, communication, gestion <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>in situ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>)</source>
+        <target>Event organization: up to 130 per year, 10 to 150 attendees (logistics, communications, <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>on-site<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> management)</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li3" datatype="html">
+        <source>Création d'outils réutilisables, développement des processus et amélioration continue</source>
+        <target>Building reusable tools, process development, and continuous improvement</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.li4" datatype="html">
+        <source>Webmastering du site intranet et mise à jour du site internet : rédaction, correction, traduction FR&nbsp;⇔&nbsp;EN, illustration, et mise en ligne du contenu</source>
+        <target>Intranet webmastering and website updates: writing, editing, FR&nbsp;⇔&nbsp;EN translation, illustration, and content publishing</target>
+      </trans-unit>
+      <!-- Dialog dates -->
+      <trans-unit id="xp.capco.dialog.dates" datatype="html">
+        <source>avril 2024 - aujourd'hui</source>
+        <target>April 2024 - present</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.dates" datatype="html">
+        <source>septembre 2022 - décembre 2023</source>
+        <target>September 2022 - December 2023</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.dates" datatype="html">
+        <source>Juillet 2021 - juillet 2022</source>
+        <target>July 2021 - July 2022</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.dates" datatype="html">
+        <source>Juillet 2021 - juillet 2022</source>
+        <target>July 2021 - July 2022</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.dates" datatype="html">
+        <source>Novembre 2018 - juillet 2021</source>
+        <target>November 2018 - July 2021</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.dates" datatype="html">
+        <source>Septembre 2015 - octobre 2018</source>
+        <target>September 2015 - October 2018</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.dates" datatype="html">
+        <source>Depuis 2010</source>
+        <target>Since 2010</target>
+      </trans-unit>
+      <!-- Cap Collectif dialog paragraphs -->
+      <trans-unit id="xp.capco.dialog.p1" datatype="html">
+        <source>Cap Collectif développe des outils open source d'intelligence collective, sous la forme d'un SaaS.</source>
+        <target>Cap Collectif develops open source collective intelligence tools in the form of a SaaS.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p2" datatype="html">
+        <source>Les différentes applications du produit : budget participatif, questionnaire, débat, boîte à idées, consultation, etc.</source>
+        <target>The product's various applications: participatory budgeting, surveys, debate, idea box, consultation, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p3" datatype="html">
+        <source>⭐️ Ma valeur ajoutée : la proactivité dans la réduction de la dette technique, la réduction des coûts, et l'amélioration de l'expérience Développeuse.</source>
+        <target>⭐️ My added value: proactivity in reducing technical debt, cutting costs, and improving the developer experience.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p4" datatype="html">
+        <source>📌 Une initiative : j'ai suggéré et pris en charge la correction régulière des failles de sécurité.</source>
+        <target>📌 An initiative: I suggested and took ownership of regularly fixing security vulnerabilities.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p5" datatype="html">
+        <source>📌 Une optimisation clé : j'ai réorganisé les tests et corrigé "flaky" en priorisant ceux qui échouaient le plus fréquemment, ce qui a permis d'économiser des crédits CI, et de faire gagner du temps à l'équipe tech au quotidien (diminution de 33% de la durée moyenne d'une CI).</source>
+        <target>📌 A key optimization: I reorganized and fixed flaky tests by prioritizing the most frequently failing ones, saving CI credits and daily time for the tech team (33% reduction in average CI duration).</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p6" datatype="html">
+        <source>📌 Une amélioration invisible mais impactante : en supprimant les sources de variabilité comme les images aléatoires et les dates dynamiques dans Storybook, j'ai réduit les faux positifs dans les tests visuels. Cela a permis de diminuer le besoin de validations manuelles.</source>
+        <target>📌 An invisible but impactful improvement: by removing sources of variability such as random images and dynamic dates in Storybook, I reduced false positives in visual tests, decreasing the need for manual validations.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p7" datatype="html">
+        <source>📌 Une tâche challengeante : le remplacement de l'outil de bundle du Design System, non-maintenu (TSDX) par Rollup.</source>
+        <target>📌 A challenging task: replacing the unmaintained Design System bundler (TSDX) with Rollup.</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.dialog.p8" datatype="html">
+        <source>Recrutée au poste de développeuse front-end, je n'ai pas hésité à me porter volontaire pour des tâches back-end, avec l'assistance de l'IA, afin de réduire la charge de travail de l'équipe.</source>
+        <target>Hired as a front-end developer, I did not hesitate to volunteer for back-end tasks, with AI assistance, in order to reduce the team's workload.</target>
+      </trans-unit>
+      <!-- Avanade dialog paragraphs -->
+      <trans-unit id="xp.avanade.dialog.p1" datatype="html">
+        <source>Avanade est une ESN, joint-venture entre Microsoft et Accenture</source>
+        <target>Avanade is a consulting firm, a joint venture between Microsoft and Accenture.</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p2" datatype="html">
+        <source>📌 De décembre 2022 à décembre 2023 (pour VEOLIA et la Société des Eaux de Marseille) : portage en Angular d'une application web existante permettant de gérer les abonnements en eau sur toute la France.</source>
+        <target>📌 From December 2022 to December 2023 (for VEOLIA and the Société des Eaux de Marseille): migrating an existing web application to Angular for managing water subscriptions across France.</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p3" datatype="html">
+        <source>L'application permet la gestion des données relatives aux clientes et clients, aux interventions, aux contrats, etc.</source>
+        <target>The application manages data related to customers, service calls, contracts, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p4" datatype="html">
+        <source>⭐️ Ma valeur ajoutée : proposer l'adoption de normes (git flow, conventional commits, approche design system, conventions de nommage, etc.) et l'uniformisation du code, nécessaires sur un projet d'une telle ampleur.</source>
+        <target>⭐️ My added value: proposing the adoption of standards (git flow, conventional commits, design system approach, naming conventions, etc.) and code consistency, essential on a project of this scale.</target>
+      </trans-unit>
+      <trans-unit id="xp.avanade.dialog.p5" datatype="html">
+        <source>📌 Avant décembre 2022 (en interne) : j'ai participé au développement de divers outils et applications.</source>
+        <target>📌 Before December 2022 (internally): I contributed to the development of various internal tools and applications.</target>
+      </trans-unit>
+      <!-- GOOD Vibes dialog paragraphs -->
+      <trans-unit id="xp.goodVibes.dialog.p1" datatype="html">
+        <source>GOOD Vibes est un système d'envoi de vidéos personnalisées pour les entreprises, par e-mail et sms.</source>
+        <target>GOOD Vibes is a system for sending personalized videos to businesses, via email and SMS.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p2" datatype="html">
+        <source>Le produit comporte une plate-forme admin, qui permet de créer une playlist et de gérer les envois, ainsi qu'un player vidéo interactif.</source>
+        <target>The product includes an admin platform for creating playlists and managing sends, as well as an interactive video player.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p3" datatype="html">
+        <source>J'ai travaillé sur 3 projets : la refonte du site vitrine, l'amélioration de la plate-forme, et l'amélioration du "player" (le lecteur vidéo et son écosystème).</source>
+        <target>I worked on 3 projects: redesigning the showcase website, improving the platform, and improving the "player" (the video reader and its ecosystem).</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p4" datatype="html">
+        <source>📌 Le site vitrine a été réalisé en ReactJS.</source>
+        <target>📌 The showcase website was built with ReactJS.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p5" datatype="html">
+        <source>📌 Les améliorations front-end ont consisté en la proposition de nouvelles maquettes (réalisées sur Figma), ensuite développées en ReactJS et SCSS avec Storybook, ainsi que le développement d'une galerie de composants réutilisables. Pour éviter toute régression visuelle, une validation des écrans sur Chromatic était obligatoire.</source>
+        <target>📌 Front-end improvements consisted of proposing new mockups (designed in Figma), then developed in ReactJS and SCSS with Storybook, along with building a reusable component gallery. To prevent visual regressions, screen validation on Chromatic was mandatory.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p6" datatype="html">
+        <source>📌 Côté back-end, il s'agissait de correction de bugs.</source>
+        <target>📌 On the back-end side, the work consisted of bug fixing.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p7" datatype="html">
+        <source>Chaque fonctionnalité était testée (Cypress &amp; Jest) au moment du développement, et les erreurs monitorées sur Sentry.</source>
+        <target>Each feature was tested (Cypress &amp; Jest) at development time, and errors monitored on Sentry.</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.dialog.p8" datatype="html">
+        <source>📌 J'ai mis à profit mes compétences en gestion de projet pour améliorer les processus internes et la documentation du code.</source>
+        <target>📌 I leveraged my project management skills to improve internal processes and code documentation.</target>
+      </trans-unit>
+      <!-- Visigo dialog paragraphs -->
+      <trans-unit id="xp.visigo.dialog.p1" datatype="html">
+        <source>📌 J'ai œuvré à la mise à jour et l'optimisation du site internet.</source>
+        <target>📌 I worked on updating and optimizing the website.</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p2" datatype="html">
+        <source>Avec l'aide d'un consultant spécialisé, j'ai effectué un diagnostic de l'existant et cherché les améliorations possibles pour le référencement, notamment avec les outils de la suite Google (Lighthouse, Search Console, Analytics).</source>
+        <target>With the help of a specialist consultant, I audited the existing site and identified SEO improvements, using Google's suite of tools (Lighthouse, Search Console, Analytics).</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p3" datatype="html">
+        <source>J'ai travaillé avec une graphiste à la refonte de certaines pages, que j'ai mises à jour en implémentant les nouveaux designs et en améliorant le responsive design.</source>
+        <target>I worked with a graphic designer to redesign certain pages, which I updated by implementing the new designs and improving the responsive layout.</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p4" datatype="html">
+        <source>J'ai également corrigé et amélioré le contenu éditorial (notamment la syntaxe et l'orthographe).</source>
+        <target>I also corrected and improved the editorial content (in particular syntax and spelling).</target>
+      </trans-unit>
+      <trans-unit id="xp.visigo.dialog.p5" datatype="html">
+        <source>📌 Afin d'améliorer la fluidité des processus internes, j'ai mis en place de nouveaux outils, et formé l'équipe à leur utilisation.</source>
+        <target>📌 To improve the flow of internal processes, I implemented new tools and trained the team in their use.</target>
+      </trans-unit>
+      <!-- Gap year dialog paragraphs -->
+      <trans-unit id="xp.gapYear.dialog.p1" datatype="html">
+        <source>📌 Après l'obtention de mon Master, j'ai souhaité faire une année de césure afin de voyager et de développer mes projets personnels.</source>
+        <target>📌 After completing my Master's degree, I wanted to take a gap year to travel and develop personal projects.</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p2" datatype="html">
+        <source>Mon visa Vacances-Travail en poche, je me suis rendue au Canada pour 2 ans (durée raccourcie en raison de la pandémie 😷). Sur place, j'ai voyagé et occupé divers postes : commise en boulangerie, professoresse de français (pour anglophones), et nanny dans une famille Canadienne.</source>
+        <target>Working Holiday Visa in hand, I headed to Canada for 2 years (cut short due to the pandemic 😷). There, I traveled and held various positions: bakery assistant, French teacher (for English speakers), and nanny for a Canadian family.</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p3" datatype="html">
+        <source>J'ai été guitariste dans un groupe de rock 60's à Montréal, et chanteuse-guitariste dans un duo de bluegrass (musique traditionnelle américaine).</source>
+        <target>I played guitar in a 60s rock band in Montreal, and sang and played guitar in a bluegrass duo (traditional American music).</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p4" datatype="html">
+        <source>Durant ces deux années, j'ai voyagé seule au Canada, aux Etats-Unis, en Europe, et en France.</source>
+        <target>During those two years, I traveled solo across Canada, the United States, Europe, and France.</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p5" datatype="html">
+        <source>📌 De retour du Canada, j'ai co-fondé l'association Pourvoir Féministe, laboratoire d'idées et d'actions, en lien avec des chercheuses et spécialistes des questions politiques et féministes.</source>
+        <target>📌 Back from Canada, I co-founded the Pourvoir Féministe association, a laboratory of ideas and actions, in connection with researchers and specialists in political and feminist issues.</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p6" datatype="html">
+        <source>📌 J'ai également participé à l'organisation et la coordination d'événements féministes.</source>
+        <target>📌 I also participated in the organization and coordination of feminist events.</target>
+      </trans-unit>
+      <trans-unit id="xp.gapYear.dialog.p7" datatype="html">
+        <source>📌 C'est durant cette période que j'ai commencé à m'autoformer afin de lancer ma reconversion professionnelle et de devenir développeuse web.</source>
+        <target>📌 It was during this period that I began self-training to launch my career change and become a web developer.</target>
+      </trans-unit>
+      <!-- BNP Paribas dialog paragraphs -->
+      <trans-unit id="xp.bnp.dialog.p1" datatype="html">
+        <source>Poste occupé dans 3 entités différentes du Groupe. A chaque fois, en charge de l'organisation de nombreux événements ainsi que de la communication digitale.</source>
+        <target>Role held across 3 different entities within the Group. Each time, responsible for organizing numerous events as well as digital communications.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p2" datatype="html">
+        <source>📌 A la Fondation (mécénat d'entreprise) - de 2017 à 2018</source>
+        <target>📌 At the Foundation (corporate philanthropy) – 2017 to 2018</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p3" datatype="html">
+        <source>J'ai organisé plus de 130 soirées de relations publiques partout en France (et quelques événements à l'étranger) : concerts et festivals musicaux, avant-premières à l'Opéra national de Paris, spectacles de cirque nouveau, magie nouvelle, danse contemporaine.</source>
+        <target>I organized more than 130 public relations events across France (and a few abroad): concerts and music festivals, premieres at the Paris National Opera, new circus performances, new magic shows, contemporary dance.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p4" datatype="html">
+        <source>J'ai également participé à la création du Dansathon, premier hackathon mêlant danse et technologie, durant 3 jours, à Lyon (France), Liège (Belgique) et Londres (Royaume-Uni).</source>
+        <target>I also contributed to creating the Dansathon, the first hackathon combining dance and technology, held over 3 days in Lyon (France), Liège (Belgium), and London (UK).</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p5" datatype="html">
+        <source>En plus de ces missions, j'ai participé au suivi du lien avec les artistes soutenu·es par la Fondation ainsi qu'à la communication digitale autour de leurs actualités.</source>
+        <target>In addition to these duties, I helped manage relationships with artists supported by the Foundation and handled digital communications around their news.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p6" datatype="html">
+        <source>📌 Chez LEGAL (fonction Juridique) - de 2016 à 2017</source>
+        <target>📌 At LEGAL (Legal function) – 2016 to 2017</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p7" datatype="html">
+        <source>En charge de la production et publication quotidienne du contenu éditorial : entretiens, portraits, nouveautés et actualités juridiques, images d'illustration, etc.</source>
+        <target>Responsible for the daily production and publication of editorial content: interviews, profiles, legal news and updates, illustration images, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p8" datatype="html">
+        <source>Je prenais également en charge l'organisation des événements : séminaires, collectes caritatives, team buildings, journées d'accueil, salons de recrutement, etc.</source>
+        <target>I also handled event organization: seminars, charity drives, team buildings, welcome days, recruitment fairs, etc.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p9" datatype="html">
+        <source>Afin d'améliorer la fluidité du travail et la performance des équipes, j'ai pu développer de nouveaux outils (tels que le réseau social interne) et former les équipes à son utilisation.</source>
+        <target>To improve workflow and team performance, I developed new tools (such as the internal social network) and trained teams in their use.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p10" datatype="html">
+        <source>📌 Au sein de Group Procurement (fonction Achats) - de 2015 à 2016</source>
+        <target>📌 At Group Procurement (Purchasing function) – 2015 to 2016</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p11" datatype="html">
+        <source>En binôme avec ma responsable, j'ai organisé tous les événements de la filière Achats en France et à l'étranger pour le Groupe. Des événements caritatifs (collectes de dons et de fonds pour des associations nationales) aux séminaires avec les responsables Achats à l'étranger, en passant par les journées d'accueil des nouveaux et nouvelles arrivantes et les teams buildings des différentes équipes.</source>
+        <target>Working alongside my manager, I organized all Procurement division events in France and abroad for the Group — from charity events (donation and fundraising drives for national associations) to seminars with Procurement heads abroad, welcome days for new joiners, and team buildings for various teams.</target>
+      </trans-unit>
+      <trans-unit id="xp.bnp.dialog.p12" datatype="html">
+        <source>J'ai également développé (architecture et design) le réseau social interne, promu son utilisation et formé les équipes.</source>
+        <target>I also developed (architecture and design) the internal social network, promoted its use, and trained the teams.</target>
+      </trans-unit>
+      <!-- Other experiences dialog paragraphs -->
+      <trans-unit id="xp.other.dialog.p1" datatype="html">
+        <source>📌 Vendeuse et auxiliaire d'accueil (les week-ends et vacances scolaires) pendant mes études</source>
+        <target>📌 Sales assistant and receptionist (weekends and school holidays) during my studies</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p2" datatype="html">
+        <source>📌 Baby-sitter (10 ans d'expérience)</source>
+        <target>📌 Babysitter (10 years of experience)</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p3" datatype="html">
+        <source>📌 Photographe éditrice bénévole au sein d'associations (concerts et événements)</source>
+        <target>📌 Volunteer photo editor within associations (concerts and events)</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p4" datatype="html">
+        <source>📌 Correctrice-relectrice bénévole pour divers médias</source>
+        <target>📌 Volunteer proofreader for various media</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p5" datatype="html">
+        <source>📌 Régie plateau bénévole d'une compagnie de théâtre</source>
+        <target>📌 Volunteer stage manager for a theatre company</target>
+      </trans-unit>
+      <trans-unit id="xp.other.dialog.p6" datatype="html">
+        <source>📌 Organisation de collectes (Restos du Coeur et Téléthon)</source>
+        <target>📌 Organizing charity drives (Restos du Coeur and Téléthon)</target>
+      </trans-unit>
+      <!-- Stack items -->
+      <trans-unit id="xp.stack.agileRituals" datatype="html">
+        <source>Rituels Agiles</source>
+        <target>Agile rituals</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.volunteering" datatype="html">
+        <source>Bénévolat</source>
+        <target>Volunteering</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.travel" datatype="html">
+        <source>Voyages</source>
+        <target>Travel</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.projectDev" datatype="html">
+        <source>Développement de projets</source>
+        <target>Project development</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.eventOrg" datatype="html">
+        <source>Organisation d'événements</source>
+        <target>Event organization</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.docWriting" datatype="html">
+        <source>Rédaction de documents</source>
+        <target>Document writing</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.frenchLessons" datatype="html">
+        <source>Cours de français</source>
+        <target>French lessons</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.guitarSinging" datatype="html">
+        <source>Guitare &amp; chant</source>
+        <target>Guitar &amp; singing</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.seo" datatype="html">
+        <source>Référencement</source>
+        <target>SEO</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.responsibility" datatype="html">
+        <source>Sens des responsabilités</source>
+        <target>Sense of responsibility</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.sharing" datatype="html">
+        <source>Sens du partage</source>
+        <target>Sharing spirit</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.solidarity" datatype="html">
+        <source>Solidarité</source>
+        <target>Solidarity</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.photoEditing" datatype="html">
+        <source>Production &amp; édition d'images</source>
+        <target>Photo production &amp; editing</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.customerRelations" datatype="html">
+        <source>Relation client</source>
+        <target>Customer relations</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.autonomy" datatype="html">
+        <source>Autonomie</source>
+        <target>Autonomy</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.financialManagement" datatype="html">
+        <source>Gestion financière</source>
+        <target>Financial management</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.internalExternalComms" datatype="html">
+        <source>Communication interne &amp; externe</source>
+        <target>Internal &amp; external communications</target>
+      </trans-unit>
+      <trans-unit id="xp.stack.digitalCulture" datatype="html">
+        <source>Acculturation digitale</source>
+        <target>Digital culture development</target>
+      </trans-unit>
+      <trans-unit id="xp.goodVibes.stack.asyncWork" datatype="html">
+        <source>Travail asynchrone France - USA</source>
+        <target>Async work France - USA</target>
       </trans-unit>
     </body>
   </file>
