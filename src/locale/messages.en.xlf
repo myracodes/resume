@@ -3,8 +3,8 @@
   <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="app.title" datatype="html">
-        <source>Software Engineer</source>
-        <target>Software Engineer</target>
+        <source>Software Developer</source>
+        <target>Software Developer</target>
       </trans-unit>
       <trans-unit id="app.subtitle" datatype="html">
         <source>5 années d'expérience</source>
@@ -268,8 +268,8 @@
       </trans-unit>
       <!-- Roles -->
       <trans-unit id="xp.role.frontEndDev" datatype="html">
-        <source>Software Engineer</source>
-        <target>Software Engineer</target>
+        <source>Software Developer</source>
+        <target>Software Developer</target>
       </trans-unit>
       <trans-unit id="xp.role.fullstackDev" datatype="html">
         <source>Développeuse web full-stack</source>
