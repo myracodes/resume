@@ -28,4 +28,5 @@ export class EducationComponent {
         "MongoDB",
         "ReactJS",
     ];
+    autoformationSkills = ["HTML", "CSS", "Javascript"];
 }

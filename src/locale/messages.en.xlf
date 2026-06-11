@@ -151,36 +151,40 @@
         <target>Advanced web and mobile development</target>
       </trans-unit>
       <trans-unit id="education.wcsDetails" datatype="html">
-        <source>Wild Code School (2021 - 2022) – Paris (hybrid)</source>
-        <target>Wild Code School (2021 - 2022) – Paris (hybrid)</target>
+        <source>Wild Code School Paris (2021-2022) – 1 an en alternance</source>
+        <target>Wild Code School Paris (2021-2022) – 1-year apprenticeship</target>
       </trans-unit>
       <trans-unit id="education.ironhackTitle" datatype="html">
         <source>Développement web fullstack</source>
         <target>Full-stack web development</target>
       </trans-unit>
       <trans-unit id="education.ironhackDetails" datatype="html">
-        <source>Ironhack (2021) – Cursus anglophone – Paris (hybrid)</source>
-        <target>Ironhack (2021) – In English – Paris (hybrid)</target>
+        <source>Ironhack Paris (2021) – en anglais</source>
+        <target>Ironhack Paris (2021) – English course</target>
       </trans-unit>
       <trans-unit id="education.ironhackDegree" datatype="html">
         <source>Titre RNCP niveau 6 / Bac+3/4</source>
-        <target>RNCP level 6 / Bachelor's equivalent</target>
+        <target>Bachelor's degree (RNCP Level 6)</target>
       </trans-unit>
-      <trans-unit id="education.commTitle" datatype="html">
-        <source>Communication &amp; Marketing (5 ans)</source>
-        <target>Communication &amp; Marketing (5 years)</target>
+      <trans-unit id="education.autoformationTitle" datatype="html">
+        <source>Autoformation (2021)</source>
+        <target>Self-learning (2021)</target>
       </trans-unit>
-      <trans-unit id="education.commSpeciality" datatype="html">
-        <source>Spécialité digital / culture / multimédias</source>
-        <target>Specialization in digital, culture, and multimedia</target>
+      <trans-unit id="education.masterTitle" datatype="html">
+        <source>M2 Manager de la Communication et Stratégie Digitale</source>
+        <target>Communications, Management, and Digital Strategy</target>
       </trans-unit>
-      <trans-unit id="education.masterLabel" datatype="html">
-        <source> Master : </source>
-        <target> Master's degree: </target>
+      <trans-unit id="education.masterDetails" datatype="html">
+        <source>Sup de Pub – INSEEC (2018)</source>
+        <target>Sup de Pub (2018)</target>
       </trans-unit>
-      <trans-unit id="education.licenceLabel" datatype="html">
-        <source> Licence Pro : </source>
-        <target> Bachelor's degree: </target>
+      <trans-unit id="education.licenceProTitle" datatype="html">
+        <source>Licence Pro (L3) Métiers du Numérique : conception, rédaction et réalisation web</source>
+        <target>Digital Professions: Web Design, Writing, and Development</target>
+      </trans-unit>
+      <trans-unit id="education.licenceProDetails" datatype="html">
+        <source>Université de Cergy-Pontoise (2016)</source>
+        <target>University of Cergy-Pontoise (2016)</target>
       </trans-unit>
       <trans-unit id="languages.sectionTitle" datatype="html">
         <source>Langues</source>

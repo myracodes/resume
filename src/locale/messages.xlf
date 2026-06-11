@@ -69,63 +69,70 @@
         <source>Développement web et mobile avancé</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">13,14</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="education.wcsDetails" datatype="html">
-        <source>Wild Code School (2021 - 2022) – 100% remote</source>
+        <source>Wild Code School Paris (2021-2022) – 1 an en alternance</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">16,18</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="education.ironhackTitle" datatype="html">
         <source>Développement web fullstack</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">32,35</context>
+          <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="education.ironhackDetails" datatype="html">
-        <source>Ironhack (2021) – Cursus anglophone – 100 % remote</source>
+        <source>Ironhack Paris (2021) – en anglais</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">35,36</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="education.ironhackDegree" datatype="html">
         <source>Titre RNCP niveau 6 / Bac+3/4</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">36,38</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="education.commTitle" datatype="html">
-        <source>Communication &amp; Marketing (5 ans)</source>
+      <trans-unit id="education.autoformationTitle" datatype="html">
+        <source>Autoformation (2021)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">47,49</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="education.commSpeciality" datatype="html">
-        <source>Spécialité digital / culture / multimédias</source>
+      <trans-unit id="education.masterTitle" datatype="html">
+        <source>M2 Manager de la Communication et Stratégie Digitale</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">49,51</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="education.masterLabel" datatype="html">
-        <source> Master : </source>
+      <trans-unit id="education.masterDetails" datatype="html">
+        <source>Sup de Pub – INSEEC (2018)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">51,52</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="education.licenceLabel" datatype="html">
-        <source> Licence Pro : </source>
+      <trans-unit id="education.licenceProTitle" datatype="html">
+        <source>Licence Pro (L3) Métiers du Numérique : conception, rédaction et réalisation web</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/education/education.component.html</context>
-          <context context-type="linenumber">55,56</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.licenceProDetails" datatype="html">
+        <source>Université de Cergy-Pontoise (2016)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.component.html</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="education.sectionTitle" datatype="html">

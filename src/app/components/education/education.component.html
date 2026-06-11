@@ -12,7 +12,7 @@
             i18n="@@education.wcsTitle"
         >Développement web et mobile avancé</app-external-link>
 
-        <p class="small" i18n="@@education.wcsDetails">Wild Code School (2021 - 2022) – 100% remote</p>
+        <p class="small" i18n="@@education.wcsDetails">Wild Code School Paris (2021-2022) – 1 an en alternance</p>
         <p>
             <em *ngFor="let item of wildCodeSchoolSkills; let last = last"
                 >{{ item }}
@@ -30,7 +30,7 @@
             i18n="@@education.ironhackTitle"
         >Développement web fullstack</app-external-link>
 
-        <p class="small" i18n="@@education.ironhackDetails">Ironhack (2021) – Cursus anglophone – 100 % remote</p>
+        <p class="small" i18n="@@education.ironhackDetails">Ironhack Paris (2021) – en anglais</p>
         <p i18n="@@education.ironhackDegree">Titre RNCP niveau 6 / Bac+3/4</p>
         <p>
             <em *ngFor="let item of ironhackSkills; let last = last"
@@ -40,18 +40,29 @@
         </p>
     </app-education-item>
 
-    <!-- COMM & MKG -->
+    <!-- AUTOFORMATION -->
     <app-education-item>
-        <ng-container title i18n="@@education.commTitle">Communication & Marketing (5 ans)</ng-container>
+        <ng-container title i18n="@@education.autoformationTitle">Autoformation (2021)</ng-container>
 
-        <p i18n="@@education.commSpeciality">Spécialité digital / culture / multimédias</p>
         <p>
-            <strong i18n="@@education.masterLabel"> Master : </strong>
-            Sup de Pub – INSEEC (2018)
+            <em *ngFor="let item of autoformationSkills; let last = last"
+                >{{ item }}
+                <app-separator *ngIf="!last" />
+            </em>
         </p>
-        <p>
-            <strong i18n="@@education.licenceLabel"> Licence Pro : </strong>
-            Université de Cergy-Pontoise (2016)
-        </p>
+    </app-education-item>
+
+    <!-- M2 COMMUNICATION & STRATEGIE DIGITALE -->
+    <app-education-item>
+        <ng-container title i18n="@@education.masterTitle">M2 Manager de la Communication et Stratégie Digitale</ng-container>
+
+        <p i18n="@@education.masterDetails">Sup de Pub – INSEEC (2018)</p>
+    </app-education-item>
+
+    <!-- LICENCE PRO METIERS DU NUMERIQUE -->
+    <app-education-item>
+        <ng-container title i18n="@@education.licenceProTitle">Licence Pro (L3) Métiers du Numérique : conception, rédaction et réalisation web</ng-container>
+
+        <p i18n="@@education.licenceProDetails">Université de Cergy-Pontoise (2016)</p>
     </app-education-item>
 </div>
