@@ -2,16 +2,15 @@
     <app-title [title]="sectionTitle" />
 
     <!-- WCS -->
-    <section>
-        <h3 class="colored">
-            <app-external-link
-                [href]="
-                    'https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web-alternance'
-                "
-                [ariaLabel]="'Wild Code School'"
-                i18n="@@education.wcsTitle"
-            >Développement web et mobile avancé</app-external-link>
-        </h3>
+    <app-education-item>
+        <app-external-link
+            title
+            [href]="
+                'https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web-alternance'
+            "
+            [ariaLabel]="'Wild Code School'"
+            i18n="@@education.wcsTitle"
+        >Développement web et mobile avancé</app-external-link>
 
         <p class="small" i18n="@@education.wcsDetails">Wild Code School (2021 - 2022) – 100% remote</p>
         <p>
@@ -20,17 +19,16 @@
                 <app-separator *ngIf="!last" />
             </em>
         </p>
-    </section>
+    </app-education-item>
 
     <!-- IRONHACK -->
-    <section>
-        <h3 class="colored">
-            <app-external-link
-                [href]="'https://www.ironhack.com/en/web-development/paris'"
-                [ariaLabel]="'Ironhack'"
-                i18n="@@education.ironhackTitle"
-            >Développement web fullstack</app-external-link>
-        </h3>
+    <app-education-item>
+        <app-external-link
+            title
+            [href]="'https://www.ironhack.com/en/web-development/paris'"
+            [ariaLabel]="'Ironhack'"
+            i18n="@@education.ironhackTitle"
+        >Développement web fullstack</app-external-link>
 
         <p class="small" i18n="@@education.ironhackDetails">Ironhack (2021) – Cursus anglophone – 100 % remote</p>
         <p i18n="@@education.ironhackDegree">Titre RNCP niveau 6 / Bac+3/4</p>
@@ -40,11 +38,11 @@
                 <app-separator *ngIf="!last" />
             </em>
         </p>
-    </section>
+    </app-education-item>
 
     <!-- COMM & MKG -->
-    <section>
-        <h3 class="colored" i18n="@@education.commTitle">Communication & Marketing (5 ans)</h3>
+    <app-education-item>
+        <ng-container title i18n="@@education.commTitle">Communication & Marketing (5 ans)</ng-container>
 
         <p i18n="@@education.commSpeciality">Spécialité digital / culture / multimédias</p>
         <p>
@@ -55,5 +53,5 @@
             <strong i18n="@@education.licenceLabel"> Licence Pro : </strong>
             Université de Cergy-Pontoise (2016)
         </p>
-    </section>
+    </app-education-item>
 </div>
