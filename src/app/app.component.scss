@@ -71,10 +71,14 @@
         font: inherit;
     }
 
-    svg {
+    ::ng-deep svg {
         width: 1rem;
         height: 1rem;
         flex-shrink: 0;
+
+        // PrimeNG 19 swaps the chevron icons (down when open, up when closed),
+        // so flip them to match the desired rendering.
+        transform: rotate(180deg);
     }
 }
 
