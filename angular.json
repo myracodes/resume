@@ -50,7 +50,8 @@
                                 }
                             ],
                             "optimization": true,
-                            "outputHashing": "all"
+                            "outputHashing": "all",
+                            "localize": ["fr", "en"]
                         },
                         "development": {
                             "optimization": false,

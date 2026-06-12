@@ -6,6 +6,7 @@
     "start": "ng serve --watch --configuration development",
     "prebuild": "node scripts/set-version.js",
     "build": "ng build --base-href /resume/",
+    "postbuild": "node scripts/create-redirect.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "git add docs/* && git commit -m 'build' && git push",
