@@ -7,8 +7,6 @@ import { Component } from "@angular/core";
     standalone: false,
 })
 export class LanguagesComponent {
-    sectionTitle = $localize`:@@languages.sectionTitle:Langues`;
-
     languages = [
         {
             lang: $localize`:@@languages.french:Français`,

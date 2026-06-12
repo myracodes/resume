@@ -10,4 +10,12 @@ import { GIT_HASH } from "../version";
 export class AppComponent {
     title = "myracodes-resume";
     version = GIT_HASH;
+
+    activeSections: string[] = ["xp"];
+
+    xpSectionTitle = $localize`:@@xp.sectionTitle:Expérience professionnelle`;
+    educationSectionTitle = $localize`:@@education.sectionTitle:Formation`;
+    skillsSectionTitle = $localize`:@@skills.sectionTitle:Compétences`;
+    languagesSectionTitle = $localize`:@@languages.sectionTitle:Langues`;
+    activitiesSectionTitle = $localize`:@@activities.sectionTitle:Activités`;
 }

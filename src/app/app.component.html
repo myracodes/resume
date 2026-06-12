@@ -2,20 +2,64 @@
 <main role="main">
     <span class="title">
         <h1 i18n="@@app.title">Software Developer</h1>
-        <h2 i18n="@@app.subtitle">5 années d'expérience</h2>
+
+        <p i18n="@@app.summary" class="app-summary">
+            Développeuse React, Angular, TypeScript, avec ~5 ans d'expérience,
+            et un focus sur la qualité du code, des processus, et de
+            l'accessibilité. Mes développements sont accélérés et améliorés par
+            l'IA, avec une approche pragmatique et responsable. Je suis habituée
+            aux environnements exigeants (tests, documentation, optimisation des
+            coûts, collaboration inter‑équipes), ainsi qu'au travail en mode
+            Agile.
+        </p>
     </span>
 
-    <div class="app-content">
-        <span class="col col-1">
-            <app-professional-xp></app-professional-xp>
-        </span>
-        <span class="col col-2">
-            <app-education></app-education>
-            <app-skills></app-skills>
-            <app-languages></app-languages>
-            <app-activities></app-activities>
-        </span>
-    </div>
+    <p-accordion [value]="activeSections" [multiple]="true">
+        <p-accordion-panel value="xp">
+            <p-accordion-header
+                ><h2>{{ xpSectionTitle }}</h2></p-accordion-header
+            >
+            <p-accordion-content>
+                <app-professional-xp></app-professional-xp>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="education">
+            <p-accordion-header
+                ><h2>{{ educationSectionTitle }}</h2></p-accordion-header
+            >
+            <p-accordion-content>
+                <app-education></app-education>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="skills">
+            <p-accordion-header
+                ><h2>{{ skillsSectionTitle }}</h2></p-accordion-header
+            >
+            <p-accordion-content>
+                <app-skills></app-skills>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="languages">
+            <p-accordion-header
+                ><h2>{{ languagesSectionTitle }}</h2></p-accordion-header
+            >
+            <p-accordion-content>
+                <app-languages></app-languages>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="activities">
+            <p-accordion-header
+                ><h2>{{ activitiesSectionTitle }}</h2></p-accordion-header
+            >
+            <p-accordion-content>
+                <app-activities></app-activities>
+            </p-accordion-content>
+        </p-accordion-panel>
+    </p-accordion>
 </main>
 <app-rainbow-line></app-rainbow-line>
 <footer>

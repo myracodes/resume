@@ -6,9 +6,9 @@
         <source>Software Developer</source>
         <target>Software Developer</target>
       </trans-unit>
-      <trans-unit id="app.subtitle" datatype="html">
-        <source>5 années d'expérience</source>
-        <target>5 years of experience</target>
+      <trans-unit id="app.summary" datatype="html">
+        <source> Développeuse React, Angular, TypeScript, avec ~5 ans d'expérience, et un focus sur la qualité du code, des processus, et de l'accessibilité. Mes développements sont accélérés et améliorés par l'IA, avec une approche pragmatique et responsable. Je suis habituée aux environnements exigeants (tests, documentation, optimisation des coûts, collaboration inter‑équipes), ainsi qu'au travail en mode Agile. </source>
+        <target> React, Angular, and TypeScript Software Developer with ~5 years of experience, focusing on software quality, optimized processes, and accessibility. My work is accelerated and enhanced by AI, with a pragmatic and responsible approach. I am accustomed to demanding environments (testing, documentation, cost optimization, cross-team collaboration) and to working in an Agile environment. </target>
       </trans-unit>
       <trans-unit id="common.colon" datatype="html">
         <source> : </source>

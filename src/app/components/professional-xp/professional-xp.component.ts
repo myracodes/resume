@@ -8,7 +8,6 @@ import { IDetailsDialog } from "src/app/interfaces/DetailsDialog.interface";
     standalone: false,
 })
 export class ProfessionalXpComponent {
-    sectionTitle = $localize`:@@xp.sectionTitle:Expérience professionnelle`;
     otherExperiencesLabel = $localize`:@@xp.otherExperiencesLabel:Voir plus d'expériences`;
 
     detailsCapco: IDetailsDialog = {

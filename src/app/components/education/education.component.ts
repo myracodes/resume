@@ -7,8 +7,6 @@ import { Component } from "@angular/core";
     standalone: false,
 })
 export class EducationComponent {
-    sectionTitle = $localize`:@@education.sectionTitle:Formation`;
-
     wildCodeSchoolSkills = [
         "Microservices",
         $localize`:@@education.authentication:authentification`,

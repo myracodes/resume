@@ -7,8 +7,6 @@ import { Component } from "@angular/core";
     standalone: false,
 })
 export class SkillsComponent {
-    sectionTitle = $localize`:@@skills.sectionTitle:Compétences`;
-
     professionalSkills = [
         {
             sectionTitle: "Front-end",

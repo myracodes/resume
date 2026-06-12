@@ -10,7 +10,6 @@ import { ExternalLinkComponent } from "./components/atoms/external-link/external
 import { RainbowLineComponent } from "./components/atoms/rainbow-line/rainbow-line.component";
 import { SeparatorComponent } from "./components/atoms/separator/separator.component";
 import { StackComponent } from "./components/atoms/stack/stack.component";
-import { TitleComponent } from "./components/atoms/title/title.component";
 import { EducationComponent } from "./components/education/education.component";
 import { EducationItemComponent } from "./components/education-item/education-item.component";
 import { HeaderComponent } from "./components/header/header.component";
@@ -30,7 +29,6 @@ import { SharedModule } from "./shared/modules/shared.module";
         SkillsComponent,
         ActivitiesComponent,
         LanguagesComponent,
-        TitleComponent,
         DialogComponent,
         SeeMoreDialogComponent,
         ExternalLinkComponent,
