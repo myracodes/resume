@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/atoms/external-link/external-link.component.scss"],
-  "sourcesContent": ["a {\n    display: inline;\n    text-decoration: none;\n    color: inherit;\n\n    span {\n        text-decoration: none;\n    }\n\n    svg.icon {\n        width: 0.875em;\n        height: 0.875em;\n        margin-left: 0.3em;\n        display: inline-block;\n        vertical-align: middle;\n    }\n\n    &:hover span {\n        text-decoration: underline;\n    }\n}\n"],
-  "mappings": ";AAAA;AACI,WAAA;AACA,mBAAA;AACA,SAAA;;AAEA,EAAA;AACI,mBAAA;;AAGJ,EAAA,GAAA,CAAA;AACI,SAAA;AACA,UAAA;AACA,eAAA;AACA,WAAA;AACA,kBAAA;;AAGJ,CAAA,OAAA;AACI,mBAAA;;",
-  "names": []
-}
