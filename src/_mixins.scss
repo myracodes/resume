@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 @mixin flexRow {
     display: flex;
     flex-direction: row;
@@ -11,4 +13,11 @@
 @mixin flexCenter {
     align-items: center;
     justify-content: center;
+}
+
+@mixin rainbowText {
+    background: $rainbow;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }

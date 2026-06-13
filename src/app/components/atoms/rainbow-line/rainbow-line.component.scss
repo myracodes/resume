@@ -2,13 +2,5 @@
 
 .rainbow-line {
     height: 4px;
-    background: linear-gradient(
-        to right,
-        theme.$purple,
-        theme.$hot-pink,
-        theme.$coral,
-        theme.$peach,
-        theme.$amber,
-        theme.$yellow
-    );
+    background: theme.$rainbow;
 }

@@ -8,6 +8,16 @@ $peach: #ff9671;
 $amber: #ffc75f;
 $yellow: #f9f871;
 
+$rainbow: linear-gradient(
+    to right,
+    $purple,
+    $hot-pink,
+    $coral,
+    $peach,
+    $amber,
+    $yellow
+);
+
 // ============================================================
 // NEUTRALS
 // ============================================================

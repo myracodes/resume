@@ -43,9 +43,9 @@
 
 .p-accordionpanel {
     border: none;
-    border-left: 3px solid theme.$peach;
 }
 
+$accordion-bottom-border-width: 4px;
 .p-accordionheader {
     @include theme.flexRow;
     @include theme.flexCenter;
@@ -53,7 +53,7 @@
     width: 100%;
     padding: 0.75rem 1rem;
     border: none;
-    border-bottom: 2px solid theme.$amber;
+    border-bottom: $accordion-bottom-border-width solid theme.$peach;
     background: transparent;
     color: theme.$primary;
     font-family: inherit;
@@ -71,14 +71,23 @@
         font: inherit;
     }
 
-    ::ng-deep svg {
+    // PrimeNG sets `border-width` on the first panel's header via an
+    // unresolved CSS variable (no theme preset is configured), which falls
+    // back to the initial `medium` (3px), thickening the amber border.
+    .p-accordionpanel:first-child > & {
+        border-bottom-width: $accordion-bottom-border-width;
+    }
+
+    .accordion-toggle-icon {
         width: 1rem;
         height: 1rem;
         flex-shrink: 0;
+        color: theme.$primary;
+        transition: transform 0.2s ease;
 
-        // PrimeNG 19 swaps the chevron icons (down when open, up when closed),
-        // so flip them to match the desired rendering.
-        transform: rotate(180deg);
+        &.is-open {
+            transform: rotate(180deg);
+        }
     }
 }
 
