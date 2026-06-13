@@ -342,160 +342,168 @@
         <target>Team of 2</target>
       </trans-unit>
       <!-- Cap Collectif bullet points -->
-      <trans-unit id="xp.capco.li1" datatype="html">
-        <source>Développement de fonctionnalités, refontes techniques et visuelles</source>
-        <target>Feature development, technical and visual refactoring</target>
+      <trans-unit id="xp.capco.features" datatype="html">
+        <source>Développement des features, refontes techniques et visuelles (React / Next.js)</source>
+        <target>Feature development, technical and visual refactoring (React / Next.js)</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li2" datatype="html">
+      <trans-unit id="xp.capco.tests" datatype="html">
+        <source>Ajout et amélioration des tests automatisés (Cypress)</source>
+        <target>Adding and improving automated tests (Cypress)</target>
+      </trans-unit>
+      <trans-unit id="xp.capco.designSystem" datatype="html">
         <source>Maintenance de la librairie de composants (Design System) sur NPM</source>
         <target>Component library (Design System) maintenance on NPM</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li3" datatype="html">
+      <trans-unit id="xp.capco.accessibility" datatype="html">
         <source>Amélioration de l'accessibilité : implémentation de nouveaux patterns et nouvelles balises HTML, application des bonnes pratiques, mise en oeuvre des retours d'audits, etc.</source>
         <target>Accessibility improvements: implementing new patterns and HTML elements, applying best practices, acting on audit feedback, etc.</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li4" datatype="html">
+      <trans-unit id="xp.capco.techDebt" datatype="html">
         <source>Réduction proactive de la dette technique : détection et correction de bugs, refactorisations, mises à jour de sécurité, montées de versions, amélioration de tests</source>
         <target>Proactive technical debt reduction: bug detection and fixes, refactoring, security updates, version upgrades, test improvements</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li5" datatype="html">
+      <trans-unit id="xp.capco.devExperience" datatype="html">
         <source>Amélioration de l'expérience développeuse : modification des configurations et des scripts, correction des tests "flaky" dans la CI, correction de "faux diffs" dans les outils d'intégration continue comme Chromatic pour réduire les validations manuelles, etc.</source>
         <target>Developer experience improvements: updating configurations and scripts, fixing flaky tests in CI, fixing false diffs in continuous integration tools like Chromatic to reduce manual validations, etc.</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li6" datatype="html">
+      <trans-unit id="xp.capco.costs" datatype="html">
         <source>Diminution des coûts variables : optimisation de la CI et réévaluation de la valeur ajoutée des outils payants</source>
         <target>Variable cost reduction: CI optimization and re-evaluation of paid tools' added value</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li7" datatype="html">
+      <trans-unit id="xp.capco.adr" datatype="html">
         <source>Mise en place des ADR (Architecture Decision Records)</source>
         <target>Implementation of ADRs (Architecture Decision Records)</target>
       </trans-unit>
-      <trans-unit id="xp.capco.li8" datatype="html">
+      <trans-unit id="xp.capco.ai" datatype="html">
         <source>Utilisation quotidienne de l'IA (Claude Code / Copilot / Mistral) pour accélérer le développement, pour l'aide au débug, pour refactoriser, pour travailler sur du back-end, ou en mode "teacher" pour approfondir un sujet technique</source>
         <target>Daily AI use (Claude Code / Copilot / Mistral) to speed up development, help with debugging, refactoring, back-end work, or in "teacher" mode to go deeper on a technical topic</target>
       </trans-unit>
+      <trans-unit id="xp.capco.seo" datatype="html">
+        <source>Améliorations SEO (Core Web Vitals, TTFB, etc.)</source>
+        <target>SEO improvements (Core Web Vitals, TTFB, etc.)</target>
+      </trans-unit>
       <!-- Avanade bullet points -->
-      <trans-unit id="xp.avanade.li1" datatype="html">
+      <trans-unit id="xp.avanade.portage" datatype="html">
         <source>Portage du front-end d'une application ASP.NET vers Angular</source>
         <target>Migrating the front-end of an ASP.NET application to Angular</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li2" datatype="html">
+      <trans-unit id="xp.avanade.reusableComponents" datatype="html">
         <source>Création de composants réutilisables</source>
         <target>Building reusable components</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li3" datatype="html">
+      <trans-unit id="xp.avanade.pixelPerfectScreens" datatype="html">
         <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> des écrans et développement des fonctionnalités</source>
         <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Pixel-perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> screen implementation and feature development</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li4" datatype="html">
+      <trans-unit id="xp.avanade.bugFixes" datatype="html">
         <source>Correction des bugs</source>
         <target>Bug fixing</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li5" datatype="html">
+      <trans-unit id="xp.avanade.codingStandards" datatype="html">
         <source>Proposition et mise en place de normes</source>
         <target>Proposing and implementing coding standards</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li6" datatype="html">
+      <trans-unit id="xp.avanade.internalTools" datatype="html">
         <source>Création d'outils internes</source>
         <target>Building internal tools</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li7" datatype="html">
+      <trans-unit id="xp.avanade.pixelPerfectMockups" datatype="html">
         <source>Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> de maquettes Adobe XD</source>
         <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Pixel-perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> implementation of Adobe XD mockups</target>
       </trans-unit>
-      <trans-unit id="xp.avanade.li8" datatype="html">
+      <trans-unit id="xp.avanade.designSystem" datatype="html">
         <source>Travail sur le Design System interne (conception, développement et mise à jour des composants)</source>
         <target>Work on the internal Design System (design, development, and component updates)</target>
       </trans-unit>
       <!-- GOOD Vibes bullet points -->
-      <trans-unit id="xp.goodVibes.li1" datatype="html">
+      <trans-unit id="xp.goodVibes.websiteRevamp" datatype="html">
         <source>Refonte du <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link [href]=&quot;&apos;https://goodvibes.news/&apos;&quot; [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;&gt;"/>site vitrine<x id="CLOSE_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;/app-external-link&gt;"/></source>
         <target>Redesign of the <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link [href]=&quot;&apos;https://goodvibes.news/&apos;&quot; [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;&gt;"/>showcase website<x id="CLOSE_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;/app-external-link&gt;"/></target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li2" datatype="html">
+      <trans-unit id="xp.goodVibes.frontendImprovements" datatype="html">
         <source>Développement des améliorations et évolutions front-end de l'application</source>
         <target>Front-end improvements and new feature development</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li3" datatype="html">
+      <trans-unit id="xp.goodVibes.backendImprovements" datatype="html">
         <source>Améliorations back-end de la plateforme produit</source>
         <target>Back-end improvements to the product platform</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li4" datatype="html">
+      <trans-unit id="xp.goodVibes.cicd" datatype="html">
         <source>CI/CD, déploiement</source>
         <target>CI/CD, deployment</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li5" datatype="html">
+      <trans-unit id="xp.goodVibes.tests" datatype="html">
         <source>Implémentation de tests</source>
         <target>Test implementation</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li6" datatype="html">
+      <trans-unit id="xp.goodVibes.errorMonitoring" datatype="html">
         <source>Suivi des erreurs</source>
         <target>Error monitoring</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li7" datatype="html">
+      <trans-unit id="xp.goodVibes.design" datatype="html">
         <source>Maquettage / design</source>
         <target>Prototyping / design</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li8" datatype="html">
+      <trans-unit id="xp.goodVibes.continuousImprovement" datatype="html">
         <source>Amélioration continue : gestion de projets, documentation du code, amélioration des processus internes</source>
         <target>Continuous improvement: project management, code documentation, internal process improvements</target>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li9" datatype="html">
+      <trans-unit id="xp.goodVibes.editorialContent" datatype="html">
         <source>Correction du contenu éditorial : orthographe et vérification des traductions FR&nbsp;⇔&nbsp;EN</source>
         <target>Editorial content corrections: spelling and FR&nbsp;⇔&nbsp;EN translation review</target>
       </trans-unit>
       <!-- Visigo bullet points -->
-      <trans-unit id="xp.visigo.li1" datatype="html">
+      <trans-unit id="xp.visigo.seoStrategy" datatype="html">
         <source>Définition et application de la stratégie SEO</source>
         <target>Defining and implementing the SEO strategy</target>
       </trans-unit>
-      <trans-unit id="xp.visigo.li2" datatype="html">
+      <trans-unit id="xp.visigo.websiteMaintenance" datatype="html">
         <source>Maintenance du site internet : refonte de pages, corrections (responsive, orthographe, syntaxe, etc.)</source>
         <target>Website maintenance: page redesigns, corrections (responsive, spelling, syntax, etc.)</target>
       </trans-unit>
-      <trans-unit id="xp.visigo.li3" datatype="html">
+      <trans-unit id="xp.visigo.projectManagement" datatype="html">
         <source>Gestion des projets web de l'agence</source>
         <target>Managing the agency's web projects</target>
       </trans-unit>
-      <trans-unit id="xp.visigo.li4" datatype="html">
+      <trans-unit id="xp.visigo.toolsAndTraining" datatype="html">
         <source>Implémentation de nouveaux outils, formation et acculturation digitale de l'équipe</source>
         <target>Implementing new tools, team training, and digital culture development</target>
       </trans-unit>
       <!-- Gap year bullet points -->
-      <trans-unit id="xp.gapYear.li1" datatype="html">
+      <trans-unit id="xp.gapYear.travel" datatype="html">
         <source>Voyages et Permis Vacances-Travail (Europe, USA, Canada)</source>
         <target>Travel and Working Holiday Visa (Europe, USA, Canada)</target>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li2" datatype="html">
+      <trans-unit id="xp.gapYear.pourvoirFeministe" datatype="html">
         <source>Co-fondation et développement de Pourvoir Féministe, think tank politique</source>
         <target>Co-founding and development of Pourvoir Féministe, a political think tank</target>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li3" datatype="html">
+      <trans-unit id="xp.gapYear.volunteering" datatype="html">
         <source>Bénévolat au sein de diverses associations et collectifs</source>
         <target>Volunteering within various associations and collectives</target>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li4" datatype="html">
+      <trans-unit id="xp.gapYear.personalProjects" datatype="html">
         <source>Projets musicaux et projets personnels</source>
         <target>Music projects and personal projects</target>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li5" datatype="html">
+      <trans-unit id="xp.gapYear.careerChange" datatype="html">
         <source>Reconversion professionnelle dans le <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>développement web<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Autoformation (freecodecamp, CodeCademy), obtention de certifications (HTML, CSS), bootcamp Développement web fullstack : HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>(&quot;MERN stack&quot;)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>.</source>
         <target>Career change into <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>web development<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Self-training (freeCodeCamp, CodeCademy), certifications (HTML, CSS), full-stack web development bootcamp: HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>("MERN stack")<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>.</target>
       </trans-unit>
       <!-- BNP Paribas bullet points -->
-      <trans-unit id="xp.bnp.li1" datatype="html">
+      <trans-unit id="xp.bnp.internalTools" datatype="html">
         <source>Développement des outils numériques internes (ex : architecture, design, et mise en place du réseau social interne) et formation des collaborateur·ices</source>
         <target>Development of internal digital tools (e.g. architecture, design, and deployment of the internal social network) and employee training</target>
       </trans-unit>
-      <trans-unit id="xp.bnp.li2" datatype="html">
+      <trans-unit id="xp.bnp.eventOrganization" datatype="html">
         <source>Organisation d&apos;événements : jusqu&apos;à 130 par an, de 10 à 150 participant·es (logistique, communication, gestion <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>in situ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>)</source>
         <target>Event organization: up to 130 per year, 10 to 150 attendees (logistics, communications, <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>on-site<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> management)</target>
       </trans-unit>
-      <trans-unit id="xp.bnp.li3" datatype="html">
+      <trans-unit id="xp.bnp.reusableTools" datatype="html">
         <source>Création d'outils réutilisables, développement des processus et amélioration continue</source>
         <target>Building reusable tools, process development, and continuous improvement</target>
       </trans-unit>
-      <trans-unit id="xp.bnp.li4" datatype="html">
+      <trans-unit id="xp.bnp.webmastering" datatype="html">
         <source>Webmastering du site intranet et mise à jour du site internet : rédaction, correction, traduction FR&nbsp;⇔&nbsp;EN, illustration, et mise en ligne du contenu</source>
         <target>Intranet webmastering and website updates: writing, editing, FR&nbsp;⇔&nbsp;EN translation, illustration, and content publishing</target>
       </trans-unit>

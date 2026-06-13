@@ -316,60 +316,74 @@
           <context context-type="linenumber">12,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li1" datatype="html">
-        <source> Développement de fonctionnalités, refontes techniques et visuelles </source>
+      <trans-unit id="xp.capco.features" datatype="html">
+        <source> Développement des features, refontes techniques et visuelles (React / Next.js) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">16,17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li2" datatype="html">
+      <trans-unit id="xp.capco.tests" datatype="html">
+        <source> Ajout et amélioration des tests automatisés (Cypress) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.designSystem" datatype="html">
         <source> Maintenance de la librairie de composants (Design System) sur NPM </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li3" datatype="html">
+      <trans-unit id="xp.capco.accessibility" datatype="html">
         <source> Amélioration de l&apos;accessibilité : implémentation de nouveaux patterns et nouvelles balises HTML, application des bonnes pratiques, mise en oeuvre des retours d&apos;audits, etc. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">24,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li4" datatype="html">
+      <trans-unit id="xp.capco.techDebt" datatype="html">
         <source> Réduction proactive de la dette technique : détection et correction de bugs, refactorisations, mises à jour de sécurité, montées de versions, amélioration de tests </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">29,31</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li5" datatype="html">
+      <trans-unit id="xp.capco.devExperience" datatype="html">
         <source> Amélioration de l&apos;expérience développeuse : modification des configurations et des scripts, correction des tests &quot;flaky&quot; dans la CI, correction de &quot;faux diffs&quot; dans les outils d&apos;intégration continue comme Chromatic pour réduire les validations manuelles, etc. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">34,37</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li6" datatype="html">
+      <trans-unit id="xp.capco.costs" datatype="html">
         <source> Diminution des coûts variables : optimisation de la CI et réévaluation de la valeur ajoutée des outils payants </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li7" datatype="html">
+      <trans-unit id="xp.capco.adr" datatype="html">
         <source> Mise en place des ADR (Architecture Decision Records) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">45,46</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.capco.li8" datatype="html">
+      <trans-unit id="xp.capco.ai" datatype="html">
         <source> Utilisation quotidienne de l&apos;IA (Claude Code / Copilot / Mistral) pour accélérer le développement, pour l&apos;aide au débug, pour refactoriser, pour travailler sur du back-end, ou en mode &quot;teacher&quot; pour approfondir un sujet technique </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xp.capco.seo" datatype="html">
+        <source> Améliorations SEO (Core Web Vitals, TTFB, etc.) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
+          <context context-type="linenumber">56,58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="xp.avanade.legend" datatype="html">
@@ -386,35 +400,35 @@
           <context context-type="linenumber">69,71</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li1" datatype="html">
+      <trans-unit id="xp.avanade.portage" datatype="html">
         <source> Portage du front-end d&apos;une application ASP.NET vers Angular </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">74,75</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li2" datatype="html">
+      <trans-unit id="xp.avanade.reusableComponents" datatype="html">
         <source> Création de composants réutilisables </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">77,78</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li3" datatype="html">
+      <trans-unit id="xp.avanade.pixelPerfectScreens" datatype="html">
         <source> Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> des écrans et développement des fonctionnalités </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">80,82</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li4" datatype="html">
+      <trans-unit id="xp.avanade.bugFixes" datatype="html">
         <source>Correction des bugs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">83,84</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li5" datatype="html">
+      <trans-unit id="xp.avanade.codingStandards" datatype="html">
         <source> Proposition et mise en place de normes </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
@@ -428,21 +442,21 @@
           <context context-type="linenumber">90,92</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li6" datatype="html">
+      <trans-unit id="xp.avanade.internalTools" datatype="html">
         <source>Création d&apos;outils internes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">93,94</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li7" datatype="html">
+      <trans-unit id="xp.avanade.pixelPerfectMockups" datatype="html">
         <source> Réalisation <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>pixel perfect<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> de maquettes Adobe XD </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">95,97</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.avanade.li8" datatype="html">
+      <trans-unit id="xp.avanade.designSystem" datatype="html">
         <source> Travail sur le Design System interne (conception, développement et mise à jour des composants) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
@@ -474,7 +488,7 @@
           <context context-type="linenumber">160,162</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li1" datatype="html">
+      <trans-unit id="xp.goodVibes.websiteRevamp" datatype="html">
         <source> Refonte du <x id="START_TAG_APP_EXTERNAL_LINK" ctype="x-app_external_link" equiv-text="&lt;app-external-link
                     [href]=&quot;&apos;https://goodvibes.news/&apos;&quot;
                     [ariaLabel]=&quot;&apos;GOOD Vibes&apos;&quot;
@@ -485,56 +499,56 @@
           <context context-type="linenumber">119,126</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li2" datatype="html">
+      <trans-unit id="xp.goodVibes.frontendImprovements" datatype="html">
         <source> Développement des améliorations et évolutions front-end de l&apos;application </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">127,128</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li3" datatype="html">
+      <trans-unit id="xp.goodVibes.backendImprovements" datatype="html">
         <source> Améliorations back-end de la plateforme produit </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">131,132</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li4" datatype="html">
+      <trans-unit id="xp.goodVibes.cicd" datatype="html">
         <source>CI/CD, déploiement</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">133,134</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li5" datatype="html">
+      <trans-unit id="xp.goodVibes.tests" datatype="html">
         <source>Implémentation de tests</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">134,135</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li6" datatype="html">
+      <trans-unit id="xp.goodVibes.errorMonitoring" datatype="html">
         <source>Suivi des erreurs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">135,136</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li7" datatype="html">
+      <trans-unit id="xp.goodVibes.design" datatype="html">
         <source>Maquettage / design</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">136,137</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li8" datatype="html">
+      <trans-unit id="xp.goodVibes.continuousImprovement" datatype="html">
         <source> Amélioration continue : gestion de projets, documentation du code, amélioration des processus internes </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">138,139</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.goodVibes.li9" datatype="html">
+      <trans-unit id="xp.goodVibes.editorialContent" datatype="html">
         <source> Correction du contenu éditorial : orthographe et vérification des traductions FR ⇔ EN </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
@@ -559,28 +573,28 @@
           <context context-type="linenumber">158,160</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.visigo.li1" datatype="html">
+      <trans-unit id="xp.visigo.seoStrategy" datatype="html">
         <source> Définition et application de la stratégie SEO </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">163,164</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.visigo.li2" datatype="html">
+      <trans-unit id="xp.visigo.websiteMaintenance" datatype="html">
         <source> Maintenance du site internet : refonte de pages, corrections (responsive, orthographe, syntaxe, etc.) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">166,167</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.visigo.li3" datatype="html">
+      <trans-unit id="xp.visigo.projectManagement" datatype="html">
         <source>Gestion des projets web de l&apos;agence</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">169,170</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.visigo.li4" datatype="html">
+      <trans-unit id="xp.visigo.toolsAndTraining" datatype="html">
         <source> Implémentation de nouveaux outils, formation et acculturation digitale de l&apos;équipe </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
@@ -605,35 +619,35 @@
           <context context-type="linenumber">187,189</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li1" datatype="html">
+      <trans-unit id="xp.gapYear.travel" datatype="html">
         <source> Voyages et Permis Vacances-Travail (Europe, USA, Canada) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">191,192</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li2" datatype="html">
+      <trans-unit id="xp.gapYear.pourvoirFeministe" datatype="html">
         <source> Co-fondation et développement de Pourvoir Féministe, think tank politique </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">194,195</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li3" datatype="html">
+      <trans-unit id="xp.gapYear.volunteering" datatype="html">
         <source> Bénévolat au sein de diverses associations et collectifs </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">198,199</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li4" datatype="html">
+      <trans-unit id="xp.gapYear.personalProjects" datatype="html">
         <source> Projets musicaux et projets personnels </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">201,202</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.gapYear.li5" datatype="html">
+      <trans-unit id="xp.gapYear.careerChange" datatype="html">
         <source> Reconversion professionnelle dans le <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>développement web<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. Autoformation (freecodecamp, CodeCademy), obtention de certifications (HTML, CSS), bootcamp Développement web fullstack : HTML, CSS, JavaScript, React, Node.js, MongoDB, ExpressJS <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>(&quot;MERN stack&quot;)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
@@ -658,28 +672,28 @@
           <context context-type="linenumber">224,225</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.bnp.li1" datatype="html">
+      <trans-unit id="xp.bnp.internalTools" datatype="html">
         <source> Développement des outils numériques internes (ex : architecture, design, et mise en place du réseau social interne) et formation des collaborateur·ices </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">228,230</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.bnp.li2" datatype="html">
+      <trans-unit id="xp.bnp.eventOrganization" datatype="html">
         <source> Organisation d&apos;événements : jusqu&apos;à 130 par an, de 10 à 150 participant·es (logistique, communication, gestion <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italic&quot;&gt;"/>in situ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">233,237</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.bnp.li3" datatype="html">
+      <trans-unit id="xp.bnp.reusableTools" datatype="html">
         <source> Création d&apos;outils réutilisables, développement des processus et amélioration continue </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
           <context context-type="linenumber">238,239</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="xp.bnp.li4" datatype="html">
+      <trans-unit id="xp.bnp.webmastering" datatype="html">
         <source> Webmastering du site intranet et mise à jour du site internet : rédaction, correction, traduction FR ⇔ EN, illustration, et mise en ligne du contenu </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/professional-xp/professional-xp.component.html</context>
