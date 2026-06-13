@@ -53,7 +53,6 @@ $accordion-bottom-border-width: 4px;
     width: 100%;
     padding: 0.75rem 1rem;
     border: none;
-    border-bottom: $accordion-bottom-border-width solid theme.$peach;
     background: transparent;
     color: theme.$primary;
     font-family: inherit;
@@ -61,6 +60,19 @@ $accordion-bottom-border-width: 4px;
     font-weight: 600;
     text-align: left;
     cursor: pointer;
+    position: relative;
+
+    // `border-bottom-color` only accepts a <color>, not the <image> produced
+    // by linear-gradient(), so the rainbow border is drawn with a pseudo-element.
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: $accordion-bottom-border-width;
+        background: theme.$rainbow;
+    }
 
     &:hover {
         color: theme.$primary-hover;
@@ -69,13 +81,6 @@ $accordion-bottom-border-width: 4px;
     h2 {
         color: theme.$primary;
         font: inherit;
-    }
-
-    // PrimeNG sets `border-width` on the first panel's header via an
-    // unresolved CSS variable (no theme preset is configured), which falls
-    // back to the initial `medium` (3px), thickening the amber border.
-    .p-accordionpanel:first-child > & {
-        border-bottom-width: $accordion-bottom-border-width;
     }
 
     .accordion-toggle-icon {
