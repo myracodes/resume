@@ -32,7 +32,12 @@
         </svg>
     </ng-template>
 
-    <p-accordion [value]="activeSections" [multiple]="true">
+    <p-accordion
+        [value]="activeSections"
+        [multiple]="true"
+        (onOpen)="onAccordionToggle()"
+        (onClose)="onAccordionToggle()"
+    >
         <p-accordion-panel value="xp">
             <p-accordion-header>
                 <h2>{{ xpSectionTitle }}</h2>
