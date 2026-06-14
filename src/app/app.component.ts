@@ -5,13 +5,13 @@ import { GIT_HASH } from "../version";
     selector: "app-root",
     templateUrl: "./app.component.html",
     styleUrls: ["./app.component.scss"],
-    standalone: false
+    standalone: false,
 })
 export class AppComponent {
     title = "myracodes-resume";
     version = GIT_HASH;
 
-    activeSections: string[] = ["xp"];
+    activeSections: string[] = ["xp", "education", "skills"];
 
     xpSectionTitle = $localize`:@@xp.sectionTitle:Expérience professionnelle`;
     educationSectionTitle = $localize`:@@education.sectionTitle:Formation`;
@@ -30,7 +30,10 @@ export class AppComponent {
     // never paints the intermediate `display: none` state.
     onAccordionToggle(): void {
         setTimeout(() => {
-            const panels = this.elementRef.nativeElement.querySelectorAll<HTMLElement>(".p-accordioncontent");
+            const panels =
+                this.elementRef.nativeElement.querySelectorAll<HTMLElement>(
+                    ".p-accordioncontent"
+                );
             panels.forEach((panel) => {
                 panel.style.display = "none";
                 void panel.offsetHeight;
